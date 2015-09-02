@@ -10,7 +10,9 @@ M2S=~/m2s
 SIMCOMMAND="--si-sim detailed --si-config si-config.ini \
             --mem-config mem-si.ini --net-config net-si.ini \
             --mem-report mem.ref --net-report net.ref \
-            --si-report si.ref --net-snapshot 10000"
+            --si-report si.ref \
+            --net-snapshot 10000 \
+            --mem-snapshot 10000 4096"
 SENDFILELIST="../config/"$CONFIG"/si-config.ini \
               ../config/"$CONFIG"/mem-si.ini \
               ../config/"$CONFIG"/net-si.ini"

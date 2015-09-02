@@ -12,7 +12,7 @@ cd ../result
 ./analyzeResults.sh hetero_ours-8-16cu_PCI/
 
 KEEP_RECORD="keep"
-if [ "$1" -eq keep ]
+if [ "$1" -eq "$KEEP_RECORD" ]
 then
   ./analyzeResults.sh hetero_kim-8-16cu_PCI/ >$(date +%Y%m%d%H%M%S)_kim-8-16cu_PCI.out
   ./analyzeResults.sh hetero_ours-8-16cu_PCI/ >$(date +%Y%m%d%H%M%S)_ours-8-16cu_PCI.out
