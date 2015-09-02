@@ -1,0 +1,53 @@
+
+; Multi2Sim 4.2 - A Simulation Framework for CPU-GPU Heterogeneous Computing
+; Please use command 'm2s --help' for a list of command-line options.
+; Simulation alpha-numeric ID: UnL5J
+
+
+;
+; Simulation Statistics Summary
+;
+
+[ General ]
+RealTime = 93.18 [s]
+SimEnd = ContextsFinished
+SimTime = 26784.00 [ns]
+Frequency = 1000 [MHz]
+Cycles = 26785
+
+[ SouthernIslands ]
+RealTime = 0.00 [s]
+Instructions = 2717
+InstructionsPerSecond = 0
+NDRangeCount = 1
+WorkGroupCount = 1
+BranchInstructions = 352
+LDSInstructions = 201
+ScalarALUInstructions = 1322
+ScalarMemInstructions = 32
+VectorALUInstructions = 778
+VectorMemInstructions = 32
+SimTime = 26783.94 [ns]
+Frequency = 925 [MHz]
+Cycles = 24777
+CyclesPerSecond = 0
+
+[ x86 ]
+RealTime = 84.65 [s]
+Instructions = 100135661
+InstructionsPerSecond = 1183000
+Contexts = 2
+Memory = 44531712
+
+sh: gnuplot: command not found
+warning: could not execute gnuplot, when creating network results
+
+sh: gnuplot: command not found
+warning: could not execute gnuplot, when creating network results
+
+sh: gnuplot: command not found
+warning: could not execute gnuplot, when creating network results
+
+sh: gnuplot: command not found
+warning: could not execute gnuplot, when creating network results
+

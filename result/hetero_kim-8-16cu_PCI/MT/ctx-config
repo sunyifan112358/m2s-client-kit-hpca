@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_kim-8-16cu_PCI/MT/ctx-0
+Exe = MatrixTranspose
+Args = --load MatrixTranspose_Kernels.bin -q -x 1024 -y 1024 -b 64
+StdIn = 
+StdOut = sim.out
+

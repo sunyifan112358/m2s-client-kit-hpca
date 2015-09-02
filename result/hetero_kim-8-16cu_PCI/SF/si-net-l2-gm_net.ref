@@ -1,0 +1,2896 @@
+[ Network.si-net-l2-gm.General ]
+Transfers = 505824
+AverageMessageSize = 23.58
+NetworkBandwdithDemand/AccumulatedMsgs = 11929792
+AverageLatency = 1587.7231
+
+[ Network.si-net-l2-gm.Link.link_<l2n0.out_buf_0>_<switch0.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 137714
+TransferredBytes = 550856
+BusyCycles = 137714
+BytesPerCycle = 0.2745
+Utilization = 0.0086
+
+[ Network.si-net-l2-gm.Link.link_<switch0.out_buf_0>_<l2n0.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 185122
+TransferredBytes = 740488
+BusyCycles = 185122
+BytesPerCycle = 0.3691
+Utilization = 0.0115
+
+[ Network.si-net-l2-gm.Link.link_<l2n1.out_buf_0>_<switch0.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 76224
+TransferredBytes = 304896
+BusyCycles = 76224
+BytesPerCycle = 0.1520
+Utilization = 0.0047
+
+[ Network.si-net-l2-gm.Link.link_<switch0.out_buf_2>_<l2n1.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 119824
+TransferredBytes = 479296
+BusyCycles = 119824
+BytesPerCycle = 0.2389
+Utilization = 0.0075
+
+[ Network.si-net-l2-gm.Link.link_<l2n2.out_buf_0>_<switch0.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 76298
+TransferredBytes = 305192
+BusyCycles = 76298
+BytesPerCycle = 0.1521
+Utilization = 0.0048
+
+[ Network.si-net-l2-gm.Link.link_<switch0.out_buf_4>_<l2n2.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 119738
+TransferredBytes = 478952
+BusyCycles = 119738
+BytesPerCycle = 0.2387
+Utilization = 0.0075
+
+[ Network.si-net-l2-gm.Link.link_<l2n3.out_buf_0>_<switch0.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 79550
+TransferredBytes = 318200
+BusyCycles = 79550
+BytesPerCycle = 0.1586
+Utilization = 0.0050
+
+[ Network.si-net-l2-gm.Link.link_<switch0.out_buf_6>_<l2n3.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 123710
+TransferredBytes = 494840
+BusyCycles = 123710
+BytesPerCycle = 0.2466
+Utilization = 0.0077
+
+[ Network.si-net-l2-gm.Link.link_<l2n4.out_buf_0>_<switch1.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 31814
+TransferredBytes = 127256
+BusyCycles = 31814
+BytesPerCycle = 0.0634
+Utilization = 0.0020
+
+[ Network.si-net-l2-gm.Link.link_<switch1.out_buf_0>_<l2n4.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 67350
+TransferredBytes = 269400
+BusyCycles = 67350
+BytesPerCycle = 0.1343
+Utilization = 0.0042
+
+[ Network.si-net-l2-gm.Link.link_<l2n5.out_buf_0>_<switch1.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 22974
+TransferredBytes = 91896
+BusyCycles = 22974
+BytesPerCycle = 0.0458
+Utilization = 0.0014
+
+[ Network.si-net-l2-gm.Link.link_<switch1.out_buf_2>_<l2n5.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 56350
+TransferredBytes = 225400
+BusyCycles = 56350
+BytesPerCycle = 0.1123
+Utilization = 0.0035
+
+[ Network.si-net-l2-gm.Link.link_<l2n6.out_buf_0>_<switch1.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 22948
+TransferredBytes = 91792
+BusyCycles = 22948
+BytesPerCycle = 0.0457
+Utilization = 0.0014
+
+[ Network.si-net-l2-gm.Link.link_<switch1.out_buf_4>_<l2n6.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 56324
+TransferredBytes = 225296
+BusyCycles = 56324
+BytesPerCycle = 0.1123
+Utilization = 0.0035
+
+[ Network.si-net-l2-gm.Link.link_<l2n7.out_buf_0>_<switch1.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 23608
+TransferredBytes = 94432
+BusyCycles = 23608
+BytesPerCycle = 0.0471
+Utilization = 0.0015
+
+[ Network.si-net-l2-gm.Link.link_<switch1.out_buf_6>_<l2n7.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 58024
+TransferredBytes = 232096
+BusyCycles = 58024
+BytesPerCycle = 0.1157
+Utilization = 0.0036
+
+[ Network.si-net-l2-gm.Link.link_<l2n8.out_buf_0>_<switch2.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 33826
+TransferredBytes = 135304
+BusyCycles = 33826
+BytesPerCycle = 0.0674
+Utilization = 0.0021
+
+[ Network.si-net-l2-gm.Link.link_<switch2.out_buf_0>_<l2n8.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 70290
+TransferredBytes = 281160
+BusyCycles = 70290
+BytesPerCycle = 0.1401
+Utilization = 0.0044
+
+[ Network.si-net-l2-gm.Link.link_<l2n9.out_buf_0>_<switch2.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 25170
+TransferredBytes = 100680
+BusyCycles = 25170
+BytesPerCycle = 0.0502
+Utilization = 0.0016
+
+[ Network.si-net-l2-gm.Link.link_<switch2.out_buf_2>_<l2n9.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 58850
+TransferredBytes = 235400
+BusyCycles = 58850
+BytesPerCycle = 0.1173
+Utilization = 0.0037
+
+[ Network.si-net-l2-gm.Link.link_<l2n10.out_buf_0>_<switch2.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 25118
+TransferredBytes = 100472
+BusyCycles = 25118
+BytesPerCycle = 0.0501
+Utilization = 0.0016
+
+[ Network.si-net-l2-gm.Link.link_<switch2.out_buf_4>_<l2n10.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 58782
+TransferredBytes = 235128
+BusyCycles = 58782
+BytesPerCycle = 0.1172
+Utilization = 0.0037
+
+[ Network.si-net-l2-gm.Link.link_<l2n11.out_buf_0>_<switch2.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 25514
+TransferredBytes = 102056
+BusyCycles = 25514
+BytesPerCycle = 0.0509
+Utilization = 0.0016
+
+[ Network.si-net-l2-gm.Link.link_<switch2.out_buf_6>_<l2n11.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 60682
+TransferredBytes = 242728
+BusyCycles = 60682
+BytesPerCycle = 0.1210
+Utilization = 0.0038
+
+[ Network.si-net-l2-gm.Link.link_<l2n12.out_buf_0>_<switch3.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 29458
+TransferredBytes = 117832
+BusyCycles = 29458
+BytesPerCycle = 0.0587
+Utilization = 0.0018
+
+[ Network.si-net-l2-gm.Link.link_<switch3.out_buf_0>_<l2n12.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 60242
+TransferredBytes = 240968
+BusyCycles = 60242
+BytesPerCycle = 0.1201
+Utilization = 0.0038
+
+[ Network.si-net-l2-gm.Link.link_<l2n13.out_buf_0>_<switch3.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 20898
+TransferredBytes = 83592
+BusyCycles = 20898
+BytesPerCycle = 0.0417
+Utilization = 0.0013
+
+[ Network.si-net-l2-gm.Link.link_<switch3.out_buf_2>_<l2n13.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 50210
+TransferredBytes = 200840
+BusyCycles = 50210
+BytesPerCycle = 0.1001
+Utilization = 0.0031
+
+[ Network.si-net-l2-gm.Link.link_<l2n14.out_buf_0>_<switch3.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 20832
+TransferredBytes = 83328
+BusyCycles = 20832
+BytesPerCycle = 0.0415
+Utilization = 0.0013
+
+[ Network.si-net-l2-gm.Link.link_<switch3.out_buf_4>_<l2n14.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 50160
+TransferredBytes = 200640
+BusyCycles = 50160
+BytesPerCycle = 0.1000
+Utilization = 0.0031
+
+[ Network.si-net-l2-gm.Link.link_<l2n15.out_buf_0>_<switch3.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 22118
+TransferredBytes = 88472
+BusyCycles = 22118
+BytesPerCycle = 0.0441
+Utilization = 0.0014
+
+[ Network.si-net-l2-gm.Link.link_<switch3.out_buf_6>_<l2n15.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 51590
+TransferredBytes = 206360
+BusyCycles = 51590
+BytesPerCycle = 0.1029
+Utilization = 0.0032
+
+[ Network.si-net-l2-gm.Link.link_<l2n16.out_buf_0>_<switch4.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 34724
+TransferredBytes = 138896
+BusyCycles = 34724
+BytesPerCycle = 0.0692
+Utilization = 0.0022
+
+[ Network.si-net-l2-gm.Link.link_<switch4.out_buf_0>_<l2n16.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 70324
+TransferredBytes = 281296
+BusyCycles = 70324
+BytesPerCycle = 0.1402
+Utilization = 0.0044
+
+[ Network.si-net-l2-gm.Link.link_<l2n17.out_buf_0>_<switch4.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 25368
+TransferredBytes = 101472
+BusyCycles = 25368
+BytesPerCycle = 0.0506
+Utilization = 0.0016
+
+[ Network.si-net-l2-gm.Link.link_<switch4.out_buf_2>_<l2n17.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 58056
+TransferredBytes = 232224
+BusyCycles = 58056
+BytesPerCycle = 0.1157
+Utilization = 0.0036
+
+[ Network.si-net-l2-gm.Link.link_<l2n18.out_buf_0>_<switch4.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 25332
+TransferredBytes = 101328
+BusyCycles = 25332
+BytesPerCycle = 0.0505
+Utilization = 0.0016
+
+[ Network.si-net-l2-gm.Link.link_<switch4.out_buf_4>_<l2n18.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 58020
+TransferredBytes = 232080
+BusyCycles = 58020
+BytesPerCycle = 0.1157
+Utilization = 0.0036
+
+[ Network.si-net-l2-gm.Link.link_<l2n19.out_buf_0>_<switch4.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 25772
+TransferredBytes = 103088
+BusyCycles = 25772
+BytesPerCycle = 0.0514
+Utilization = 0.0016
+
+[ Network.si-net-l2-gm.Link.link_<switch4.out_buf_6>_<l2n19.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 59804
+TransferredBytes = 239216
+BusyCycles = 59804
+BytesPerCycle = 0.1192
+Utilization = 0.0037
+
+[ Network.si-net-l2-gm.Link.link_<l2n20.out_buf_0>_<switch5.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 40862
+TransferredBytes = 163448
+BusyCycles = 40862
+BytesPerCycle = 0.0815
+Utilization = 0.0025
+
+[ Network.si-net-l2-gm.Link.link_<switch5.out_buf_0>_<l2n20.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 76014
+TransferredBytes = 304056
+BusyCycles = 76014
+BytesPerCycle = 0.1515
+Utilization = 0.0047
+
+[ Network.si-net-l2-gm.Link.link_<l2n21.out_buf_0>_<switch5.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 29720
+TransferredBytes = 118880
+BusyCycles = 29720
+BytesPerCycle = 0.0593
+Utilization = 0.0019
+
+[ Network.si-net-l2-gm.Link.link_<switch5.out_buf_2>_<l2n21.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 62376
+TransferredBytes = 249504
+BusyCycles = 62376
+BytesPerCycle = 0.1244
+Utilization = 0.0039
+
+[ Network.si-net-l2-gm.Link.link_<l2n22.out_buf_0>_<switch5.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 29694
+TransferredBytes = 118776
+BusyCycles = 29694
+BytesPerCycle = 0.0592
+Utilization = 0.0018
+
+[ Network.si-net-l2-gm.Link.link_<switch5.out_buf_4>_<l2n22.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 62286
+TransferredBytes = 249144
+BusyCycles = 62286
+BytesPerCycle = 0.1242
+Utilization = 0.0039
+
+[ Network.si-net-l2-gm.Link.link_<l2n23.out_buf_0>_<switch5.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 31146
+TransferredBytes = 124584
+BusyCycles = 31146
+BytesPerCycle = 0.0621
+Utilization = 0.0019
+
+[ Network.si-net-l2-gm.Link.link_<switch5.out_buf_6>_<l2n23.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 65018
+TransferredBytes = 260072
+BusyCycles = 65018
+BytesPerCycle = 0.1296
+Utilization = 0.0041
+
+[ Network.si-net-l2-gm.Link.link_<l2n24.out_buf_0>_<switch6.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 38076
+TransferredBytes = 152304
+BusyCycles = 38076
+BytesPerCycle = 0.0759
+Utilization = 0.0024
+
+[ Network.si-net-l2-gm.Link.link_<switch6.out_buf_0>_<l2n24.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 74012
+TransferredBytes = 296048
+BusyCycles = 74012
+BytesPerCycle = 0.1476
+Utilization = 0.0046
+
+[ Network.si-net-l2-gm.Link.link_<l2n25.out_buf_0>_<switch6.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 30210
+TransferredBytes = 120840
+BusyCycles = 30210
+BytesPerCycle = 0.0602
+Utilization = 0.0019
+
+[ Network.si-net-l2-gm.Link.link_<switch6.out_buf_2>_<l2n25.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 63506
+TransferredBytes = 254024
+BusyCycles = 63506
+BytesPerCycle = 0.1266
+Utilization = 0.0040
+
+[ Network.si-net-l2-gm.Link.link_<l2n26.out_buf_0>_<switch6.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 30240
+TransferredBytes = 120960
+BusyCycles = 30240
+BytesPerCycle = 0.0603
+Utilization = 0.0019
+
+[ Network.si-net-l2-gm.Link.link_<switch6.out_buf_4>_<l2n26.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 63440
+TransferredBytes = 253760
+BusyCycles = 63440
+BytesPerCycle = 0.1265
+Utilization = 0.0040
+
+[ Network.si-net-l2-gm.Link.link_<l2n27.out_buf_0>_<switch6.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 30744
+TransferredBytes = 122976
+BusyCycles = 30744
+BytesPerCycle = 0.0613
+Utilization = 0.0019
+
+[ Network.si-net-l2-gm.Link.link_<switch6.out_buf_6>_<l2n27.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 65880
+TransferredBytes = 263520
+BusyCycles = 65880
+BytesPerCycle = 0.1313
+Utilization = 0.0041
+
+[ Network.si-net-l2-gm.Link.link_<l2n28.out_buf_0>_<switch7.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 36892
+TransferredBytes = 147568
+BusyCycles = 36892
+BytesPerCycle = 0.0735
+Utilization = 0.0023
+
+[ Network.si-net-l2-gm.Link.link_<switch7.out_buf_0>_<l2n28.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 71772
+TransferredBytes = 287088
+BusyCycles = 71772
+BytesPerCycle = 0.1431
+Utilization = 0.0045
+
+[ Network.si-net-l2-gm.Link.link_<l2n29.out_buf_0>_<switch7.in_buf_2> ]
+Config.Bandwidth = 32
+TransferredPackets = 27526
+TransferredBytes = 110104
+BusyCycles = 27526
+BytesPerCycle = 0.0549
+Utilization = 0.0017
+
+[ Network.si-net-l2-gm.Link.link_<switch7.out_buf_2>_<l2n29.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 59798
+TransferredBytes = 239192
+BusyCycles = 59798
+BytesPerCycle = 0.1192
+Utilization = 0.0037
+
+[ Network.si-net-l2-gm.Link.link_<l2n30.out_buf_0>_<switch7.in_buf_4> ]
+Config.Bandwidth = 32
+TransferredPackets = 27486
+TransferredBytes = 109944
+BusyCycles = 27486
+BytesPerCycle = 0.0548
+Utilization = 0.0017
+
+[ Network.si-net-l2-gm.Link.link_<switch7.out_buf_4>_<l2n30.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 59726
+TransferredBytes = 238904
+BusyCycles = 59726
+BytesPerCycle = 0.1191
+Utilization = 0.0037
+
+[ Network.si-net-l2-gm.Link.link_<l2n31.out_buf_0>_<switch7.in_buf_6> ]
+Config.Bandwidth = 32
+TransferredPackets = 28620
+TransferredBytes = 114480
+BusyCycles = 28620
+BytesPerCycle = 0.0571
+Utilization = 0.0018
+
+[ Network.si-net-l2-gm.Link.link_<switch7.out_buf_6>_<l2n31.in_buf_0> ]
+Config.Bandwidth = 32
+TransferredPackets = 61852
+TransferredBytes = 247408
+BusyCycles = 61852
+BytesPerCycle = 0.1233
+Utilization = 0.0039
+
+[ Network.si-net-l2-gm.Node.l2n0 ]
+SentPackets = 137714
+SentBytes = 550856
+SendRate = 0.2745
+ReceivedPackets = 185122
+ReceivedBytes = 740488
+ReceiveRate = 0.3691
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.09
+in_buf_0.ByteOccupancy = 0.37
+in_buf_0.Utilization = 0.0001
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.63
+out_buf_0.ByteOccupancy = 2.51
+out_buf_0.Utilization = 0.0006
+
+[ Network.si-net-l2-gm.Node.l2n1 ]
+SentPackets = 76224
+SentBytes = 304896
+SendRate = 0.1520
+ReceivedPackets = 119824
+ReceivedBytes = 479296
+ReceiveRate = 0.2389
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.06
+in_buf_0.ByteOccupancy = 0.24
+in_buf_0.Utilization = 0.0001
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.49
+out_buf_0.ByteOccupancy = 1.98
+out_buf_0.Utilization = 0.0005
+
+[ Network.si-net-l2-gm.Node.l2n2 ]
+SentPackets = 76298
+SentBytes = 305192
+SendRate = 0.1521
+ReceivedPackets = 119738
+ReceivedBytes = 478952
+ReceiveRate = 0.2387
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.06
+in_buf_0.ByteOccupancy = 0.24
+in_buf_0.Utilization = 0.0001
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.50
+out_buf_0.ByteOccupancy = 2.00
+out_buf_0.Utilization = 0.0005
+
+[ Network.si-net-l2-gm.Node.l2n3 ]
+SentPackets = 79550
+SentBytes = 318200
+SendRate = 0.1586
+ReceivedPackets = 123710
+ReceivedBytes = 494840
+ReceiveRate = 0.2466
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.06
+in_buf_0.ByteOccupancy = 0.25
+in_buf_0.Utilization = 0.0001
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.52
+out_buf_0.ByteOccupancy = 2.09
+out_buf_0.Utilization = 0.0005
+
+[ Network.si-net-l2-gm.Node.l2n4 ]
+SentPackets = 31814
+SentBytes = 127256
+SendRate = 0.0634
+ReceivedPackets = 67350
+ReceivedBytes = 269400
+ReceiveRate = 0.1343
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.13
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.17
+out_buf_0.ByteOccupancy = 0.68
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n5 ]
+SentPackets = 22974
+SentBytes = 91896
+SendRate = 0.0458
+ReceivedPackets = 56350
+ReceivedBytes = 225400
+ReceiveRate = 0.1123
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.11
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.13
+out_buf_0.ByteOccupancy = 0.54
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n6 ]
+SentPackets = 22948
+SentBytes = 91792
+SendRate = 0.0457
+ReceivedPackets = 56324
+ReceivedBytes = 225296
+ReceiveRate = 0.1123
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.11
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.13
+out_buf_0.ByteOccupancy = 0.53
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n7 ]
+SentPackets = 23608
+SentBytes = 94432
+SendRate = 0.0471
+ReceivedPackets = 58024
+ReceivedBytes = 232096
+ReceiveRate = 0.1157
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.15
+out_buf_0.ByteOccupancy = 0.61
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n8 ]
+SentPackets = 33826
+SentBytes = 135304
+SendRate = 0.0674
+ReceivedPackets = 70290
+ReceivedBytes = 281160
+ReceiveRate = 0.1401
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.04
+in_buf_0.ByteOccupancy = 0.14
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.19
+out_buf_0.ByteOccupancy = 0.76
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n9 ]
+SentPackets = 25170
+SentBytes = 100680
+SendRate = 0.0502
+ReceivedPackets = 58850
+ReceivedBytes = 235400
+ReceiveRate = 0.1173
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.15
+out_buf_0.ByteOccupancy = 0.61
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n10 ]
+SentPackets = 25118
+SentBytes = 100472
+SendRate = 0.0501
+ReceivedPackets = 58782
+ReceivedBytes = 235128
+ReceiveRate = 0.1172
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.15
+out_buf_0.ByteOccupancy = 0.61
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n11 ]
+SentPackets = 25514
+SentBytes = 102056
+SendRate = 0.0509
+ReceivedPackets = 60682
+ReceivedBytes = 242728
+ReceiveRate = 0.1210
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.17
+out_buf_0.ByteOccupancy = 0.68
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n12 ]
+SentPackets = 29458
+SentBytes = 117832
+SendRate = 0.0587
+ReceivedPackets = 60242
+ReceivedBytes = 240968
+ReceiveRate = 0.1201
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.14
+out_buf_0.ByteOccupancy = 0.55
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n13 ]
+SentPackets = 20898
+SentBytes = 83592
+SendRate = 0.0417
+ReceivedPackets = 50210
+ReceivedBytes = 200840
+ReceiveRate = 0.1001
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.10
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.10
+out_buf_0.ByteOccupancy = 0.42
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n14 ]
+SentPackets = 20832
+SentBytes = 83328
+SendRate = 0.0415
+ReceivedPackets = 50160
+ReceivedBytes = 200640
+ReceiveRate = 0.1000
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.02
+in_buf_0.ByteOccupancy = 0.10
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.10
+out_buf_0.ByteOccupancy = 0.42
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n15 ]
+SentPackets = 22118
+SentBytes = 88472
+SendRate = 0.0441
+ReceivedPackets = 51590
+ReceivedBytes = 206360
+ReceiveRate = 0.1029
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.10
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.13
+out_buf_0.ByteOccupancy = 0.50
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n16 ]
+SentPackets = 34724
+SentBytes = 138896
+SendRate = 0.0692
+ReceivedPackets = 70324
+ReceivedBytes = 281296
+ReceiveRate = 0.1402
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.04
+in_buf_0.ByteOccupancy = 0.14
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.19
+out_buf_0.ByteOccupancy = 0.76
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n17 ]
+SentPackets = 25368
+SentBytes = 101472
+SendRate = 0.0506
+ReceivedPackets = 58056
+ReceivedBytes = 232224
+ReceiveRate = 0.1157
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.15
+out_buf_0.ByteOccupancy = 0.60
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n18 ]
+SentPackets = 25332
+SentBytes = 101328
+SendRate = 0.0505
+ReceivedPackets = 58020
+ReceivedBytes = 232080
+ReceiveRate = 0.1157
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.15
+out_buf_0.ByteOccupancy = 0.60
+out_buf_0.Utilization = 0.0001
+
+[ Network.si-net-l2-gm.Node.l2n19 ]
+SentPackets = 25772
+SentBytes = 103088
+SendRate = 0.0514
+ReceivedPackets = 59804
+ReceivedBytes = 239216
+ReceiveRate = 0.1192
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.17
+out_buf_0.ByteOccupancy = 0.68
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n20 ]
+SentPackets = 40862
+SentBytes = 163448
+SendRate = 0.0815
+ReceivedPackets = 76014
+ReceivedBytes = 304056
+ReceiveRate = 0.1515
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.04
+in_buf_0.ByteOccupancy = 0.15
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.23
+out_buf_0.ByteOccupancy = 0.90
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n21 ]
+SentPackets = 29720
+SentBytes = 118880
+SendRate = 0.0593
+ReceivedPackets = 62376
+ReceivedBytes = 249504
+ReceiveRate = 0.1244
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.19
+out_buf_0.ByteOccupancy = 0.74
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n22 ]
+SentPackets = 29694
+SentBytes = 118776
+SendRate = 0.0592
+ReceivedPackets = 62286
+ReceivedBytes = 249144
+ReceiveRate = 0.1242
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.19
+out_buf_0.ByteOccupancy = 0.74
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n23 ]
+SentPackets = 31146
+SentBytes = 124584
+SendRate = 0.0621
+ReceivedPackets = 65018
+ReceivedBytes = 260072
+ReceiveRate = 0.1296
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.13
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.22
+out_buf_0.ByteOccupancy = 0.87
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n24 ]
+SentPackets = 38076
+SentBytes = 152304
+SendRate = 0.0759
+ReceivedPackets = 74012
+ReceivedBytes = 296048
+ReceiveRate = 0.1476
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.04
+in_buf_0.ByteOccupancy = 0.15
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.26
+out_buf_0.ByteOccupancy = 1.04
+out_buf_0.Utilization = 0.0003
+
+[ Network.si-net-l2-gm.Node.l2n25 ]
+SentPackets = 30210
+SentBytes = 120840
+SendRate = 0.0602
+ReceivedPackets = 63506
+ReceivedBytes = 254024
+ReceiveRate = 0.1266
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.13
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.22
+out_buf_0.ByteOccupancy = 0.86
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n26 ]
+SentPackets = 30240
+SentBytes = 120960
+SendRate = 0.0603
+ReceivedPackets = 63440
+ReceivedBytes = 253760
+ReceiveRate = 0.1265
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.13
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.22
+out_buf_0.ByteOccupancy = 0.87
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n27 ]
+SentPackets = 30744
+SentBytes = 122976
+SendRate = 0.0613
+ReceivedPackets = 65880
+ReceivedBytes = 263520
+ReceiveRate = 0.1313
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.13
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.26
+out_buf_0.ByteOccupancy = 1.04
+out_buf_0.Utilization = 0.0003
+
+[ Network.si-net-l2-gm.Node.l2n28 ]
+SentPackets = 36892
+SentBytes = 147568
+SendRate = 0.0735
+ReceivedPackets = 71772
+ReceivedBytes = 287088
+ReceiveRate = 0.1431
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.04
+in_buf_0.ByteOccupancy = 0.14
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.21
+out_buf_0.ByteOccupancy = 0.84
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n29 ]
+SentPackets = 27526
+SentBytes = 110104
+SendRate = 0.0549
+ReceivedPackets = 59798
+ReceivedBytes = 239192
+ReceiveRate = 0.1192
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.16
+out_buf_0.ByteOccupancy = 0.65
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n30 ]
+SentPackets = 27486
+SentBytes = 109944
+SendRate = 0.0548
+ReceivedPackets = 59726
+ReceivedBytes = 238904
+ReceiveRate = 0.1191
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.16
+out_buf_0.ByteOccupancy = 0.65
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.l2n31 ]
+SentPackets = 28620
+SentBytes = 114480
+SendRate = 0.0571
+ReceivedPackets = 61852
+ReceivedBytes = 247408
+ReceiveRate = 0.1233
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.03
+in_buf_0.ByteOccupancy = 0.12
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.19
+out_buf_0.ByteOccupancy = 0.74
+out_buf_0.Utilization = 0.0002
+
+[ Network.si-net-l2-gm.Node.gm-0 ]
+SentPackets = 178994
+SentBytes = 715976
+SendRate = 0.3568
+ReceivedPackets = 129602
+ReceivedBytes = 518408
+ReceiveRate = 0.2584
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.06
+in_buf_0.ByteOccupancy = 0.26
+in_buf_0.Utilization = 0.0001
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 50.07
+out_buf_0.ByteOccupancy = 200.28
+out_buf_0.Utilization = 0.0489
+
+[ Network.si-net-l2-gm.Node.gm-1 ]
+SentPackets = 51432
+SentBytes = 205728
+SendRate = 0.1025
+ReceivedPackets = 18872
+ReceivedBytes = 75488
+ReceiveRate = 0.0376
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 42.16
+out_buf_0.ByteOccupancy = 168.62
+out_buf_0.Utilization = 0.0412
+
+[ Network.si-net-l2-gm.Node.gm-2 ]
+SentPackets = 51438
+SentBytes = 205752
+SendRate = 0.1025
+ReceivedPackets = 18862
+ReceivedBytes = 75448
+ReceiveRate = 0.0376
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 41.99
+out_buf_0.ByteOccupancy = 167.96
+out_buf_0.Utilization = 0.0410
+
+[ Network.si-net-l2-gm.Node.gm-3 ]
+SentPackets = 51518
+SentBytes = 206072
+SendRate = 0.1027
+ReceivedPackets = 18862
+ReceivedBytes = 75448
+ReceiveRate = 0.0376
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 45.84
+out_buf_0.ByteOccupancy = 183.34
+out_buf_0.Utilization = 0.0448
+
+[ Network.si-net-l2-gm.Node.gm-4 ]
+SentPackets = 51694
+SentBytes = 206776
+SendRate = 0.1031
+ReceivedPackets = 18286
+ReceivedBytes = 73144
+ReceiveRate = 0.0365
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 32.02
+out_buf_0.ByteOccupancy = 128.09
+out_buf_0.Utilization = 0.0313
+
+[ Network.si-net-l2-gm.Node.gm-5 ]
+SentPackets = 51724
+SentBytes = 206896
+SendRate = 0.1031
+ReceivedPackets = 18172
+ReceivedBytes = 72688
+ReceiveRate = 0.0362
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 33.09
+out_buf_0.ByteOccupancy = 132.34
+out_buf_0.Utilization = 0.0323
+
+[ Network.si-net-l2-gm.Node.gm-6 ]
+SentPackets = 51712
+SentBytes = 206848
+SendRate = 0.1031
+ReceivedPackets = 18176
+ReceivedBytes = 72704
+ReceiveRate = 0.0362
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 33.08
+out_buf_0.ByteOccupancy = 132.33
+out_buf_0.Utilization = 0.0323
+
+[ Network.si-net-l2-gm.Node.gm-7 ]
+SentPackets = 51662
+SentBytes = 206648
+SendRate = 0.1030
+ReceivedPackets = 18142
+ReceivedBytes = 72568
+ReceiveRate = 0.0362
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 33.11
+out_buf_0.ByteOccupancy = 132.45
+out_buf_0.Utilization = 0.0323
+
+[ Network.si-net-l2-gm.Node.gm-8 ]
+SentPackets = 51796
+SentBytes = 207184
+SendRate = 0.1033
+ReceivedPackets = 18116
+ReceivedBytes = 72464
+ReceiveRate = 0.0361
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 32.97
+out_buf_0.ByteOccupancy = 131.87
+out_buf_0.Utilization = 0.0322
+
+[ Network.si-net-l2-gm.Node.gm-9 ]
+SentPackets = 51784
+SentBytes = 207136
+SendRate = 0.1032
+ReceivedPackets = 18040
+ReceivedBytes = 72160
+ReceiveRate = 0.0360
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 41.44
+out_buf_0.ByteOccupancy = 165.76
+out_buf_0.Utilization = 0.0405
+
+[ Network.si-net-l2-gm.Node.gm-10 ]
+SentPackets = 51784
+SentBytes = 207136
+SendRate = 0.1032
+ReceivedPackets = 18024
+ReceivedBytes = 72096
+ReceiveRate = 0.0359
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 41.30
+out_buf_0.ByteOccupancy = 165.20
+out_buf_0.Utilization = 0.0403
+
+[ Network.si-net-l2-gm.Node.gm-11 ]
+SentPackets = 51750
+SentBytes = 207000
+SendRate = 0.1032
+ReceivedPackets = 17990
+ReceivedBytes = 71960
+ReceiveRate = 0.0359
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 41.16
+out_buf_0.ByteOccupancy = 164.66
+out_buf_0.Utilization = 0.0402
+
+[ Network.si-net-l2-gm.Node.gm-12 ]
+SentPackets = 51806
+SentBytes = 207224
+SendRate = 0.1033
+ReceivedPackets = 17998
+ReceivedBytes = 71992
+ReceiveRate = 0.0359
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 39.97
+out_buf_0.ByteOccupancy = 159.86
+out_buf_0.Utilization = 0.0390
+
+[ Network.si-net-l2-gm.Node.gm-13 ]
+SentPackets = 51774
+SentBytes = 207096
+SendRate = 0.1032
+ReceivedPackets = 17854
+ReceivedBytes = 71416
+ReceiveRate = 0.0356
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 42.10
+out_buf_0.ByteOccupancy = 168.41
+out_buf_0.Utilization = 0.0411
+
+[ Network.si-net-l2-gm.Node.gm-14 ]
+SentPackets = 51772
+SentBytes = 207088
+SendRate = 0.1032
+ReceivedPackets = 17852
+ReceivedBytes = 71408
+ReceiveRate = 0.0356
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 42.07
+out_buf_0.ByteOccupancy = 168.26
+out_buf_0.Utilization = 0.0411
+
+[ Network.si-net-l2-gm.Node.gm-15 ]
+SentPackets = 59734
+SentBytes = 238936
+SendRate = 0.1191
+ReceivedPackets = 20934
+ReceivedBytes = 83736
+ReceiveRate = 0.0417
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 21.80
+out_buf_0.ByteOccupancy = 87.21
+out_buf_0.Utilization = 0.0213
+
+[ Network.si-net-l2-gm.Node.gm-16 ]
+SentPackets = 60228
+SentBytes = 240912
+SendRate = 0.1201
+ReceivedPackets = 21940
+ReceivedBytes = 87760
+ReceiveRate = 0.0437
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 46.49
+out_buf_0.ByteOccupancy = 185.96
+out_buf_0.Utilization = 0.0454
+
+[ Network.si-net-l2-gm.Node.gm-17 ]
+SentPackets = 52486
+SentBytes = 209944
+SendRate = 0.1046
+ReceivedPackets = 18822
+ReceivedBytes = 75288
+ReceiveRate = 0.0375
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 42.06
+out_buf_0.ByteOccupancy = 168.22
+out_buf_0.Utilization = 0.0411
+
+[ Network.si-net-l2-gm.Node.gm-18 ]
+SentPackets = 52032
+SentBytes = 208128
+SendRate = 0.1037
+ReceivedPackets = 18704
+ReceivedBytes = 74816
+ReceiveRate = 0.0373
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 41.70
+out_buf_0.ByteOccupancy = 166.79
+out_buf_0.Utilization = 0.0407
+
+[ Network.si-net-l2-gm.Node.gm-19 ]
+SentPackets = 52064
+SentBytes = 208256
+SendRate = 0.1038
+ReceivedPackets = 18736
+ReceivedBytes = 74944
+ReceiveRate = 0.0374
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 42.82
+out_buf_0.ByteOccupancy = 171.28
+out_buf_0.Utilization = 0.0418
+
+[ Network.si-net-l2-gm.Node.gm-20 ]
+SentPackets = 53944
+SentBytes = 215776
+SendRate = 0.1075
+ReceivedPackets = 19640
+ReceivedBytes = 78560
+ReceiveRate = 0.0392
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 12.69
+out_buf_0.ByteOccupancy = 50.76
+out_buf_0.Utilization = 0.0124
+
+[ Network.si-net-l2-gm.Node.gm-21 ]
+SentPackets = 52820
+SentBytes = 211280
+SendRate = 0.1053
+ReceivedPackets = 18292
+ReceivedBytes = 73168
+ReceiveRate = 0.0365
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 30.93
+out_buf_0.ByteOccupancy = 123.70
+out_buf_0.Utilization = 0.0302
+
+[ Network.si-net-l2-gm.Node.gm-22 ]
+SentPackets = 52724
+SentBytes = 210896
+SendRate = 0.1051
+ReceivedPackets = 18196
+ReceivedBytes = 72784
+ReceiveRate = 0.0363
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 30.93
+out_buf_0.ByteOccupancy = 123.74
+out_buf_0.Utilization = 0.0302
+
+[ Network.si-net-l2-gm.Node.gm-23 ]
+SentPackets = 52656
+SentBytes = 210624
+SendRate = 0.1050
+ReceivedPackets = 18496
+ReceivedBytes = 73984
+ReceiveRate = 0.0369
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 31.05
+out_buf_0.ByteOccupancy = 124.20
+out_buf_0.Utilization = 0.0303
+
+[ Network.si-net-l2-gm.Node.gm-24 ]
+SentPackets = 52540
+SentBytes = 210160
+SendRate = 0.1047
+ReceivedPackets = 18108
+ReceivedBytes = 72432
+ReceiveRate = 0.0361
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 32.16
+out_buf_0.ByteOccupancy = 128.65
+out_buf_0.Utilization = 0.0314
+
+[ Network.si-net-l2-gm.Node.gm-25 ]
+SentPackets = 52374
+SentBytes = 209496
+SendRate = 0.1044
+ReceivedPackets = 17990
+ReceivedBytes = 71960
+ReceiveRate = 0.0359
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 40.08
+out_buf_0.ByteOccupancy = 160.31
+out_buf_0.Utilization = 0.0391
+
+[ Network.si-net-l2-gm.Node.gm-26 ]
+SentPackets = 52372
+SentBytes = 209488
+SendRate = 0.1044
+ReceivedPackets = 17972
+ReceivedBytes = 71888
+ReceiveRate = 0.0358
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 40.03
+out_buf_0.ByteOccupancy = 160.13
+out_buf_0.Utilization = 0.0391
+
+[ Network.si-net-l2-gm.Node.gm-27 ]
+SentPackets = 52396
+SentBytes = 209584
+SendRate = 0.1045
+ReceivedPackets = 18012
+ReceivedBytes = 72048
+ReceiveRate = 0.0359
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 39.82
+out_buf_0.ByteOccupancy = 159.30
+out_buf_0.Utilization = 0.0389
+
+[ Network.si-net-l2-gm.Node.gm-28 ]
+SentPackets = 51964
+SentBytes = 207856
+SendRate = 0.1036
+ReceivedPackets = 17516
+ReceivedBytes = 70064
+ReceiveRate = 0.0349
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.03
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 24.70
+out_buf_0.ByteOccupancy = 98.78
+out_buf_0.Utilization = 0.0241
+
+[ Network.si-net-l2-gm.Node.gm-29 ]
+SentPackets = 51936
+SentBytes = 207744
+SendRate = 0.1035
+ReceivedPackets = 17408
+ReceivedBytes = 69632
+ReceiveRate = 0.0347
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.03
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 30.37
+out_buf_0.ByteOccupancy = 121.46
+out_buf_0.Utilization = 0.0297
+
+[ Network.si-net-l2-gm.Node.gm-30 ]
+SentPackets = 51922
+SentBytes = 207688
+SendRate = 0.1035
+ReceivedPackets = 17442
+ReceivedBytes = 69768
+ReceiveRate = 0.0348
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.03
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 30.57
+out_buf_0.ByteOccupancy = 122.28
+out_buf_0.Utilization = 0.0299
+
+[ Network.si-net-l2-gm.Node.gm-31 ]
+SentPackets = 59140
+SentBytes = 236560
+SendRate = 0.1179
+ReceivedPackets = 20260
+ReceivedBytes = 81040
+ReceiveRate = 0.0404
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.01
+in_buf_0.ByteOccupancy = 0.04
+in_buf_0.Utilization = 0.0000
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 13.09
+out_buf_0.ByteOccupancy = 52.36
+out_buf_0.Utilization = 0.0128
+
+[ Network.si-net-l2-gm.Node.bus ]
+BUS Lane 0 :
+bus_bp_0.Bandwidth = 2
+bus_bp_0.TransferredMessages = 445272
+bus_bp_0.TransferredBytes = 1781088
+bus_bp_0.BusyCycles = 890544
+bus_bp_0.BytesPerCycle = 0.8877
+bus_bp_0.Utilization = 0.4438
+
+BUS Lane 1 :
+bus_bp_1.Bandwidth = 2
+bus_bp_1.TransferredMessages = 417208
+bus_bp_1.TransferredBytes = 1668832
+bus_bp_1.BusyCycles = 834416
+bus_bp_1.BytesPerCycle = 0.8317
+bus_bp_1.Utilization = 0.4159
+
+BUS Lane 2 :
+bus_bp_2.Bandwidth = 2
+bus_bp_2.TransferredMessages = 391209
+bus_bp_2.TransferredBytes = 1564836
+bus_bp_2.BusyCycles = 782418
+bus_bp_2.BytesPerCycle = 0.7799
+bus_bp_2.Utilization = 0.3900
+
+BUS Lane 3 :
+bus_bp_3.Bandwidth = 2
+bus_bp_3.TransferredMessages = 360378
+bus_bp_3.TransferredBytes = 1441512
+bus_bp_3.BusyCycles = 720756
+bus_bp_3.BytesPerCycle = 0.7185
+bus_bp_3.Utilization = 0.3592
+
+BUS Lane 4 :
+bus_bp_4.Bandwidth = 2
+bus_bp_4.TransferredMessages = 328401
+bus_bp_4.TransferredBytes = 1313604
+bus_bp_4.BusyCycles = 656802
+bus_bp_4.BytesPerCycle = 0.6547
+bus_bp_4.Utilization = 0.3274
+
+BUS Lane 5 :
+bus_bp_5.Bandwidth = 2
+bus_bp_5.TransferredMessages = 283173
+bus_bp_5.TransferredBytes = 1132692
+bus_bp_5.BusyCycles = 566346
+bus_bp_5.BytesPerCycle = 0.5645
+bus_bp_5.Utilization = 0.2823
+
+BUS Lane 6 :
+bus_bp_6.Bandwidth = 2
+bus_bp_6.TransferredMessages = 222358
+bus_bp_6.TransferredBytes = 889432
+bus_bp_6.BusyCycles = 444716
+bus_bp_6.BytesPerCycle = 0.4433
+bus_bp_6.Utilization = 0.2216
+
+BUS Lane 7 :
+bus_bp_7.Bandwidth = 2
+bus_bp_7.TransferredMessages = 121189
+bus_bp_7.TransferredBytes = 484756
+bus_bp_7.BusyCycles = 242378
+bus_bp_7.BytesPerCycle = 0.2416
+bus_bp_7.Utilization = 0.1208
+
+BUS Lane 8 :
+bus_bp_8.Bandwidth = 2
+bus_bp_8.TransferredMessages = 0
+bus_bp_8.TransferredBytes = 0
+bus_bp_8.BusyCycles = 0
+bus_bp_8.BytesPerCycle = 0.0000
+bus_bp_8.Utilization = 0.0000
+
+BUS Lane 9 :
+bus_bp_9.Bandwidth = 2
+bus_bp_9.TransferredMessages = 0
+bus_bp_9.TransferredBytes = 0
+bus_bp_9.BusyCycles = 0
+bus_bp_9.BytesPerCycle = 0.0000
+bus_bp_9.Utilization = 0.0000
+
+BUS Lane 10 :
+bus_bp_10.Bandwidth = 2
+bus_bp_10.TransferredMessages = 0
+bus_bp_10.TransferredBytes = 0
+bus_bp_10.BusyCycles = 0
+bus_bp_10.BytesPerCycle = 0.0000
+bus_bp_10.Utilization = 0.0000
+
+BUS Lane 11 :
+bus_bp_11.Bandwidth = 2
+bus_bp_11.TransferredMessages = 0
+bus_bp_11.TransferredBytes = 0
+bus_bp_11.BusyCycles = 0
+bus_bp_11.BytesPerCycle = 0.0000
+bus_bp_11.Utilization = 0.0000
+
+BUS Lane 12 :
+bus_bp_12.Bandwidth = 2
+bus_bp_12.TransferredMessages = 0
+bus_bp_12.TransferredBytes = 0
+bus_bp_12.BusyCycles = 0
+bus_bp_12.BytesPerCycle = 0.0000
+bus_bp_12.Utilization = 0.0000
+
+BUS Lane 13 :
+bus_bp_13.Bandwidth = 2
+bus_bp_13.TransferredMessages = 0
+bus_bp_13.TransferredBytes = 0
+bus_bp_13.BusyCycles = 0
+bus_bp_13.BytesPerCycle = 0.0000
+bus_bp_13.Utilization = 0.0000
+
+BUS Lane 14 :
+bus_bp_14.Bandwidth = 2
+bus_bp_14.TransferredMessages = 0
+bus_bp_14.TransferredBytes = 0
+bus_bp_14.BusyCycles = 0
+bus_bp_14.BytesPerCycle = 0.0000
+bus_bp_14.Utilization = 0.0000
+
+BUS Lane 15 :
+bus_bp_15.Bandwidth = 2
+bus_bp_15.TransferredMessages = 0
+bus_bp_15.TransferredBytes = 0
+bus_bp_15.BusyCycles = 0
+bus_bp_15.BytesPerCycle = 0.0000
+bus_bp_15.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.switch0 ]
+Config.BandWidth = 32
+SentPackets = 1246568
+SentBytes = 4986272
+SendRate = 2.4852
+ReceivedPackets = 1246568
+ReceivedBytes = 4986272
+ReceiveRate = 2.4852
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 14.05
+in_buf_0.ByteOccupancy = 56.21
+in_buf_0.Utilization = 0.0137
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 76.30
+in_buf_1.ByteOccupancy = 305.22
+in_buf_1.Utilization = 0.0745
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 11.36
+in_buf_2.ByteOccupancy = 45.43
+in_buf_2.Utilization = 0.0111
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 67.91
+in_buf_3.ByteOccupancy = 271.66
+in_buf_3.Utilization = 0.0663
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 11.72
+in_buf_4.ByteOccupancy = 46.89
+in_buf_4.Utilization = 0.0114
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 67.50
+in_buf_5.ByteOccupancy = 270.01
+in_buf_5.Utilization = 0.0659
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 13.33
+in_buf_6.ByteOccupancy = 53.34
+in_buf_6.Utilization = 0.0130
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 71.97
+in_buf_7.ByteOccupancy = 287.89
+in_buf_7.Utilization = 0.0703
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.54
+in_buf_8.ByteOccupancy = 2.18
+in_buf_8.Utilization = 0.0005
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.09
+out_buf_0.ByteOccupancy = 0.37
+out_buf_0.Utilization = 0.0001
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.06
+out_buf_1.ByteOccupancy = 0.26
+out_buf_1.Utilization = 0.0001
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.06
+out_buf_2.ByteOccupancy = 0.24
+out_buf_2.Utilization = 0.0001
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.04
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.06
+out_buf_4.ByteOccupancy = 0.24
+out_buf_4.Utilization = 0.0001
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.04
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.06
+out_buf_6.ByteOccupancy = 0.25
+out_buf_6.Utilization = 0.0001
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 407.43
+out_buf_8.ByteOccupancy = 1629.71
+out_buf_8.Utilization = 0.3979
+
+[ Network.si-net-l2-gm.Node.GDDR5bus0 ]
+BUS Lane 0 :
+GDDR5bus0_bp_0.Bandwidth = 38
+GDDR5bus0_bp_0.TransferredMessages = 293309
+GDDR5bus0_bp_0.TransferredBytes = 1173236
+GDDR5bus0_bp_0.BusyCycles = 293309
+GDDR5bus0_bp_0.BytesPerCycle = 0.5847
+GDDR5bus0_bp_0.Utilization = 0.0154
+
+BUS Lane 1 :
+GDDR5bus0_bp_1.Bandwidth = 38
+GDDR5bus0_bp_1.TransferredMessages = 15287
+GDDR5bus0_bp_1.TransferredBytes = 61148
+GDDR5bus0_bp_1.BusyCycles = 15287
+GDDR5bus0_bp_1.BytesPerCycle = 0.0305
+GDDR5bus0_bp_1.Utilization = 0.0008
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus1 ]
+BUS Lane 0 :
+GDDR5bus1_bp_0.Bandwidth = 38
+GDDR5bus1_bp_0.TransferredMessages = 68987
+GDDR5bus1_bp_0.TransferredBytes = 275948
+GDDR5bus1_bp_0.BusyCycles = 68987
+GDDR5bus1_bp_0.BytesPerCycle = 0.1375
+GDDR5bus1_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus1_bp_1.Bandwidth = 38
+GDDR5bus1_bp_1.TransferredMessages = 1317
+GDDR5bus1_bp_1.TransferredBytes = 5268
+GDDR5bus1_bp_1.BusyCycles = 1317
+GDDR5bus1_bp_1.BytesPerCycle = 0.0026
+GDDR5bus1_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus2 ]
+BUS Lane 0 :
+GDDR5bus2_bp_0.Bandwidth = 38
+GDDR5bus2_bp_0.TransferredMessages = 68968
+GDDR5bus2_bp_0.TransferredBytes = 275872
+GDDR5bus2_bp_0.BusyCycles = 68968
+GDDR5bus2_bp_0.BytesPerCycle = 0.1375
+GDDR5bus2_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus2_bp_1.Bandwidth = 38
+GDDR5bus2_bp_1.TransferredMessages = 1332
+GDDR5bus2_bp_1.TransferredBytes = 5328
+GDDR5bus2_bp_1.BusyCycles = 1332
+GDDR5bus2_bp_1.BytesPerCycle = 0.0027
+GDDR5bus2_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus3 ]
+BUS Lane 0 :
+GDDR5bus3_bp_0.Bandwidth = 38
+GDDR5bus3_bp_0.TransferredMessages = 69227
+GDDR5bus3_bp_0.TransferredBytes = 276908
+GDDR5bus3_bp_0.BusyCycles = 69227
+GDDR5bus3_bp_0.BytesPerCycle = 0.1380
+GDDR5bus3_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus3_bp_1.Bandwidth = 38
+GDDR5bus3_bp_1.TransferredMessages = 1153
+GDDR5bus3_bp_1.TransferredBytes = 4612
+GDDR5bus3_bp_1.BusyCycles = 1153
+GDDR5bus3_bp_1.BytesPerCycle = 0.0023
+GDDR5bus3_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.switch1 ]
+Config.BandWidth = 32
+SentPackets = 590956
+SentBytes = 2363824
+SendRate = 1.1781
+ReceivedPackets = 590956
+ReceivedBytes = 2363824
+ReceiveRate = 1.1781
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 4.66
+in_buf_0.ByteOccupancy = 18.65
+in_buf_0.Utilization = 0.0046
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 56.81
+in_buf_1.ByteOccupancy = 227.23
+in_buf_1.Utilization = 0.0555
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 5.17
+in_buf_2.ByteOccupancy = 20.69
+in_buf_2.Utilization = 0.0051
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 45.80
+in_buf_3.ByteOccupancy = 183.19
+in_buf_3.Utilization = 0.0447
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 5.18
+in_buf_4.ByteOccupancy = 20.71
+in_buf_4.Utilization = 0.0051
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 45.87
+in_buf_5.ByteOccupancy = 183.50
+in_buf_5.Utilization = 0.0448
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 5.01
+in_buf_6.ByteOccupancy = 20.04
+in_buf_6.Utilization = 0.0049
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 45.68
+in_buf_7.ByteOccupancy = 182.73
+in_buf_7.Utilization = 0.0446
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.28
+in_buf_8.ByteOccupancy = 1.13
+in_buf_8.Utilization = 0.0003
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.03
+out_buf_0.ByteOccupancy = 0.13
+out_buf_0.Utilization = 0.0000
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.04
+out_buf_1.Utilization = 0.0000
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.03
+out_buf_2.ByteOccupancy = 0.11
+out_buf_2.Utilization = 0.0000
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.04
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.03
+out_buf_4.ByteOccupancy = 0.11
+out_buf_4.Utilization = 0.0000
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.04
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.03
+out_buf_6.ByteOccupancy = 0.12
+out_buf_6.Utilization = 0.0000
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 166.84
+out_buf_8.ByteOccupancy = 667.36
+out_buf_8.Utilization = 0.1629
+
+[ Network.si-net-l2-gm.Node.GDDR5bus4 ]
+BUS Lane 0 :
+GDDR5bus4_bp_0.Bandwidth = 38
+GDDR5bus4_bp_0.TransferredMessages = 68893
+GDDR5bus4_bp_0.TransferredBytes = 275572
+GDDR5bus4_bp_0.BusyCycles = 68893
+GDDR5bus4_bp_0.BytesPerCycle = 0.1373
+GDDR5bus4_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus4_bp_1.Bandwidth = 38
+GDDR5bus4_bp_1.TransferredMessages = 1087
+GDDR5bus4_bp_1.TransferredBytes = 4348
+GDDR5bus4_bp_1.BusyCycles = 1087
+GDDR5bus4_bp_1.BytesPerCycle = 0.0022
+GDDR5bus4_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus5 ]
+BUS Lane 0 :
+GDDR5bus5_bp_0.Bandwidth = 38
+GDDR5bus5_bp_0.TransferredMessages = 69222
+GDDR5bus5_bp_0.TransferredBytes = 276888
+GDDR5bus5_bp_0.BusyCycles = 69222
+GDDR5bus5_bp_0.BytesPerCycle = 0.1380
+GDDR5bus5_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus5_bp_1.Bandwidth = 38
+GDDR5bus5_bp_1.TransferredMessages = 674
+GDDR5bus5_bp_1.TransferredBytes = 2696
+GDDR5bus5_bp_1.BusyCycles = 674
+GDDR5bus5_bp_1.BytesPerCycle = 0.0013
+GDDR5bus5_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus6 ]
+BUS Lane 0 :
+GDDR5bus6_bp_0.Bandwidth = 38
+GDDR5bus6_bp_0.TransferredMessages = 69124
+GDDR5bus6_bp_0.TransferredBytes = 276496
+GDDR5bus6_bp_0.BusyCycles = 69124
+GDDR5bus6_bp_0.BytesPerCycle = 0.1378
+GDDR5bus6_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus6_bp_1.Bandwidth = 38
+GDDR5bus6_bp_1.TransferredMessages = 764
+GDDR5bus6_bp_1.TransferredBytes = 3056
+GDDR5bus6_bp_1.BusyCycles = 764
+GDDR5bus6_bp_1.BytesPerCycle = 0.0015
+GDDR5bus6_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus7 ]
+BUS Lane 0 :
+GDDR5bus7_bp_0.Bandwidth = 38
+GDDR5bus7_bp_0.TransferredMessages = 69068
+GDDR5bus7_bp_0.TransferredBytes = 276272
+GDDR5bus7_bp_0.BusyCycles = 69068
+GDDR5bus7_bp_0.BytesPerCycle = 0.1377
+GDDR5bus7_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus7_bp_1.Bandwidth = 38
+GDDR5bus7_bp_1.TransferredMessages = 736
+GDDR5bus7_bp_1.TransferredBytes = 2944
+GDDR5bus7_bp_1.BusyCycles = 736
+GDDR5bus7_bp_1.BytesPerCycle = 0.0015
+GDDR5bus7_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.switch2 ]
+Config.BandWidth = 32
+SentPackets = 607540
+SentBytes = 2430160
+SendRate = 1.2112
+ReceivedPackets = 607540
+ReceivedBytes = 2430160
+ReceiveRate = 1.2112
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 3.66
+in_buf_0.ByteOccupancy = 14.66
+in_buf_0.Utilization = 0.0036
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 44.59
+in_buf_1.ByteOccupancy = 178.36
+in_buf_1.Utilization = 0.0435
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 3.42
+in_buf_2.ByteOccupancy = 13.69
+in_buf_2.Utilization = 0.0033
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 50.76
+in_buf_3.ByteOccupancy = 203.03
+in_buf_3.Utilization = 0.0496
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 3.50
+in_buf_4.ByteOccupancy = 13.99
+in_buf_4.Utilization = 0.0034
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 50.67
+in_buf_5.ByteOccupancy = 202.68
+in_buf_5.Utilization = 0.0495
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 3.61
+in_buf_6.ByteOccupancy = 14.43
+in_buf_6.Utilization = 0.0035
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 50.51
+in_buf_7.ByteOccupancy = 202.03
+in_buf_7.Utilization = 0.0493
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.29
+in_buf_8.ByteOccupancy = 1.16
+in_buf_8.Utilization = 0.0003
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.04
+out_buf_0.ByteOccupancy = 0.14
+out_buf_0.Utilization = 0.0000
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.04
+out_buf_1.Utilization = 0.0000
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.03
+out_buf_2.ByteOccupancy = 0.12
+out_buf_2.Utilization = 0.0000
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.04
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.03
+out_buf_4.ByteOccupancy = 0.12
+out_buf_4.Utilization = 0.0000
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.04
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.03
+out_buf_6.ByteOccupancy = 0.12
+out_buf_6.Utilization = 0.0000
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 158.42
+out_buf_8.ByteOccupancy = 633.69
+out_buf_8.Utilization = 0.1547
+
+[ Network.si-net-l2-gm.Node.GDDR5bus8 ]
+BUS Lane 0 :
+GDDR5bus8_bp_0.Bandwidth = 38
+GDDR5bus8_bp_0.TransferredMessages = 69117
+GDDR5bus8_bp_0.TransferredBytes = 276468
+GDDR5bus8_bp_0.BusyCycles = 69117
+GDDR5bus8_bp_0.BytesPerCycle = 0.1378
+GDDR5bus8_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus8_bp_1.Bandwidth = 38
+GDDR5bus8_bp_1.TransferredMessages = 795
+GDDR5bus8_bp_1.TransferredBytes = 3180
+GDDR5bus8_bp_1.BusyCycles = 795
+GDDR5bus8_bp_1.BytesPerCycle = 0.0016
+GDDR5bus8_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus9 ]
+BUS Lane 0 :
+GDDR5bus9_bp_0.Bandwidth = 38
+GDDR5bus9_bp_0.TransferredMessages = 69075
+GDDR5bus9_bp_0.TransferredBytes = 276300
+GDDR5bus9_bp_0.BusyCycles = 69075
+GDDR5bus9_bp_0.BytesPerCycle = 0.1377
+GDDR5bus9_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus9_bp_1.Bandwidth = 38
+GDDR5bus9_bp_1.TransferredMessages = 749
+GDDR5bus9_bp_1.TransferredBytes = 2996
+GDDR5bus9_bp_1.BusyCycles = 749
+GDDR5bus9_bp_1.BytesPerCycle = 0.0015
+GDDR5bus9_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus10 ]
+BUS Lane 0 :
+GDDR5bus10_bp_0.Bandwidth = 38
+GDDR5bus10_bp_0.TransferredMessages = 68963
+GDDR5bus10_bp_0.TransferredBytes = 275852
+GDDR5bus10_bp_0.BusyCycles = 68963
+GDDR5bus10_bp_0.BytesPerCycle = 0.1375
+GDDR5bus10_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus10_bp_1.Bandwidth = 38
+GDDR5bus10_bp_1.TransferredMessages = 845
+GDDR5bus10_bp_1.TransferredBytes = 3380
+GDDR5bus10_bp_1.BusyCycles = 845
+GDDR5bus10_bp_1.BytesPerCycle = 0.0017
+GDDR5bus10_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus11 ]
+BUS Lane 0 :
+GDDR5bus11_bp_0.Bandwidth = 38
+GDDR5bus11_bp_0.TransferredMessages = 68958
+GDDR5bus11_bp_0.TransferredBytes = 275832
+GDDR5bus11_bp_0.BusyCycles = 68958
+GDDR5bus11_bp_0.BytesPerCycle = 0.1375
+GDDR5bus11_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus11_bp_1.Bandwidth = 38
+GDDR5bus11_bp_1.TransferredMessages = 782
+GDDR5bus11_bp_1.TransferredBytes = 3128
+GDDR5bus11_bp_1.BusyCycles = 782
+GDDR5bus11_bp_1.BytesPerCycle = 0.0016
+GDDR5bus11_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.switch3 ]
+Config.BandWidth = 32
+SentPackets = 569156
+SentBytes = 2276624
+SendRate = 1.1347
+ReceivedPackets = 569156
+ReceivedBytes = 2276624
+ReceiveRate = 1.1347
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 1.42
+in_buf_0.ByteOccupancy = 5.68
+in_buf_0.Utilization = 0.0014
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 50.87
+in_buf_1.ByteOccupancy = 203.49
+in_buf_1.Utilization = 0.0497
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 1.57
+in_buf_2.ByteOccupancy = 6.28
+in_buf_2.Utilization = 0.0015
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 52.16
+in_buf_3.ByteOccupancy = 208.66
+in_buf_3.Utilization = 0.0509
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 1.65
+in_buf_4.ByteOccupancy = 6.61
+in_buf_4.Utilization = 0.0016
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 52.06
+in_buf_5.ByteOccupancy = 208.24
+in_buf_5.Utilization = 0.0508
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 1.60
+in_buf_6.ByteOccupancy = 6.40
+in_buf_6.Utilization = 0.0016
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 43.83
+in_buf_7.ByteOccupancy = 175.31
+in_buf_7.Utilization = 0.0428
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.26
+in_buf_8.ByteOccupancy = 1.04
+in_buf_8.Utilization = 0.0003
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.03
+out_buf_0.ByteOccupancy = 0.12
+out_buf_0.Utilization = 0.0000
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.04
+out_buf_1.Utilization = 0.0000
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.03
+out_buf_2.ByteOccupancy = 0.10
+out_buf_2.Utilization = 0.0000
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.04
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.02
+out_buf_4.ByteOccupancy = 0.10
+out_buf_4.Utilization = 0.0000
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.04
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.03
+out_buf_6.ByteOccupancy = 0.10
+out_buf_6.Utilization = 0.0000
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 161.81
+out_buf_8.ByteOccupancy = 647.22
+out_buf_8.Utilization = 0.1580
+
+[ Network.si-net-l2-gm.Node.GDDR5bus12 ]
+BUS Lane 0 :
+GDDR5bus12_bp_0.Bandwidth = 38
+GDDR5bus12_bp_0.TransferredMessages = 68925
+GDDR5bus12_bp_0.TransferredBytes = 275700
+GDDR5bus12_bp_0.BusyCycles = 68925
+GDDR5bus12_bp_0.BytesPerCycle = 0.1374
+GDDR5bus12_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus12_bp_1.Bandwidth = 38
+GDDR5bus12_bp_1.TransferredMessages = 879
+GDDR5bus12_bp_1.TransferredBytes = 3516
+GDDR5bus12_bp_1.BusyCycles = 879
+GDDR5bus12_bp_1.BytesPerCycle = 0.0018
+GDDR5bus12_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus13 ]
+BUS Lane 0 :
+GDDR5bus13_bp_0.Bandwidth = 38
+GDDR5bus13_bp_0.TransferredMessages = 68846
+GDDR5bus13_bp_0.TransferredBytes = 275384
+GDDR5bus13_bp_0.BusyCycles = 68846
+GDDR5bus13_bp_0.BytesPerCycle = 0.1373
+GDDR5bus13_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus13_bp_1.Bandwidth = 38
+GDDR5bus13_bp_1.TransferredMessages = 782
+GDDR5bus13_bp_1.TransferredBytes = 3128
+GDDR5bus13_bp_1.BusyCycles = 782
+GDDR5bus13_bp_1.BytesPerCycle = 0.0016
+GDDR5bus13_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus14 ]
+BUS Lane 0 :
+GDDR5bus14_bp_0.Bandwidth = 38
+GDDR5bus14_bp_0.TransferredMessages = 68867
+GDDR5bus14_bp_0.TransferredBytes = 275468
+GDDR5bus14_bp_0.BusyCycles = 68867
+GDDR5bus14_bp_0.BytesPerCycle = 0.1373
+GDDR5bus14_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus14_bp_1.Bandwidth = 38
+GDDR5bus14_bp_1.TransferredMessages = 757
+GDDR5bus14_bp_1.TransferredBytes = 3028
+GDDR5bus14_bp_1.BusyCycles = 757
+GDDR5bus14_bp_1.BytesPerCycle = 0.0015
+GDDR5bus14_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus15 ]
+BUS Lane 0 :
+GDDR5bus15_bp_0.Bandwidth = 38
+GDDR5bus15_bp_0.TransferredMessages = 79504
+GDDR5bus15_bp_0.TransferredBytes = 318016
+GDDR5bus15_bp_0.BusyCycles = 79504
+GDDR5bus15_bp_0.BytesPerCycle = 0.1585
+GDDR5bus15_bp_0.Utilization = 0.0042
+
+BUS Lane 1 :
+GDDR5bus15_bp_1.Bandwidth = 38
+GDDR5bus15_bp_1.TransferredMessages = 1164
+GDDR5bus15_bp_1.TransferredBytes = 4656
+GDDR5bus15_bp_1.BusyCycles = 1164
+GDDR5bus15_bp_1.BytesPerCycle = 0.0023
+GDDR5bus15_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.switch4 ]
+Config.BandWidth = 32
+SentPackets = 621836
+SentBytes = 2487344
+SendRate = 1.2397
+ReceivedPackets = 621836
+ReceivedBytes = 2487344
+ReceiveRate = 1.2397
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 1.96
+in_buf_0.ByteOccupancy = 7.85
+in_buf_0.Utilization = 0.0019
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 72.12
+in_buf_1.ByteOccupancy = 288.46
+in_buf_1.Utilization = 0.0704
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 1.61
+in_buf_2.ByteOccupancy = 6.43
+in_buf_2.Utilization = 0.0016
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 68.64
+in_buf_3.ByteOccupancy = 274.56
+in_buf_3.Utilization = 0.0670
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 1.65
+in_buf_4.ByteOccupancy = 6.62
+in_buf_4.Utilization = 0.0016
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 68.00
+in_buf_5.ByteOccupancy = 272.01
+in_buf_5.Utilization = 0.0664
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 1.57
+in_buf_6.ByteOccupancy = 6.29
+in_buf_6.Utilization = 0.0015
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 68.95
+in_buf_7.ByteOccupancy = 275.79
+in_buf_7.Utilization = 0.0673
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.29
+in_buf_8.ByteOccupancy = 1.17
+in_buf_8.Utilization = 0.0003
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.04
+out_buf_0.ByteOccupancy = 0.14
+out_buf_0.Utilization = 0.0000
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.04
+out_buf_1.Utilization = 0.0000
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.03
+out_buf_2.ByteOccupancy = 0.12
+out_buf_2.Utilization = 0.0000
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.04
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.03
+out_buf_4.ByteOccupancy = 0.12
+out_buf_4.Utilization = 0.0000
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.04
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.03
+out_buf_6.ByteOccupancy = 0.12
+out_buf_6.Utilization = 0.0000
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 165.49
+out_buf_8.ByteOccupancy = 661.94
+out_buf_8.Utilization = 0.1616
+
+[ Network.si-net-l2-gm.Node.GDDR5bus16 ]
+BUS Lane 0 :
+GDDR5bus16_bp_0.Bandwidth = 38
+GDDR5bus16_bp_0.TransferredMessages = 80585
+GDDR5bus16_bp_0.TransferredBytes = 322340
+GDDR5bus16_bp_0.BusyCycles = 80585
+GDDR5bus16_bp_0.BytesPerCycle = 0.1607
+GDDR5bus16_bp_0.Utilization = 0.0042
+
+BUS Lane 1 :
+GDDR5bus16_bp_1.Bandwidth = 38
+GDDR5bus16_bp_1.TransferredMessages = 1583
+GDDR5bus16_bp_1.TransferredBytes = 6332
+GDDR5bus16_bp_1.BusyCycles = 1583
+GDDR5bus16_bp_1.BytesPerCycle = 0.0032
+GDDR5bus16_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus17 ]
+BUS Lane 0 :
+GDDR5bus17_bp_0.Bandwidth = 38
+GDDR5bus17_bp_0.TransferredMessages = 69892
+GDDR5bus17_bp_0.TransferredBytes = 279568
+GDDR5bus17_bp_0.BusyCycles = 69892
+GDDR5bus17_bp_0.BytesPerCycle = 0.1393
+GDDR5bus17_bp_0.Utilization = 0.0037
+
+BUS Lane 1 :
+GDDR5bus17_bp_1.Bandwidth = 38
+GDDR5bus17_bp_1.TransferredMessages = 1416
+GDDR5bus17_bp_1.TransferredBytes = 5664
+GDDR5bus17_bp_1.BusyCycles = 1416
+GDDR5bus17_bp_1.BytesPerCycle = 0.0028
+GDDR5bus17_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus18 ]
+BUS Lane 0 :
+GDDR5bus18_bp_0.Bandwidth = 38
+GDDR5bus18_bp_0.TransferredMessages = 69429
+GDDR5bus18_bp_0.TransferredBytes = 277716
+GDDR5bus18_bp_0.BusyCycles = 69429
+GDDR5bus18_bp_0.BytesPerCycle = 0.1384
+GDDR5bus18_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus18_bp_1.Bandwidth = 38
+GDDR5bus18_bp_1.TransferredMessages = 1307
+GDDR5bus18_bp_1.TransferredBytes = 5228
+GDDR5bus18_bp_1.BusyCycles = 1307
+GDDR5bus18_bp_1.BytesPerCycle = 0.0026
+GDDR5bus18_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus19 ]
+BUS Lane 0 :
+GDDR5bus19_bp_0.Bandwidth = 38
+GDDR5bus19_bp_0.TransferredMessages = 69614
+GDDR5bus19_bp_0.TransferredBytes = 278456
+GDDR5bus19_bp_0.BusyCycles = 69614
+GDDR5bus19_bp_0.BytesPerCycle = 0.1388
+GDDR5bus19_bp_0.Utilization = 0.0037
+
+BUS Lane 1 :
+GDDR5bus19_bp_1.Bandwidth = 38
+GDDR5bus19_bp_1.TransferredMessages = 1186
+GDDR5bus19_bp_1.TransferredBytes = 4744
+GDDR5bus19_bp_1.BusyCycles = 1186
+GDDR5bus19_bp_1.BytesPerCycle = 0.0024
+GDDR5bus19_bp_1.Utilization = 0.0001
+
+
+[ Network.si-net-l2-gm.Node.switch5 ]
+Config.BandWidth = 32
+SentPackets = 644640
+SentBytes = 2578560
+SendRate = 1.2852
+ReceivedPackets = 644640
+ReceivedBytes = 2578560
+ReceiveRate = 1.2852
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 1.74
+in_buf_0.ByteOccupancy = 6.98
+in_buf_0.Utilization = 0.0017
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 28.28
+in_buf_1.ByteOccupancy = 113.12
+in_buf_1.Utilization = 0.0276
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 1.88
+in_buf_2.ByteOccupancy = 7.50
+in_buf_2.Utilization = 0.0018
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 40.53
+in_buf_3.ByteOccupancy = 162.10
+in_buf_3.Utilization = 0.0396
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 1.88
+in_buf_4.ByteOccupancy = 7.54
+in_buf_4.Utilization = 0.0018
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 40.58
+in_buf_5.ByteOccupancy = 162.31
+in_buf_5.Utilization = 0.0396
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 1.85
+in_buf_6.ByteOccupancy = 7.39
+in_buf_6.Utilization = 0.0018
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 40.56
+in_buf_7.ByteOccupancy = 162.22
+in_buf_7.Utilization = 0.0396
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.30
+in_buf_8.ByteOccupancy = 1.20
+in_buf_8.Utilization = 0.0003
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.04
+out_buf_0.ByteOccupancy = 0.15
+out_buf_0.Utilization = 0.0000
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.04
+out_buf_1.Utilization = 0.0000
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.03
+out_buf_2.ByteOccupancy = 0.12
+out_buf_2.Utilization = 0.0000
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.04
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.03
+out_buf_4.ByteOccupancy = 0.12
+out_buf_4.Utilization = 0.0000
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.04
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.03
+out_buf_6.ByteOccupancy = 0.13
+out_buf_6.Utilization = 0.0000
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 155.16
+out_buf_8.ByteOccupancy = 620.63
+out_buf_8.Utilization = 0.1515
+
+[ Network.si-net-l2-gm.Node.GDDR5bus20 ]
+BUS Lane 0 :
+GDDR5bus20_bp_0.Bandwidth = 38
+GDDR5bus20_bp_0.TransferredMessages = 72725
+GDDR5bus20_bp_0.TransferredBytes = 290900
+GDDR5bus20_bp_0.BusyCycles = 72725
+GDDR5bus20_bp_0.BytesPerCycle = 0.1450
+GDDR5bus20_bp_0.Utilization = 0.0038
+
+BUS Lane 1 :
+GDDR5bus20_bp_1.Bandwidth = 38
+GDDR5bus20_bp_1.TransferredMessages = 859
+GDDR5bus20_bp_1.TransferredBytes = 3436
+GDDR5bus20_bp_1.BusyCycles = 859
+GDDR5bus20_bp_1.BytesPerCycle = 0.0017
+GDDR5bus20_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus21 ]
+BUS Lane 0 :
+GDDR5bus21_bp_0.Bandwidth = 38
+GDDR5bus21_bp_0.TransferredMessages = 70460
+GDDR5bus21_bp_0.TransferredBytes = 281840
+GDDR5bus21_bp_0.BusyCycles = 70460
+GDDR5bus21_bp_0.BytesPerCycle = 0.1405
+GDDR5bus21_bp_0.Utilization = 0.0037
+
+BUS Lane 1 :
+GDDR5bus21_bp_1.Bandwidth = 38
+GDDR5bus21_bp_1.TransferredMessages = 652
+GDDR5bus21_bp_1.TransferredBytes = 2608
+GDDR5bus21_bp_1.BusyCycles = 652
+GDDR5bus21_bp_1.BytesPerCycle = 0.0013
+GDDR5bus21_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus22 ]
+BUS Lane 0 :
+GDDR5bus22_bp_0.Bandwidth = 38
+GDDR5bus22_bp_0.TransferredMessages = 70195
+GDDR5bus22_bp_0.TransferredBytes = 280780
+GDDR5bus22_bp_0.BusyCycles = 70195
+GDDR5bus22_bp_0.BytesPerCycle = 0.1399
+GDDR5bus22_bp_0.Utilization = 0.0037
+
+BUS Lane 1 :
+GDDR5bus22_bp_1.Bandwidth = 38
+GDDR5bus22_bp_1.TransferredMessages = 725
+GDDR5bus22_bp_1.TransferredBytes = 2900
+GDDR5bus22_bp_1.BusyCycles = 725
+GDDR5bus22_bp_1.BytesPerCycle = 0.0014
+GDDR5bus22_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus23 ]
+BUS Lane 0 :
+GDDR5bus23_bp_0.Bandwidth = 38
+GDDR5bus23_bp_0.TransferredMessages = 70466
+GDDR5bus23_bp_0.TransferredBytes = 281864
+GDDR5bus23_bp_0.BusyCycles = 70466
+GDDR5bus23_bp_0.BytesPerCycle = 0.1405
+GDDR5bus23_bp_0.Utilization = 0.0037
+
+BUS Lane 1 :
+GDDR5bus23_bp_1.Bandwidth = 38
+GDDR5bus23_bp_1.TransferredMessages = 686
+GDDR5bus23_bp_1.TransferredBytes = 2744
+GDDR5bus23_bp_1.BusyCycles = 686
+GDDR5bus23_bp_1.BytesPerCycle = 0.0014
+GDDR5bus23_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.switch6 ]
+Config.BandWidth = 32
+SentPackets = 641584
+SentBytes = 2566336
+SendRate = 1.2791
+ReceivedPackets = 641584
+ReceivedBytes = 2566336
+ReceiveRate = 1.2791
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 3.63
+in_buf_0.ByteOccupancy = 14.51
+in_buf_0.Utilization = 0.0035
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 44.36
+in_buf_1.ByteOccupancy = 177.44
+in_buf_1.Utilization = 0.0433
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 3.64
+in_buf_2.ByteOccupancy = 14.54
+in_buf_2.Utilization = 0.0036
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 49.41
+in_buf_3.ByteOccupancy = 197.64
+in_buf_3.Utilization = 0.0483
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 3.64
+in_buf_4.ByteOccupancy = 14.55
+in_buf_4.Utilization = 0.0036
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 49.36
+in_buf_5.ByteOccupancy = 197.43
+in_buf_5.Utilization = 0.0482
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 3.70
+in_buf_6.ByteOccupancy = 14.81
+in_buf_6.Utilization = 0.0036
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 49.02
+in_buf_7.ByteOccupancy = 196.10
+in_buf_7.Utilization = 0.0479
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.30
+in_buf_8.ByteOccupancy = 1.21
+in_buf_8.Utilization = 0.0003
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.04
+out_buf_0.ByteOccupancy = 0.15
+out_buf_0.Utilization = 0.0000
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.04
+out_buf_1.Utilization = 0.0000
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.03
+out_buf_2.ByteOccupancy = 0.13
+out_buf_2.Utilization = 0.0000
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.04
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.03
+out_buf_4.ByteOccupancy = 0.13
+out_buf_4.Utilization = 0.0000
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.04
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.03
+out_buf_6.ByteOccupancy = 0.13
+out_buf_6.Utilization = 0.0000
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 163.56
+out_buf_8.ByteOccupancy = 654.26
+out_buf_8.Utilization = 0.1597
+
+[ Network.si-net-l2-gm.Node.GDDR5bus24 ]
+BUS Lane 0 :
+GDDR5bus24_bp_0.Bandwidth = 38
+GDDR5bus24_bp_0.TransferredMessages = 69960
+GDDR5bus24_bp_0.TransferredBytes = 279840
+GDDR5bus24_bp_0.BusyCycles = 69960
+GDDR5bus24_bp_0.BytesPerCycle = 0.1395
+GDDR5bus24_bp_0.Utilization = 0.0037
+
+BUS Lane 1 :
+GDDR5bus24_bp_1.Bandwidth = 38
+GDDR5bus24_bp_1.TransferredMessages = 688
+GDDR5bus24_bp_1.TransferredBytes = 2752
+GDDR5bus24_bp_1.BusyCycles = 688
+GDDR5bus24_bp_1.BytesPerCycle = 0.0014
+GDDR5bus24_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus25 ]
+BUS Lane 0 :
+GDDR5bus25_bp_0.Bandwidth = 38
+GDDR5bus25_bp_0.TransferredMessages = 69571
+GDDR5bus25_bp_0.TransferredBytes = 278284
+GDDR5bus25_bp_0.BusyCycles = 69571
+GDDR5bus25_bp_0.BytesPerCycle = 0.1387
+GDDR5bus25_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus25_bp_1.Bandwidth = 38
+GDDR5bus25_bp_1.TransferredMessages = 793
+GDDR5bus25_bp_1.TransferredBytes = 3172
+GDDR5bus25_bp_1.BusyCycles = 793
+GDDR5bus25_bp_1.BytesPerCycle = 0.0016
+GDDR5bus25_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus26 ]
+BUS Lane 0 :
+GDDR5bus26_bp_0.Bandwidth = 38
+GDDR5bus26_bp_0.TransferredMessages = 69560
+GDDR5bus26_bp_0.TransferredBytes = 278240
+GDDR5bus26_bp_0.BusyCycles = 69560
+GDDR5bus26_bp_0.BytesPerCycle = 0.1387
+GDDR5bus26_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus26_bp_1.Bandwidth = 38
+GDDR5bus26_bp_1.TransferredMessages = 784
+GDDR5bus26_bp_1.TransferredBytes = 3136
+GDDR5bus26_bp_1.BusyCycles = 784
+GDDR5bus26_bp_1.BytesPerCycle = 0.0016
+GDDR5bus26_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus27 ]
+BUS Lane 0 :
+GDDR5bus27_bp_0.Bandwidth = 38
+GDDR5bus27_bp_0.TransferredMessages = 69633
+GDDR5bus27_bp_0.TransferredBytes = 278532
+GDDR5bus27_bp_0.BusyCycles = 69633
+GDDR5bus27_bp_0.BytesPerCycle = 0.1388
+GDDR5bus27_bp_0.Utilization = 0.0037
+
+BUS Lane 1 :
+GDDR5bus27_bp_1.Bandwidth = 38
+GDDR5bus27_bp_1.TransferredMessages = 775
+GDDR5bus27_bp_1.TransferredBytes = 3100
+GDDR5bus27_bp_1.BusyCycles = 775
+GDDR5bus27_bp_1.BytesPerCycle = 0.0015
+GDDR5bus27_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.switch7 ]
+Config.BandWidth = 32
+SentPackets = 629356
+SentBytes = 2517424
+SendRate = 1.2547
+ReceivedPackets = 629356
+ReceivedBytes = 2517424
+ReceiveRate = 1.2547
+in_buf_0.Size = 4096 
+in_buf_0.MessageOccupancy = 0.87
+in_buf_0.ByteOccupancy = 3.47
+in_buf_0.Utilization = 0.0008
+in_buf_1.Size = 4096 
+in_buf_1.MessageOccupancy = 33.80
+in_buf_1.ByteOccupancy = 135.20
+in_buf_1.Utilization = 0.0330
+in_buf_2.Size = 4096 
+in_buf_2.MessageOccupancy = 0.73
+in_buf_2.ByteOccupancy = 2.93
+in_buf_2.Utilization = 0.0007
+in_buf_3.Size = 4096 
+in_buf_3.MessageOccupancy = 37.36
+in_buf_3.ByteOccupancy = 149.44
+in_buf_3.Utilization = 0.0365
+in_buf_4.Size = 4096 
+in_buf_4.MessageOccupancy = 0.75
+in_buf_4.ByteOccupancy = 2.99
+in_buf_4.Utilization = 0.0007
+in_buf_5.Size = 4096 
+in_buf_5.MessageOccupancy = 37.49
+in_buf_5.ByteOccupancy = 149.96
+in_buf_5.Utilization = 0.0366
+in_buf_6.Size = 4096 
+in_buf_6.MessageOccupancy = 0.80
+in_buf_6.ByteOccupancy = 3.22
+in_buf_6.Utilization = 0.0008
+in_buf_7.Size = 4096 
+in_buf_7.MessageOccupancy = 33.82
+in_buf_7.ByteOccupancy = 135.29
+in_buf_7.Utilization = 0.0330
+in_buf_8.Size = 4096 
+in_buf_8.MessageOccupancy = 0.29
+in_buf_8.ByteOccupancy = 1.17
+in_buf_8.Utilization = 0.0003
+out_buf_0.Size = 4096 
+out_buf_0.MessageOccupancy = 0.04
+out_buf_0.ByteOccupancy = 0.14
+out_buf_0.Utilization = 0.0000
+out_buf_1.Size = 4096 
+out_buf_1.MessageOccupancy = 0.01
+out_buf_1.ByteOccupancy = 0.03
+out_buf_1.Utilization = 0.0000
+out_buf_2.Size = 4096 
+out_buf_2.MessageOccupancy = 0.03
+out_buf_2.ByteOccupancy = 0.12
+out_buf_2.Utilization = 0.0000
+out_buf_3.Size = 4096 
+out_buf_3.MessageOccupancy = 0.01
+out_buf_3.ByteOccupancy = 0.03
+out_buf_3.Utilization = 0.0000
+out_buf_4.Size = 4096 
+out_buf_4.MessageOccupancy = 0.03
+out_buf_4.ByteOccupancy = 0.12
+out_buf_4.Utilization = 0.0000
+out_buf_5.Size = 4096 
+out_buf_5.MessageOccupancy = 0.01
+out_buf_5.ByteOccupancy = 0.03
+out_buf_5.Utilization = 0.0000
+out_buf_6.Size = 4096 
+out_buf_6.MessageOccupancy = 0.03
+out_buf_6.ByteOccupancy = 0.12
+out_buf_6.Utilization = 0.0000
+out_buf_7.Size = 4096 
+out_buf_7.MessageOccupancy = 0.01
+out_buf_7.ByteOccupancy = 0.04
+out_buf_7.Utilization = 0.0000
+out_buf_8.Size = 4096 
+out_buf_8.MessageOccupancy = 150.65
+out_buf_8.ByteOccupancy = 602.62
+out_buf_8.Utilization = 0.1471
+
+[ Network.si-net-l2-gm.Node.GDDR5bus28 ]
+BUS Lane 0 :
+GDDR5bus28_bp_0.Bandwidth = 38
+GDDR5bus28_bp_0.TransferredMessages = 68652
+GDDR5bus28_bp_0.TransferredBytes = 274608
+GDDR5bus28_bp_0.BusyCycles = 68652
+GDDR5bus28_bp_0.BytesPerCycle = 0.1369
+GDDR5bus28_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus28_bp_1.Bandwidth = 38
+GDDR5bus28_bp_1.TransferredMessages = 828
+GDDR5bus28_bp_1.TransferredBytes = 3312
+GDDR5bus28_bp_1.BusyCycles = 828
+GDDR5bus28_bp_1.BytesPerCycle = 0.0017
+GDDR5bus28_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus29 ]
+BUS Lane 0 :
+GDDR5bus29_bp_0.Bandwidth = 38
+GDDR5bus29_bp_0.TransferredMessages = 68681
+GDDR5bus29_bp_0.TransferredBytes = 274724
+GDDR5bus29_bp_0.BusyCycles = 68681
+GDDR5bus29_bp_0.BytesPerCycle = 0.1369
+GDDR5bus29_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus29_bp_1.Bandwidth = 38
+GDDR5bus29_bp_1.TransferredMessages = 663
+GDDR5bus29_bp_1.TransferredBytes = 2652
+GDDR5bus29_bp_1.BusyCycles = 663
+GDDR5bus29_bp_1.BytesPerCycle = 0.0013
+GDDR5bus29_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus30 ]
+BUS Lane 0 :
+GDDR5bus30_bp_0.Bandwidth = 38
+GDDR5bus30_bp_0.TransferredMessages = 68672
+GDDR5bus30_bp_0.TransferredBytes = 274688
+GDDR5bus30_bp_0.BusyCycles = 68672
+GDDR5bus30_bp_0.BytesPerCycle = 0.1369
+GDDR5bus30_bp_0.Utilization = 0.0036
+
+BUS Lane 1 :
+GDDR5bus30_bp_1.Bandwidth = 38
+GDDR5bus30_bp_1.TransferredMessages = 692
+GDDR5bus30_bp_1.TransferredBytes = 2768
+GDDR5bus30_bp_1.BusyCycles = 692
+GDDR5bus30_bp_1.BytesPerCycle = 0.0014
+GDDR5bus30_bp_1.Utilization = 0.0000
+
+
+[ Network.si-net-l2-gm.Node.GDDR5bus31 ]
+BUS Lane 0 :
+GDDR5bus31_bp_0.Bandwidth = 38
+GDDR5bus31_bp_0.TransferredMessages = 78303
+GDDR5bus31_bp_0.TransferredBytes = 313212
+GDDR5bus31_bp_0.BusyCycles = 78303
+GDDR5bus31_bp_0.BytesPerCycle = 0.1561
+GDDR5bus31_bp_0.Utilization = 0.0041
+
+BUS Lane 1 :
+GDDR5bus31_bp_1.Bandwidth = 38
+GDDR5bus31_bp_1.TransferredMessages = 1097
+GDDR5bus31_bp_1.TransferredBytes = 4388
+GDDR5bus31_bp_1.BusyCycles = 1097
+GDDR5bus31_bp_1.BytesPerCycle = 0.0022
+GDDR5bus31_bp_1.Utilization = 0.0001
+
+

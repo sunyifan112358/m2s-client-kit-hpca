@@ -1,0 +1,3562 @@
+;
+; GPU Configuration
+;
+
+[ Config.Device ]
+Frequency = 925
+NumComputeUnits = 128
+IdleCUId = -1
+
+[ Config.ComputeUnit ]
+NumWavefrontPools = 4
+NumVectorRegisters = 65536
+NumScalarRegisters = 2048
+MaxWorkGroupsPerWavefrontPool = 10
+MaxWavefrontsPerWavefrontPool = 10
+
+[ Config.FrontEnd ]
+FetchLatency = 5
+FetchWidth = 4
+FetchBufferSize = 10
+IssueLatency = 1
+IssueWidth = 5
+MaxInstIssuedPerType = 1
+
+[ Config.SIMDUnit ]
+NumSIMDLanes = 16
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadExecWriteLatency = 8
+ReadExecWriteBufferSize = 1
+
+[ Config.ScalarUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+ALULatency = 4
+ExecBufferSize = 32
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.BranchUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+ExecLatency = 4
+ExecBufferSize = 4
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.LDSUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+MaxInflightMem = 32
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.VectorMemUnit ]
+Width = 1
+IssueBufferSize = 1
+DecodeLatency = 1
+DecodeBufferSize = 1
+ReadLatency = 1
+ReadBufferSize = 1
+MaxInflightMem = 32
+WriteLatency = 1
+WriteBufferSize = 1
+
+[ Config.LDS ]
+Size = 65536
+AllocSize = 64
+BlockSize = 64
+Latency = 2
+Ports = 2
+
+
+;
+; Simulation Statistics
+;
+
+[ Device ]
+
+NDRangeCount = 0
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+VectorALUInstructions = 0
+LDSInstructions = 0
+VectorMemInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+
+[ ComputeUnit 0 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 1 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 2 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 3 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 4 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 5 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 6 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 7 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 8 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 9 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 10 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 11 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 12 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 13 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 14 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 15 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 16 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 17 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 18 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 19 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 20 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 21 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 22 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 23 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 24 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 25 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 26 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 27 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 28 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 29 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 30 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 31 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 32 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 33 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 34 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 35 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 36 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 37 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 38 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 39 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 40 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 41 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 42 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 43 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 44 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 45 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 46 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 47 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 48 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 49 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 50 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 51 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 52 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 53 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 54 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 55 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 56 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 57 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 58 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 59 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 60 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 61 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 62 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 63 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 64 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 65 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 66 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 67 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 68 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 69 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 70 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 71 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 72 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 73 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 74 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 75 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 76 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 77 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 78 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 79 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 80 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 81 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 82 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 83 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 84 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 85 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 86 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 87 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 88 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 89 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 90 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 91 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 92 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 93 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 94 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 95 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 96 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 97 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 98 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 99 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 100 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 101 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 102 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 103 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 104 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 105 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 106 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 107 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 108 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 109 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 110 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 111 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 112 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 113 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 114 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 115 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 116 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 117 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 118 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 119 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 120 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 121 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 122 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 123 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 124 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 125 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 126 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+
+[ ComputeUnit 127 ]
+
+WorkGroupCount = 0
+Instructions = 0
+ScalarALUInstructions = 0
+ScalarMemInstructions = 0
+BranchInstructions = 0
+SIMDInstructions = 0
+VectorMemInstructions = 0
+LDSInstructions = 0
+Cycles = 0
+InstructionsPerCycle = 0
+
+ScalarRegReads= 0
+ScalarRegWrites= 0
+VectorRegReads= 0
+VectorRegWrites= 0
+
+LDS.Accesses = 0
+LDS.Reads = 0
+LDS.EffectiveReads = 0
+LDS.CoalescedReads = 0
+LDS.Writes = 0
+LDS.EffectiveWrites = 0
+LDS.CoalescedWrites = 0
+
+

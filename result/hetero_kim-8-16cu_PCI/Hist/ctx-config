@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_kim-8-16cu_PCI/Hist/ctx-0
+Exe = Histogram
+Args = --load Histogram_Kernels.bin -q -x 4096 -y 4096
+StdIn = 
+StdOut = sim.out
+

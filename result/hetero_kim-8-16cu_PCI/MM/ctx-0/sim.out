@@ -1,0 +1,9 @@
+Platform 0 : Multi2Sim
+MatrixA:    1024x1024
+MatrixB:    1024x1024
+BlockSize:  8
+
+Selected Platform Vendor : Multi2Sim
+Device 0 : Multi2Sim Southern Islands GPU Model
+Executing kernel for 1 iterations
+-------------------------------------------

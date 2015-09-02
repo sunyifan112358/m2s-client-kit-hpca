@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/splash/radiosity/ctx-0
+Exe = radiosity.i386
+Args = -batch -p 1 -en 0.5 
+StdIn = 
+StdOut = sim.out
+

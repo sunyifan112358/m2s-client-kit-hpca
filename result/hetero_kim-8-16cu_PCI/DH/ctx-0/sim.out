@@ -1,0 +1,22 @@
+Platform 0 : Multi2Sim
+
+Selected Platform Vendor : Multi2Sim
+Device 0 : Multi2Sim Southern Islands GPU Model
+Executing kernel for 1 iterations
+-------------------------------------------
+clSetKernelArg: inSignal = 0x81a43da
+clSetKernelArg: coefsSignal = 0x81a4482
+clSetKernelArg: AverageSignal = 0x81a44f2
+clSetKernelArg: SharedArray = NULL
+clSetKernelArg: tLevels = 20
+clSetKernelArg: signalLength = 1048576
+clSetKernelArg: levelsDone = 0
+clSetKernelArg: mLevels = 10
+clSetKernelArg: inSignal = 0x81a43da
+clSetKernelArg: coefsSignal = 0x81a4482
+clSetKernelArg: AverageSignal = 0x81a44f2
+clSetKernelArg: SharedArray = NULL
+clSetKernelArg: tLevels = 10
+clSetKernelArg: signalLength = 1024
+clSetKernelArg: levelsDone = 10
+clSetKernelArg: mLevels = 10

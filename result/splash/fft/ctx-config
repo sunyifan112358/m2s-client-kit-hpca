@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/splash/fft/ctx-0
+Exe = fft
+Args = -m18 -p1 -n65536 -l4 
+StdIn = 
+StdOut = sim.out
+

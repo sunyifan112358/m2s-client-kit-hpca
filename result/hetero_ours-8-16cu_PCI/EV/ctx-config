@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_ours-8-16cu_PCI/EV/ctx-0
+Exe = EigenValue
+Args = --load EigenValue_Kernels.bin -q -x 8192
+StdIn = 
+StdOut = sim.out
+

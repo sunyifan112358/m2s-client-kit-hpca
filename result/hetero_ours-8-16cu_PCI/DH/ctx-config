@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_ours-8-16cu_PCI/DH/ctx-0
+Exe = DwtHaar1D
+Args = --load DwtHaar1D_Kernels.bin -q -x 1048576
+StdIn = 
+StdOut = sim.out
+

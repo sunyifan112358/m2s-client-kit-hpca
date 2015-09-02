@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/splash/water-spatial/ctx-0
+Exe = water-spatial.i386
+Args = 1 
+StdIn = input
+StdOut = sim.out
+

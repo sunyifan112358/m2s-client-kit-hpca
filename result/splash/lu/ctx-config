@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/splash/lu/ctx-0
+Exe = lu.i386
+Args = -p1 -n512 -b16 
+StdIn = 
+StdOut = sim.out
+

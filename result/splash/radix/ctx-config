@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/splash/radix/ctx-0
+Exe = radix.i386
+Args = -p1 -r4096 -n262144 -m524288 
+StdIn = 
+StdOut = sim.out
+

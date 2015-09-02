@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_ours-8-16cu_PCI/SC/ctx-0
+Exe = SimpleConvolution
+Args = --load SimpleConvolution_Kernels.bin -q -q -x 512 -y 512 -m 32
+StdIn = 
+StdOut = sim.out
+

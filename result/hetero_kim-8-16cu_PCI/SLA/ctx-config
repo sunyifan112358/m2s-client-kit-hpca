@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_kim-8-16cu_PCI/SLA/ctx-0
+Exe = ScanLargeArrays
+Args = --load ScanLargeArrays_Kernels.bin -q -x 2097152
+StdIn = 
+StdOut = sim.out
+

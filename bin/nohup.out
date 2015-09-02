@@ -1,0 +1,14 @@
+Checking Multi2Sim trunk, SVN Rev. 3548 - up to date - ok
+submitting cluster 'test' - sending files - preparing benchmarkssvn: E210002: Unable to connect to a repository at URL 'svn+ssh://svnuser@multi2sim.org/m2s-server-kit'
+svn: E210002: To better debug SSH connection problems, remove the -q option from 'ssh' in the [tunnels] section of your Subversion configuration file.
+svn: E210002: Network connection closed unexpectedly
+
+error: failed running "svn info"
+
+Checking Multi2Sim trunk, SVN Rev. 3548 - up to date - ok
+submitting cluster 'test' - sending files - preparing benchmarkssvn: E210002: Unable to connect to a repository at URL 'svn+ssh://svnuser@multi2sim.org/m2s-server-kit'
+svn: E210002: To better debug SSH connection problems, remove the -q option from 'ssh' in the [tunnels] section of your Subversion configuration file.
+svn: E210002: Network connection closed unexpectedly
+
+error: failed running "svn info"
+

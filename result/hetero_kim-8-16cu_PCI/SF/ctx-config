@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_kim-8-16cu_PCI/SF/ctx-0
+Exe = SobelFilter
+Args = --load SobelFilter_Kernels.bin -q -x 5.bmp
+StdIn = 
+StdOut = sim.out
+

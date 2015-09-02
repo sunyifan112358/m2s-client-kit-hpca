@@ -1,0 +1,5 @@
+Platform 0 : Multi2Sim
+Input Image images/0.bmp 
+Output Image out0.bmp 
+Searching for input Image at following location : /home/amir/m2s-server-kit/run/hetero_ours-8-16cu_PCI/RG/ctx-0/images/0.bmp
+Error: Failed to load input image!

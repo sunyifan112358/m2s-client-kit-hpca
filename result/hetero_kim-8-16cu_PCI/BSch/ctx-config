@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/amir/m2s-server-kit/run/hetero_kim-8-16cu_PCI/BSch/ctx-0
+Exe = BlackScholes
+Args = --load BlackScholes_Kernels.bin -q -x 262144
+StdIn = 
+StdOut = sim.out
+

@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/parsec/facesim/ctx-0
+Exe = facesim_exe
+Args =  
+StdIn = 
+StdOut = sim.out
+

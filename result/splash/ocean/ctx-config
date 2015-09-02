@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/splash/ocean/ctx-0
+Exe = ocean.i386
+Args = -n130 -p1 -e1e-07 -r20000 -t28800 
+StdIn = 
+StdOut = sim.out
+

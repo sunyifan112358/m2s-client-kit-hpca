@@ -1,0 +1,7 @@
+[ Context 0 ]
+Cwd = /home/yifan/m2s-server-kit/run/parsec/blackscholes/ctx-0
+Exe = blackscholes
+Args = 1 in_16K.txt prives.txt 
+StdIn = 
+StdOut = sim.out
+

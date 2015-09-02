@@ -1,0 +1,27 @@
+Uniform Hierarchy built.
+
+Number of processors:     	1
+Global shared memory size:	32 MB
+Samples per pixel:        	1
+
+Number of primitive objects: 	7382
+Number of primitive elements:	7382
+
+****** Hierarchial uniform grid memory allocation summary ******* 
+
+     < struct >:            < current >   < maximum >    < sizeof > 
+     <  bytes >:             <  bytes >   <   bytes >    <  bytes > 
+
+     grid:                        288           288            96 
+     hashtable entries:           188           188             4 
+     emptycell entries:            36            36             4 
+     voxel:                      5020          5020            20 
+     bintree_node:              35856         35856            72 
+
+     Totals:                    41388         41388      
+
+TIMING STATISTICS MEASURED BY MAIN PROCESS:
+        Overall start time               1438277358
+        Overall end time             1438277395
+        Total time with initialization                    37
+        Total time without initialization                    37
