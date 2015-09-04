@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/amir/m2s-server-kit/run/hetero_kim-8-16cu_PCI/FW/ctx-0
-Exe = FloydWarshall
-Args = --load FloydWarshall_Kernels.bin -q -x 512
-StdIn = 
-StdOut = sim.out
-

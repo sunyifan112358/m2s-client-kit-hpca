@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/yifan/m2s-server-kit/run/splash/cholesky/ctx-0
-Exe = cholesky.i386
-Args = -p1 
-StdIn = tk14.O
-StdOut = sim.out
-

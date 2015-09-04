@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/yifan/m2s-server-kit/run/splash/raytrace/ctx-0
-Exe = raytrace.i386
-Args = -p1 balls4.env 
-StdIn = 
-StdOut = sim.out
-

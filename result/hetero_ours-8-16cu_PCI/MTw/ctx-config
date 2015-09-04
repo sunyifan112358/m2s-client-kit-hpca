@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/amir/m2s-server-kit/run/hetero_ours-8-16cu_PCI/MTw/ctx-0
-Exe = MersenneTwister
-Args = --load MersenneTwister_Kernels.bin -q -x 282144 -y 4
-StdIn = 
-StdOut = sim.out
-

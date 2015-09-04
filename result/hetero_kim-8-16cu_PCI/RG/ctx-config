@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/amir/m2s-server-kit/run/hetero_kim-8-16cu_PCI/RG/ctx-0
-Exe = RecursiveGaussian
-Args = --load RecursiveGaussian_Kernels.bin -q
-StdIn = 
-StdOut = sim.out
-

@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/yifan/m2s-server-kit/run/parsec/bodytract/ctx-0
-Exe = bodytrack
-Args = sequenceB_2 4 2 2000 5 0 1 
-StdIn = 
-StdOut = sim.out
-

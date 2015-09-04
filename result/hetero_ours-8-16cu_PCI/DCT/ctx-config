@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/amir/m2s-server-kit/run/hetero_ours-8-16cu_PCI/DCT/ctx-0
-Exe = DCT
-Args = --load DCT_Kernels.bin -q -x 2048 -y 2048
-StdIn = 
-StdOut = sim.out
-

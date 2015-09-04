@@ -1,7 +1,0 @@
-[ Context 0 ]
-Cwd = /home/amir/m2s-server-kit/run/hetero_ours-8-16cu_PCI/RS/ctx-0
-Exe = RadixSort
-Args = --load RadixSort_Kernels.bin -q -x 262144
-StdIn = 
-StdOut = sim.out
-

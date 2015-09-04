@@ -711,7 +711,7 @@ then
 			read num_jobs
 			read num_send_files
 		done < $temp
-#rm -f $inifile_script $temp
+		rm -f $inifile_script $temp
 
 		# Read job list
 		inifile_script=`mktemp`
@@ -727,7 +727,7 @@ then
 			read job_name
 			job_list="$job_list $job_name"
 		done < $temp
-#rm -f $inifile_script $temp
+		rm -f $inifile_script $temp
 
 		# Copy Multi2Sim binary
 		# If the binary has been created automatically from the SVN
@@ -784,7 +784,7 @@ then
 				read data_set
 				read num_threads
 			done < $temp
-#rm -f $inifile_script $temp
+			rm -f $inifile_script $temp
 
 			# Copy files
 			for send_file in $send_files
@@ -845,8 +845,8 @@ then
 					read stdin
 					read data
 				done < $temp
-#rm -f $inifile_script $temp
-#rm -f $bench_ini_parsed
+				rm -f $inifile_script $temp
+				rm -f $bench_ini_parsed
 
 				# If this is the first context, add arguments in "bench_args"
 				if [ $context_id == 0 ]
@@ -901,9 +901,9 @@ then
 
 		# Now that the list of benchmark suites used in the cluster is
 		# complete, check that each of them is up to date
-		# for suite_name in $suite_list
-		# do
-			# cd $HOME/m2s-bench-$suite_name || exit 1
+		for suite_name in $suite_list
+		do
+			cd $HOME/m2s-bench-$suite_name || exit 1
 			# temp=$(mktemp)
 			# svn info > $temp || error "failed running \"svn info\""
 			# rev_current=$(sed -n "s,^Revision: ,,gp" $temp)
@@ -912,22 +912,22 @@ then
 			# rm -f $temp
 			# [ "$rev_current" == "$rev_latest" ] || \
 			#	echo -n " - [WARNING: m2s-bench-$suite_name out of date]"
-		# done
+		done
 
 		# Submit condor cluster
 		echo -n " - launching condor"
 		condor_submit_log=`mktemp`
 		condor_submit -verbose $condor_submit_path > $condor_submit_log \
 			|| error "error submitting jobs with condor"
-#rm -f $condor_submit_path
+		rm -f $condor_submit_path
 
 		# Get condor job IDs
 		# Filter lines like "** Proc 11.0:" from submission output.
 		condor_job_ids=`sed -n "s/^\*\* Proc \(.*\):$/\1/gp" $condor_submit_log`
 		num_condor_job_ids=`echo $condor_job_ids | wc -w`
 		[ $num_condor_job_ids == $num_jobs ] || \
-			error "unexpected condor_submit output format"	
-#rm -f $condor_submit_log
+			error "unexpected condor_submit output format"
+		rm -f $condor_submit_log
 
 		# Get condor cluster ID
 		# Get the first number on the left of the "." from job IDs
@@ -942,7 +942,7 @@ then
 	echo "write $cluster_section Server $server" >> $inifile_script
 	echo "write $cluster_section Port $port" >> $inifile_script
 	$inifile_py $inifile run $inifile_script
-#rm -f $inifile_script
+	rm -f $inifile_script
 
 	# Done
 	echo " - $num_jobs jobs submitted - ok"
@@ -979,7 +979,7 @@ then
 		read server
 		read port
 	done < $temp
-#rm -f $inifile_script $temp
+	rm -f $inifile_script $temp
 
 	# Check cluster state
 	# If it shows up as 'Submitted', refresh it in case simulations finished
@@ -1011,7 +1011,7 @@ then
 		echo "remove $job_section" >> $inifile_script
 	done
 	$inifile_py $inifile run $inifile_script
-#rm -f $inifile_script
+	rm -f $inifile_script
 
 	# If cluster has ever been submitted, delete the directory where it ran
 	# in the server. This clears a lot of space used for benchmark copies.
@@ -1021,13 +1021,13 @@ then
 	then
 		echo -n " - removing cluster in server"
 		ssh $server -p $port '
-#rm -f $HOME/'$M2S_SERVER_KIT_TMP_PATH/$cluster_name'-report.tar.gz
-#rm -rf $HOME/'$M2S_SERVER_KIT_RUN_PATH/$cluster_name'
-#' || error "failed deleting directories in server"
+			rm -f $HOME/'$M2S_SERVER_KIT_TMP_PATH/$cluster_name'-report.tar.gz
+			rm -rf $HOME/'$M2S_SERVER_KIT_RUN_PATH/$cluster_name'
+		' || error "failed deleting directories in server"
 	fi
 
 	# If cluster has been imported, delete the directory
-#rm -rf $HOME/$M2S_CLIENT_KIT_RESULT_PATH/$cluster_name
+	rm -rf $HOME/$M2S_CLIENT_KIT_RESULT_PATH/$cluster_name
 
 	# Done
 	echo " - ok"

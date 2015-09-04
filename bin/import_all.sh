@@ -1,19 +1,24 @@
 #!/bin/bash
+
+CONFIGS="
+hetero_kim-8-16cu-nsi_PCI
+hetero_kim-8-16cu-msi_PCI
+hetero_ours-8-16cu-nsi_PCI
+hetero_ours-8-16cu-msi_PCI
+"
+
 cd ../result
-rm -rf hetero_kim-8-16cu_PCI
-rm -rf hetero_kim-8-16cu_PCI
+for config in $CONFIGS
+do
+  echo $config
+  rm -rf "$config"
+  scp -r amir@nyan.ece.neu.edu:~/m2s-server-kit/run/$config . > scp.out
+  ../bin/analyzeResults.sh $config/
 
-cd ../bin
-./m2s-cluster.sh import -a hetero_kim-8-16cu_PCI &
-./m2s-cluster.sh import -a hetero_ours-8-16cu_PCI
+  KEEP_RECORD="keep"
+  if [ "$1" == "$KEEP_RECORD" ]
+  then
+  ../bin/analyzeResults.sh $config/ >$(date +%Y%m%d%H%M%S)_$config.out
+  fi
 
-cd ../result
-./analyzeResults.sh hetero_kim-8-16cu_PCI/
-./analyzeResults.sh hetero_ours-8-16cu_PCI/
-
-KEEP_RECORD="keep"
-if [ "$1" -eq "$KEEP_RECORD" ]
-then
-  ./analyzeResults.sh hetero_kim-8-16cu_PCI/ >$(date +%Y%m%d%H%M%S)_kim-8-16cu_PCI.out
-  ./analyzeResults.sh hetero_ours-8-16cu_PCI/ >$(date +%Y%m%d%H%M%S)_ours-8-16cu_PCI.out
-fi
+done
