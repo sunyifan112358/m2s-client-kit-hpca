@@ -11,7 +11,7 @@ SIMCOMMAND="--si-sim detailed --si-config si-config.ini \
             --mem-config mem-si.ini --net-config net-si.ini \
             --mem-report mem.ref --net-report net.ref \
             --si-report si.ref \
-            --mem-snapshot 10000 4096"
+            --mem-snapshot 10000000 1048576"
 SENDFILELIST="../config/"$CONFIG"/si-config.ini \
               ../config/"$CONFIG"/mem-si.ini \
               ../config/"$CONFIG"/net-si.ini"
@@ -20,14 +20,6 @@ SENDFILELIST="../config/"$CONFIG"/si-config.ini \
 ./m2s-cluster.sh kill $CLUSTERNAME
 ./m2s-cluster.sh remove $CLUSTERNAME
 ./m2s-cluster.sh create $CLUSTERNAME
-
-JOBNAME=MM
-BENCHCOMMAND="-q -x 512 -y 512 -z 512"
-./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
-    $BENCHMARKSUITE/MatrixMultiplication \
-    --sim-args "$SIMCOMMAND" \
-    --send "$SENDFILELIST" \
-    --bench-args "$BENCHCOMMAND"
 
 JOBNAME=BSch
 BENCHCOMMAND="-q -x 262144"
@@ -78,12 +70,21 @@ BENCHCOMMAND="-q -x 256"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=Hist
-BENCHCOMMAND="-q -x 4096 -y 4096"
+BENCHCOMMAND="-q -x 2048 -y 2048"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/Histogram \
     --sim-args "$SIMCOMMAND" \
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
+
+JOBNAME=MM
+BENCHCOMMAND="-q -x 512 -y 512 -z 512"
+./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
+    $BENCHMARKSUITE/MatrixMultiplication \
+    --sim-args "$SIMCOMMAND" \
+    --send "$SENDFILELIST" \
+    --bench-args "$BENCHCOMMAND"
+
 
 JOBNAME=MT
 BENCHCOMMAND="-q -x 1024 -y 1024 -b 64"
@@ -126,7 +127,7 @@ BENCHCOMMAND="-q -x 2097152"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=SC
-BENCHCOMMAND="-q -x 512 -y 512 -m 32"
+BENCHCOMMAND="-q -x 256 -y 256 -m 32"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/SimpleConvolution \
     --sim-args "$SIMCOMMAND" \
