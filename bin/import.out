@@ -1,78 +1,3 @@
-hetero_kim-8-16cu-nsi_PCI
-
-../result/hetero_kim-8-16cu-nsi_PCI/BSch
-../result/hetero_kim-8-16cu-nsi_PCI/BSch transfered bytes : 3447216
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/BSch cycles : 689475
-
-../result/hetero_kim-8-16cu-nsi_PCI/DCT
-../result/hetero_kim-8-16cu-nsi_PCI/DCT transfered bytes : 80991712
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/DCT cycles : 16199922
-
-../result/hetero_kim-8-16cu-nsi_PCI/DH
-../result/hetero_kim-8-16cu-nsi_PCI/DH transfered bytes : 11716784
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/DH cycles : 2353372
-
-../result/hetero_kim-8-16cu-nsi_PCI/EV
-../result/hetero_kim-8-16cu-nsi_PCI/EV transfered bytes : 1338784
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/EV cycles : 140552140
-
-../result/hetero_kim-8-16cu-nsi_PCI/FW
-../result/hetero_kim-8-16cu-nsi_PCI/FW transfered bytes : 6470320
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/FW cycles : 1390813
-
-../result/hetero_kim-8-16cu-nsi_PCI/FWT
-../result/hetero_kim-8-16cu-nsi_PCI/FWT transfered bytes : 1936688
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/FWT cycles : 403337
-
-../result/hetero_kim-8-16cu-nsi_PCI/Hist
-../result/hetero_kim-8-16cu-nsi_PCI/Hist transfered bytes : 87901120
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/Hist cycles : 17724149
-
-../result/hetero_kim-8-16cu-nsi_PCI/MM
-../result/hetero_kim-8-16cu-nsi_PCI/MM transfered bytes : 18592160
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/MM cycles : 3718828
-
-../result/hetero_kim-8-16cu-nsi_PCI/MT
-../result/hetero_kim-8-16cu-nsi_PCI/MT transfered bytes : 62427824
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/MT cycles : 12488039
-
-../result/hetero_kim-8-16cu-nsi_PCI/MTw
-../result/hetero_kim-8-16cu-nsi_PCI/MTw transfered bytes : 6270096
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/MTw cycles : 1264880
-
-../result/hetero_kim-8-16cu-nsi_PCI/RD
-../result/hetero_kim-8-16cu-nsi_PCI/RD transfered bytes : 12923664
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/RD cycles : 2585674
-
-../result/hetero_kim-8-16cu-nsi_PCI/RS
-../result/hetero_kim-8-16cu-nsi_PCI/RS transfered bytes : 40297456
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/RS cycles : 8480532
-
-../result/hetero_kim-8-16cu-nsi_PCI/SC
-../result/hetero_kim-8-16cu-nsi_PCI/SC transfered bytes : 0
-si-net-gm-mm_net.ref not found
-
-../result/hetero_kim-8-16cu-nsi_PCI/SF
-../result/hetero_kim-8-16cu-nsi_PCI/SF transfered bytes : 10109104
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/SF cycles : 2025673
-
-../result/hetero_kim-8-16cu-nsi_PCI/SLA
-../result/hetero_kim-8-16cu-nsi_PCI/SLA transfered bytes : 43880656
-si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-nsi_PCI/SLA cycles : 8784589
 hetero_kim-8-16cu-msi_PCI
 
 ../result/hetero_kim-8-16cu-msi_PCI/BSch
@@ -81,24 +6,24 @@ si-net-gm-mm_net.ref not found
 ../result/hetero_kim-8-16cu-msi_PCI/BSch cycles : 689589
 
 ../result/hetero_kim-8-16cu-msi_PCI/DCT
-../result/hetero_kim-8-16cu-msi_PCI/DCT transfered bytes : 99158480
+../result/hetero_kim-8-16cu-msi_PCI/DCT transfered bytes : 20215952
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/DCT cycles : 19834889
+../result/hetero_kim-8-16cu-msi_PCI/DCT cycles : 4046606
 
 ../result/hetero_kim-8-16cu-msi_PCI/DH
-../result/hetero_kim-8-16cu-msi_PCI/DH transfered bytes : 11621824
+../result/hetero_kim-8-16cu-msi_PCI/DH transfered bytes : 11262384
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/DH cycles : 2340650
+../result/hetero_kim-8-16cu-msi_PCI/DH cycles : 2267390
 
 ../result/hetero_kim-8-16cu-msi_PCI/EV
-../result/hetero_kim-8-16cu-msi_PCI/EV transfered bytes : 5107008
+../result/hetero_kim-8-16cu-msi_PCI/EV transfered bytes : 5104480
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/EV cycles : 143183304
+../result/hetero_kim-8-16cu-msi_PCI/EV cycles : 143470128
 
 ../result/hetero_kim-8-16cu-msi_PCI/FW
-../result/hetero_kim-8-16cu-msi_PCI/FW transfered bytes : 19034224
+../result/hetero_kim-8-16cu-msi_PCI/FW transfered bytes : 18810144
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/FW cycles : 4037057
+../result/hetero_kim-8-16cu-msi_PCI/FW cycles : 3992944
 
 ../result/hetero_kim-8-16cu-msi_PCI/FWT
 ../result/hetero_kim-8-16cu-msi_PCI/FWT transfered bytes : 3659472
@@ -106,9 +31,9 @@ si-net-gm-mm_net.ref not found
 ../result/hetero_kim-8-16cu-msi_PCI/FWT cycles : 751058
 
 ../result/hetero_kim-8-16cu-msi_PCI/Hist
-../result/hetero_kim-8-16cu-msi_PCI/Hist transfered bytes : 87875264
+../result/hetero_kim-8-16cu-msi_PCI/Hist transfered bytes : 21279440
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/Hist cycles : 17703916
+../result/hetero_kim-8-16cu-msi_PCI/Hist cycles : 4295499
 
 ../result/hetero_kim-8-16cu-msi_PCI/MM
 ../result/hetero_kim-8-16cu-msi_PCI/MM transfered bytes : 18764192
@@ -116,9 +41,9 @@ si-net-gm-mm_net.ref not found
 ../result/hetero_kim-8-16cu-msi_PCI/MM cycles : 3753520
 
 ../result/hetero_kim-8-16cu-msi_PCI/MT
-../result/hetero_kim-8-16cu-msi_PCI/MT transfered bytes : 24323056
+../result/hetero_kim-8-16cu-msi_PCI/MT transfered bytes : 5329984
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/MT cycles : 4867889
+../result/hetero_kim-8-16cu-msi_PCI/MT cycles : 1067958
 
 ../result/hetero_kim-8-16cu-msi_PCI/MTw
 ../result/hetero_kim-8-16cu-msi_PCI/MTw transfered bytes : 6656992
@@ -126,422 +51,999 @@ si-net-gm-mm_net.ref not found
 ../result/hetero_kim-8-16cu-msi_PCI/MTw cycles : 1349145
 
 ../result/hetero_kim-8-16cu-msi_PCI/RD
-../result/hetero_kim-8-16cu-msi_PCI/RD transfered bytes : 12640384
+../result/hetero_kim-8-16cu-msi_PCI/RD transfered bytes : 1154288
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/RD cycles : 2530546
+../result/hetero_kim-8-16cu-msi_PCI/RD cycles : 237229
 
 ../result/hetero_kim-8-16cu-msi_PCI/RS
-../result/hetero_kim-8-16cu-msi_PCI/RS transfered bytes : 53328656
+../result/hetero_kim-8-16cu-msi_PCI/RS transfered bytes : 44053664
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/RS cycles : 12420156
+../result/hetero_kim-8-16cu-msi_PCI/RS cycles : 10557864
 
 ../result/hetero_kim-8-16cu-msi_PCI/SC
-../result/hetero_kim-8-16cu-msi_PCI/SC transfered bytes : 0
+../result/hetero_kim-8-16cu-msi_PCI/SC transfered bytes : 1323328
 si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-msi_PCI/SC cycles : 463785
 
 ../result/hetero_kim-8-16cu-msi_PCI/SF
-../result/hetero_kim-8-16cu-msi_PCI/SF transfered bytes : 10060816
+../result/hetero_kim-8-16cu-msi_PCI/SF transfered bytes : 9992528
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/SF cycles : 2017995
+../result/hetero_kim-8-16cu-msi_PCI/SF cycles : 2001501
 
 ../result/hetero_kim-8-16cu-msi_PCI/SLA
-../result/hetero_kim-8-16cu-msi_PCI/SLA transfered bytes : 44243296
+../result/hetero_kim-8-16cu-msi_PCI/SLA transfered bytes : 21355136
 si-net-gm-mm_net.ref not found
-../result/hetero_kim-8-16cu-msi_PCI/SLA cycles : 8857418
-hetero_ours-8-16cu-nsi_PCI
+../result/hetero_kim-8-16cu-msi_PCI/SLA cycles : 4283161
+hetero_kim-8-16cu-nsi_PCI
 
-../result/hetero_ours-8-16cu-nsi_PCI/BSch
-../result/hetero_ours-8-16cu-nsi_PCI/BSch transfered bytes : 0
-../result/hetero_ours-8-16cu-nsi_PCI/BSch transfered bytes : 3191504
-../result/hetero_ours-8-16cu-nsi_PCI/BSch cycles : 643776
+../result/hetero_kim-8-16cu-nsi_PCI/BSch
+../result/hetero_kim-8-16cu-nsi_PCI/BSch transfered bytes : 3447216
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/BSch cycles : 689475
 
-../result/hetero_ours-8-16cu-nsi_PCI/DCT
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 5
+../result/hetero_kim-8-16cu-nsi_PCI/DCT
+../result/hetero_kim-8-16cu-nsi_PCI/DCT transfered bytes : 17047168
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/DCT cycles : 3411333
 
-Not finished or crashed
+../result/hetero_kim-8-16cu-nsi_PCI/DH
+../result/hetero_kim-8-16cu-nsi_PCI/DH transfered bytes : 11400336
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/DH cycles : 2291483
 
-../result/hetero_ours-8-16cu-nsi_PCI/DH
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 5
+../result/hetero_kim-8-16cu-nsi_PCI/EV
+../result/hetero_kim-8-16cu-nsi_PCI/EV transfered bytes : 1338784
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/EV cycles : 140552140
 
-Not finished or crashed
+../result/hetero_kim-8-16cu-nsi_PCI/FW
+../result/hetero_kim-8-16cu-nsi_PCI/FW transfered bytes : 6279856
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/FW cycles : 1354980
 
-../result/hetero_ours-8-16cu-nsi_PCI/EV
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 5
+../result/hetero_kim-8-16cu-nsi_PCI/FWT
+../result/hetero_kim-8-16cu-nsi_PCI/FWT transfered bytes : 1936688
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/FWT cycles : 403337
 
-Not finished or crashed
+../result/hetero_kim-8-16cu-nsi_PCI/Hist
+../result/hetero_kim-8-16cu-nsi_PCI/Hist transfered bytes : 21279440
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/Hist cycles : 4302467
 
-../result/hetero_ours-8-16cu-nsi_PCI/FW
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 5
+../result/hetero_kim-8-16cu-nsi_PCI/MM
+../result/hetero_kim-8-16cu-nsi_PCI/MM transfered bytes : 18592160
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/MM cycles : 3718828
 
-Not finished or crashed
+../result/hetero_kim-8-16cu-nsi_PCI/MT
+../result/hetero_kim-8-16cu-nsi_PCI/MT transfered bytes : 5205424
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/MT cycles : 1041628
 
-../result/hetero_ours-8-16cu-nsi_PCI/FWT
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 5
+../result/hetero_kim-8-16cu-nsi_PCI/MTw
+../result/hetero_kim-8-16cu-nsi_PCI/MTw transfered bytes : 6270096
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/MTw cycles : 1264880
 
-Not finished or crashed
+../result/hetero_kim-8-16cu-nsi_PCI/RD
+../result/hetero_kim-8-16cu-nsi_PCI/RD transfered bytes : 1154288
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/RD cycles : 237217
 
-../result/hetero_ours-8-16cu-nsi_PCI/Hist
-../result/hetero_ours-8-16cu-nsi_PCI/Hist transfered bytes : 0
-../result/hetero_ours-8-16cu-nsi_PCI/Hist transfered bytes : 0
+../result/hetero_kim-8-16cu-nsi_PCI/RS
+../result/hetero_kim-8-16cu-nsi_PCI/RS transfered bytes : 38563344
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/RS cycles : 8164732
 
-../result/hetero_ours-8-16cu-nsi_PCI/MM
-../result/hetero_ours-8-16cu-nsi_PCI/MM transfered bytes : 0
-../result/hetero_ours-8-16cu-nsi_PCI/MM transfered bytes : 10642016
-../result/hetero_ours-8-16cu-nsi_PCI/MM cycles : 2131229
+../result/hetero_kim-8-16cu-nsi_PCI/SC
+../result/hetero_kim-8-16cu-nsi_PCI/SC transfered bytes : 1323328
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/SC cycles : 463345
 
-../result/hetero_ours-8-16cu-nsi_PCI/MT
-../result/hetero_ours-8-16cu-nsi_PCI/MT transfered bytes : 0
-../result/hetero_ours-8-16cu-nsi_PCI/MT transfered bytes : 0
+../result/hetero_kim-8-16cu-nsi_PCI/SF
+../result/hetero_kim-8-16cu-nsi_PCI/SF transfered bytes : 9895840
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/SF cycles : 1985553
 
-../result/hetero_ours-8-16cu-nsi_PCI/MTw
-../result/hetero_ours-8-16cu-nsi_PCI/MTw transfered bytes : 0
-../result/hetero_ours-8-16cu-nsi_PCI/MTw transfered bytes : 0
-
-../result/hetero_ours-8-16cu-nsi_PCI/RD
-../result/hetero_ours-8-16cu-nsi_PCI/RD transfered bytes : 0
-../result/hetero_ours-8-16cu-nsi_PCI/RD transfered bytes : 0
-
-../result/hetero_ours-8-16cu-nsi_PCI/RS
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 1
-
-Not finished or crashed
-
-../result/hetero_ours-8-16cu-nsi_PCI/SC
-../result/hetero_ours-8-16cu-nsi_PCI/SC transfered bytes : 0
-../result/hetero_ours-8-16cu-nsi_PCI/SC transfered bytes : 0
-
-../result/hetero_ours-8-16cu-nsi_PCI/SF
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 5
-
-Not finished or crashed
-
-../result/hetero_ours-8-16cu-nsi_PCI/SLA
-fatal: mod_handler_nmoesi_evict: Invalid cache block state 1: 5
-
-Not finished or crashed
-hetero_ours-8-16cu-msi_PCI
-
-../result/hetero_ours-8-16cu-msi_PCI/BSch
-../result/hetero_ours-8-16cu-msi_PCI/BSch transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/BSch transfered bytes : 3191504
-../result/hetero_ours-8-16cu-msi_PCI/BSch cycles : 640463
-
-../result/hetero_ours-8-16cu-msi_PCI/DCT
-../result/hetero_ours-8-16cu-msi_PCI/DCT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/DCT transfered bytes : 0
-
-../result/hetero_ours-8-16cu-msi_PCI/DH
-../result/hetero_ours-8-16cu-msi_PCI/DH transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/DH transfered bytes : 0
-
-../result/hetero_ours-8-16cu-msi_PCI/EV
-../result/hetero_ours-8-16cu-msi_PCI/EV transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/EV transfered bytes : 84699376
-../result/hetero_ours-8-16cu-msi_PCI/EV cycles : 154611080
-
-../result/hetero_ours-8-16cu-msi_PCI/FW
-../result/hetero_ours-8-16cu-msi_PCI/FW transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/FW transfered bytes : 0
-
-../result/hetero_ours-8-16cu-msi_PCI/FWT
-../result/hetero_ours-8-16cu-msi_PCI/FWT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/FWT transfered bytes : 3042368
-../result/hetero_ours-8-16cu-msi_PCI/FWT cycles : 649148
-
-../result/hetero_ours-8-16cu-msi_PCI/Hist
-../result/hetero_ours-8-16cu-msi_PCI/Hist transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/Hist transfered bytes : 0
-
-../result/hetero_ours-8-16cu-msi_PCI/MM
-../result/hetero_ours-8-16cu-msi_PCI/MM transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/MM transfered bytes : 10642016
-../result/hetero_ours-8-16cu-msi_PCI/MM cycles : 2133591
-
-../result/hetero_ours-8-16cu-msi_PCI/MT
-../result/hetero_ours-8-16cu-msi_PCI/MT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/MT transfered bytes : 0
-
-../result/hetero_ours-8-16cu-msi_PCI/MTw
-../result/hetero_ours-8-16cu-msi_PCI/MTw transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/MTw transfered bytes : 5296768
-../result/hetero_ours-8-16cu-msi_PCI/MTw cycles : 1248231
-
-../result/hetero_ours-8-16cu-msi_PCI/RD
-../result/hetero_ours-8-16cu-msi_PCI/RD transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/RD transfered bytes : 0
-
-../result/hetero_ours-8-16cu-msi_PCI/RS
-../result/hetero_ours-8-16cu-msi_PCI/RS transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/RS transfered bytes : 20384944
-../result/hetero_ours-8-16cu-msi_PCI/RS cycles : 18930404
-
-../result/hetero_ours-8-16cu-msi_PCI/SC
-../result/hetero_ours-8-16cu-msi_PCI/SC transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/SC transfered bytes : 0
-
-../result/hetero_ours-8-16cu-msi_PCI/SF
-../result/hetero_ours-8-16cu-msi_PCI/SF transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/SF transfered bytes : 19126080
-../result/hetero_ours-8-16cu-msi_PCI/SF cycles : 3849589
-
-../result/hetero_ours-8-16cu-msi_PCI/SLA
-../result/hetero_ours-8-16cu-msi_PCI/SLA transfered bytes : 0
-../result/hetero_ours-8-16cu-msi_PCI/SLA transfered bytes : 0
+../result/hetero_kim-8-16cu-nsi_PCI/SLA
+../result/hetero_kim-8-16cu-nsi_PCI/SLA transfered bytes : 19529232
+si-net-gm-mm_net.ref not found
+../result/hetero_kim-8-16cu-nsi_PCI/SLA cycles : 3915448
 hetero_ours-8-16cu-msi-64_PCI
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/BSch
 ../result/hetero_ours-8-16cu-msi-64_PCI/BSch transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/BSch transfered bytes : 3938912
-../result/hetero_ours-8-16cu-msi-64_PCI/BSch cycles : 788752
+../result/hetero_ours-8-16cu-msi-64_PCI/BSch transfered bytes : 3939344
+../result/hetero_ours-8-16cu-msi-64_PCI/BSch cycles : 788531
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/DCT
 ../result/hetero_ours-8-16cu-msi-64_PCI/DCT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-64_PCI/DCT transfered bytes : 16803216
+../result/hetero_ours-8-16cu-msi-64_PCI/DCT cycles : 3366575
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/DH
 ../result/hetero_ours-8-16cu-msi-64_PCI/DH transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-64_PCI/DH transfered bytes : 10671120
+../result/hetero_ours-8-16cu-msi-64_PCI/DH cycles : 2150379
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/EV
 ../result/hetero_ours-8-16cu-msi-64_PCI/EV transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-64_PCI/EV transfered bytes : 5595328
+../result/hetero_ours-8-16cu-msi-64_PCI/EV cycles : 141362282
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/FW
 ../result/hetero_ours-8-16cu-msi-64_PCI/FW transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-64_PCI/FW transfered bytes : 24364688
+../result/hetero_ours-8-16cu-msi-64_PCI/FW cycles : 5526004
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/FWT
 ../result/hetero_ours-8-16cu-msi-64_PCI/FWT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/FWT transfered bytes : 4046784
-../result/hetero_ours-8-16cu-msi-64_PCI/FWT cycles : 829003
+../result/hetero_ours-8-16cu-msi-64_PCI/FWT transfered bytes : 4046768
+../result/hetero_ours-8-16cu-msi-64_PCI/FWT cycles : 828945
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/Hist
 ../result/hetero_ours-8-16cu-msi-64_PCI/Hist transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-64_PCI/Hist transfered bytes : 21140000
+../result/hetero_ours-8-16cu-msi-64_PCI/Hist cycles : 4276668
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/MM
 ../result/hetero_ours-8-16cu-msi-64_PCI/MM transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/MM transfered bytes : 15147824
-../result/hetero_ours-8-16cu-msi-64_PCI/MM cycles : 3030133
+../result/hetero_ours-8-16cu-msi-64_PCI/MM transfered bytes : 15510240
+../result/hetero_ours-8-16cu-msi-64_PCI/MM cycles : 3102774
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/MT
 ../result/hetero_ours-8-16cu-msi-64_PCI/MT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/MT transfered bytes : 20572192
-../result/hetero_ours-8-16cu-msi-64_PCI/MT cycles : 4135344
+../result/hetero_ours-8-16cu-msi-64_PCI/MT transfered bytes : 5359072
+../result/hetero_ours-8-16cu-msi-64_PCI/MT cycles : 1088897
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/MTw
 ../result/hetero_ours-8-16cu-msi-64_PCI/MTw transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/MTw transfered bytes : 6576640
-../result/hetero_ours-8-16cu-msi-64_PCI/MTw cycles : 1371615
+../result/hetero_ours-8-16cu-msi-64_PCI/MTw transfered bytes : 6576480
+../result/hetero_ours-8-16cu-msi-64_PCI/MTw cycles : 1382453
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/RD
 ../result/hetero_ours-8-16cu-msi-64_PCI/RD transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-64_PCI/RD transfered bytes : 1321056
+../result/hetero_ours-8-16cu-msi-64_PCI/RD cycles : 269705
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/RS
 ../result/hetero_ours-8-16cu-msi-64_PCI/RS transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/RS transfered bytes : 25904704
-../result/hetero_ours-8-16cu-msi-64_PCI/RS cycles : 10684736
+../result/hetero_ours-8-16cu-msi-64_PCI/RS transfered bytes : 25546432
+../result/hetero_ours-8-16cu-msi-64_PCI/RS cycles : 16316200
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/SC
 ../result/hetero_ours-8-16cu-msi-64_PCI/SC transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/SC transfered bytes : 1467856
-../result/hetero_ours-8-16cu-msi-64_PCI/SC cycles : 491105
+../result/hetero_ours-8-16cu-msi-64_PCI/SC transfered bytes : 1473184
+../result/hetero_ours-8-16cu-msi-64_PCI/SC cycles : 490995
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/SF
 ../result/hetero_ours-8-16cu-msi-64_PCI/SF transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/SF transfered bytes : 9769776
-../result/hetero_ours-8-16cu-msi-64_PCI/SF cycles : 1967051
+../result/hetero_ours-8-16cu-msi-64_PCI/SF transfered bytes : 9942048
+../result/hetero_ours-8-16cu-msi-64_PCI/SF cycles : 2002493
 
 ../result/hetero_ours-8-16cu-msi-64_PCI/SLA
 ../result/hetero_ours-8-16cu-msi-64_PCI/SLA transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-64_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-64_PCI/SLA transfered bytes : 26465520
+../result/hetero_ours-8-16cu-msi-64_PCI/SLA cycles : 5305234
 hetero_ours-8-16cu-msi-128_PCI
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/BSch
 ../result/hetero_ours-8-16cu-msi-128_PCI/BSch transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/BSch transfered bytes : 3548336
-../result/hetero_ours-8-16cu-msi-128_PCI/BSch cycles : 733709
+../result/hetero_ours-8-16cu-msi-128_PCI/BSch transfered bytes : 3550304
+../result/hetero_ours-8-16cu-msi-128_PCI/BSch cycles : 733523
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/DCT
 ../result/hetero_ours-8-16cu-msi-128_PCI/DCT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/DCT transfered bytes : 23811792
+../result/hetero_ours-8-16cu-msi-128_PCI/DCT cycles : 4767226
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/DH
 ../result/hetero_ours-8-16cu-msi-128_PCI/DH transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/DH transfered bytes : 9683040
+../result/hetero_ours-8-16cu-msi-128_PCI/DH cycles : 1952402
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/EV
 ../result/hetero_ours-8-16cu-msi-128_PCI/EV transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/EV transfered bytes : 5138976
+../result/hetero_ours-8-16cu-msi-128_PCI/EV cycles : 142084624
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/FW
 ../result/hetero_ours-8-16cu-msi-128_PCI/FW transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/FW transfered bytes : 20491584
+../result/hetero_ours-8-16cu-msi-128_PCI/FW cycles : 4745392
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/FWT
 ../result/hetero_ours-8-16cu-msi-128_PCI/FWT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/FWT transfered bytes : 3633760
-../result/hetero_ours-8-16cu-msi-128_PCI/FWT cycles : 751348
+../result/hetero_ours-8-16cu-msi-128_PCI/FWT transfered bytes : 3628688
+../result/hetero_ours-8-16cu-msi-128_PCI/FWT cycles : 750231
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/Hist
 ../result/hetero_ours-8-16cu-msi-128_PCI/Hist transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/Hist transfered bytes : 19026336
+../result/hetero_ours-8-16cu-msi-128_PCI/Hist cycles : 3844679
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/MM
 ../result/hetero_ours-8-16cu-msi-128_PCI/MM transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/MM transfered bytes : 13302848
+../result/hetero_ours-8-16cu-msi-128_PCI/MM cycles : 2661259
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/MT
 ../result/hetero_ours-8-16cu-msi-128_PCI/MT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/MT transfered bytes : 8639888
+../result/hetero_ours-8-16cu-msi-128_PCI/MT cycles : 1752622
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/MTw
 ../result/hetero_ours-8-16cu-msi-128_PCI/MTw transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/MTw transfered bytes : 5916512
-../result/hetero_ours-8-16cu-msi-128_PCI/MTw cycles : 1421567
+../result/hetero_ours-8-16cu-msi-128_PCI/MTw transfered bytes : 5916944
+../result/hetero_ours-8-16cu-msi-128_PCI/MTw cycles : 1425222
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/RD
 ../result/hetero_ours-8-16cu-msi-128_PCI/RD transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/RD transfered bytes : 1189696
+../result/hetero_ours-8-16cu-msi-128_PCI/RD cycles : 245668
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/RS
 ../result/hetero_ours-8-16cu-msi-128_PCI/RS transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/RS transfered bytes : 24457408
-../result/hetero_ours-8-16cu-msi-128_PCI/RS cycles : 18612924
+../result/hetero_ours-8-16cu-msi-128_PCI/RS transfered bytes : 23489216
+../result/hetero_ours-8-16cu-msi-128_PCI/RS cycles : 25755156
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/SC
 ../result/hetero_ours-8-16cu-msi-128_PCI/SC transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/SC transfered bytes : 1271280
-../result/hetero_ours-8-16cu-msi-128_PCI/SC cycles : 422830
+../result/hetero_ours-8-16cu-msi-128_PCI/SC transfered bytes : 1274880
+../result/hetero_ours-8-16cu-msi-128_PCI/SC cycles : 422729
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/SF
 ../result/hetero_ours-8-16cu-msi-128_PCI/SF transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/SF transfered bytes : 9112848
-../result/hetero_ours-8-16cu-msi-128_PCI/SF cycles : 1832620
+../result/hetero_ours-8-16cu-msi-128_PCI/SF transfered bytes : 8939520
+../result/hetero_ours-8-16cu-msi-128_PCI/SF cycles : 1797325
 
 ../result/hetero_ours-8-16cu-msi-128_PCI/SLA
 ../result/hetero_ours-8-16cu-msi-128_PCI/SLA transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-128_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-128_PCI/SLA transfered bytes : 23110624
+../result/hetero_ours-8-16cu-msi-128_PCI/SLA cycles : 4635081
 hetero_ours-8-16cu-msi-256_PCI
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/BSch
 ../result/hetero_ours-8-16cu-msi-256_PCI/BSch transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/BSch transfered bytes : 3359648
+../result/hetero_ours-8-16cu-msi-256_PCI/BSch cycles : 694768
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/DCT
 ../result/hetero_ours-8-16cu-msi-256_PCI/DCT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/DCT transfered bytes : 35744736
+../result/hetero_ours-8-16cu-msi-256_PCI/DCT cycles : 7150166
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/DH
 ../result/hetero_ours-8-16cu-msi-256_PCI/DH transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/DH transfered bytes : 10072560
+../result/hetero_ours-8-16cu-msi-256_PCI/DH cycles : 2029078
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/EV
 ../result/hetero_ours-8-16cu-msi-256_PCI/EV transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/EV transfered bytes : 5756320
+../result/hetero_ours-8-16cu-msi-256_PCI/EV cycles : 141626788
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/FW
 ../result/hetero_ours-8-16cu-msi-256_PCI/FW transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/FW transfered bytes : 18536544
+../result/hetero_ours-8-16cu-msi-256_PCI/FW cycles : 4410464
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/FWT
 ../result/hetero_ours-8-16cu-msi-256_PCI/FWT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/FWT transfered bytes : 3421424
+../result/hetero_ours-8-16cu-msi-256_PCI/FWT cycles : 713922
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/Hist
 ../result/hetero_ours-8-16cu-msi-256_PCI/Hist transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/Hist transfered bytes : 17970592
+../result/hetero_ours-8-16cu-msi-256_PCI/Hist cycles : 3636038
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/MM
 ../result/hetero_ours-8-16cu-msi-256_PCI/MM transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/MM transfered bytes : 12975824
+../result/hetero_ours-8-16cu-msi-256_PCI/MM cycles : 2595764
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/MT
 ../result/hetero_ours-8-16cu-msi-256_PCI/MT transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/MT transfered bytes : 14309648
+../result/hetero_ours-8-16cu-msi-256_PCI/MT cycles : 2936169
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/MTw
 ../result/hetero_ours-8-16cu-msi-256_PCI/MTw transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/MTw transfered bytes : 5590528
+../result/hetero_ours-8-16cu-msi-256_PCI/MTw cycles : 1376156
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/RD
 ../result/hetero_ours-8-16cu-msi-256_PCI/RD transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/RD transfered bytes : 1124144
+../result/hetero_ours-8-16cu-msi-256_PCI/RD cycles : 233992
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/RS
 ../result/hetero_ours-8-16cu-msi-256_PCI/RS transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/RS transfered bytes : 22794064
+../result/hetero_ours-8-16cu-msi-256_PCI/RS cycles : 35528924
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/SC
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-256_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/SC transfered bytes : 1168752
+../result/hetero_ours-8-16cu-msi-256_PCI/SC cycles : 465678
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/SF
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-256_PCI/SF transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/SF transfered bytes : 8617552
+../result/hetero_ours-8-16cu-msi-256_PCI/SF cycles : 1730611
 
 ../result/hetero_ours-8-16cu-msi-256_PCI/SLA
 ../result/hetero_ours-8-16cu-msi-256_PCI/SLA transfered bytes : 0
-../result/hetero_ours-8-16cu-msi-256_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-256_PCI/SLA transfered bytes : 22865696
+../result/hetero_ours-8-16cu-msi-256_PCI/SLA cycles : 4591255
 hetero_ours-8-16cu-msi-512_PCI
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/BSch
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/BSch transfered bytes : 3269152
+../result/hetero_ours-8-16cu-msi-512_PCI/BSch cycles : 676995
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/DCT
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/DCT transfered bytes : 0
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/DH
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/DH transfered bytes : 14709840
+../result/hetero_ours-8-16cu-msi-512_PCI/DH cycles : 2953891
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/EV
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/EV transfered bytes : 5578336
+../result/hetero_ours-8-16cu-msi-512_PCI/EV cycles : 141894348
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/FW
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/FW transfered bytes : 16758992
+../result/hetero_ours-8-16cu-msi-512_PCI/FW cycles : 4157917
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/FWT
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/FWT transfered bytes : 3362352
+../result/hetero_ours-8-16cu-msi-512_PCI/FWT cycles : 704098
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/Hist
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/Hist transfered bytes : 17442528
+../result/hetero_ours-8-16cu-msi-512_PCI/Hist cycles : 3530272
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/MM
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/MM transfered bytes : 12921056
+../result/hetero_ours-8-16cu-msi-512_PCI/MM cycles : 2584599
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/MT
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/MT transfered bytes : 41306800
+../result/hetero_ours-8-16cu-msi-512_PCI/MT cycles : 8267268
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/MTw
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/MTw transfered bytes : 5430160
+../result/hetero_ours-8-16cu-msi-512_PCI/MTw cycles : 1338128
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/RD
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/RD transfered bytes : 1155056
+../result/hetero_ours-8-16cu-msi-512_PCI/RD cycles : 235802
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/RS
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/RS transfered bytes : 22579936
+../result/hetero_ours-8-16cu-msi-512_PCI/RS cycles : 18451720
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/SC
-si-net-l2-gm_net.ref not found
-si-net-gm-mm_net.ref not found
+../result/hetero_ours-8-16cu-msi-512_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/SC transfered bytes : 1122608
+../result/hetero_ours-8-16cu-msi-512_PCI/SC cycles : 455527
 
 ../result/hetero_ours-8-16cu-msi-512_PCI/SF
+../result/hetero_ours-8-16cu-msi-512_PCI/SF transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/SF transfered bytes : 8824496
+../result/hetero_ours-8-16cu-msi-512_PCI/SF cycles : 1775453
+
+../result/hetero_ours-8-16cu-msi-512_PCI/SLA
+../result/hetero_ours-8-16cu-msi-512_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-512_PCI/SLA transfered bytes : 0
+hetero_ours-8-16cu-msi-1024_PCI
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/BSch
+../result/hetero_ours-8-16cu-msi-1024_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/BSch transfered bytes : 3231232
+../result/hetero_ours-8-16cu-msi-1024_PCI/BSch cycles : 669860
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/DCT
+../result/hetero_ours-8-16cu-msi-1024_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/DCT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/DH
+../result/hetero_ours-8-16cu-msi-1024_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/DH transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/EV
+../result/hetero_ours-8-16cu-msi-1024_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/EV transfered bytes : 8935296
+../result/hetero_ours-8-16cu-msi-1024_PCI/EV cycles : 141300600
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/FW
+../result/hetero_ours-8-16cu-msi-1024_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/FW transfered bytes : 23063264
+../result/hetero_ours-8-16cu-msi-1024_PCI/FW cycles : 5836053
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/FWT
+../result/hetero_ours-8-16cu-msi-1024_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/FWT transfered bytes : 3388656
+../result/hetero_ours-8-16cu-msi-1024_PCI/FWT cycles : 707168
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/Hist
+../result/hetero_ours-8-16cu-msi-1024_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/Hist transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/MM
+../result/hetero_ours-8-16cu-msi-1024_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/MM transfered bytes : 14052112
+../result/hetero_ours-8-16cu-msi-1024_PCI/MM cycles : 2811040
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/MT
+../result/hetero_ours-8-16cu-msi-1024_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/MT transfered bytes : 48619712
+../result/hetero_ours-8-16cu-msi-1024_PCI/MT cycles : 9747846
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/MTw
+../result/hetero_ours-8-16cu-msi-1024_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/MTw transfered bytes : 5352672
+../result/hetero_ours-8-16cu-msi-1024_PCI/MTw cycles : 1295374
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/RD
+../result/hetero_ours-8-16cu-msi-1024_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/RD transfered bytes : 1290272
+../result/hetero_ours-8-16cu-msi-1024_PCI/RD cycles : 259441
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/RS
+../result/hetero_ours-8-16cu-msi-1024_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/RS transfered bytes : 21743792
+../result/hetero_ours-8-16cu-msi-1024_PCI/RS cycles : 19085924
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/SC
+../result/hetero_ours-8-16cu-msi-1024_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/SC transfered bytes : 1104240
+../result/hetero_ours-8-16cu-msi-1024_PCI/SC cycles : 467518
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/SF
+../result/hetero_ours-8-16cu-msi-1024_PCI/SF transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/SF transfered bytes : 9869680
+../result/hetero_ours-8-16cu-msi-1024_PCI/SF cycles : 1993737
+
+../result/hetero_ours-8-16cu-msi-1024_PCI/SLA
+../result/hetero_ours-8-16cu-msi-1024_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-1024_PCI/SLA transfered bytes : 0
+hetero_ours-8-16cu-msi-2048_PCI
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/BSch
+../result/hetero_ours-8-16cu-msi-2048_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/BSch transfered bytes : 3210160
+../result/hetero_ours-8-16cu-msi-2048_PCI/BSch cycles : 644379
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/DCT
+../result/hetero_ours-8-16cu-msi-2048_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/DCT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/DH
+../result/hetero_ours-8-16cu-msi-2048_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/DH transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/EV
+../result/hetero_ours-8-16cu-msi-2048_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/EV transfered bytes : 22401552
+../result/hetero_ours-8-16cu-msi-2048_PCI/EV cycles : 141645440
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/FW
+../result/hetero_ours-8-16cu-msi-2048_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/FW transfered bytes : 44606128
+../result/hetero_ours-8-16cu-msi-2048_PCI/FW cycles : 10462920
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/FWT
+../result/hetero_ours-8-16cu-msi-2048_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/FWT transfered bytes : 3504544
+../result/hetero_ours-8-16cu-msi-2048_PCI/FWT cycles : 734296
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/Hist
+../result/hetero_ours-8-16cu-msi-2048_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/Hist transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/MM
+../result/hetero_ours-8-16cu-msi-2048_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/MM transfered bytes : 12558448
+../result/hetero_ours-8-16cu-msi-2048_PCI/MM cycles : 2512247
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/MT
+../result/hetero_ours-8-16cu-msi-2048_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/MT transfered bytes : 90207104
+../result/hetero_ours-8-16cu-msi-2048_PCI/MT cycles : 18040733
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/MTw
+../result/hetero_ours-8-16cu-msi-2048_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/MTw transfered bytes : 5321792
+../result/hetero_ours-8-16cu-msi-2048_PCI/MTw cycles : 1244058
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/RD
+../result/hetero_ours-8-16cu-msi-2048_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/RD transfered bytes : 1538448
+../result/hetero_ours-8-16cu-msi-2048_PCI/RD cycles : 309042
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/RS
+../result/hetero_ours-8-16cu-msi-2048_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/RS transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/SC
+../result/hetero_ours-8-16cu-msi-2048_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/SC transfered bytes : 1097392
+../result/hetero_ours-8-16cu-msi-2048_PCI/SC cycles : 478304
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/SF
+../result/hetero_ours-8-16cu-msi-2048_PCI/SF transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/SF transfered bytes : 13424384
+../result/hetero_ours-8-16cu-msi-2048_PCI/SF cycles : 2699858
+
+../result/hetero_ours-8-16cu-msi-2048_PCI/SLA
+../result/hetero_ours-8-16cu-msi-2048_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-2048_PCI/SLA transfered bytes : 0
+hetero_ours-8-16cu-msi-4096_PCI
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/BSch
+../result/hetero_ours-8-16cu-msi-4096_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/BSch transfered bytes : 3199792
+../result/hetero_ours-8-16cu-msi-4096_PCI/BSch cycles : 641911
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/DCT
+../result/hetero_ours-8-16cu-msi-4096_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/DCT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/DH
+../result/hetero_ours-8-16cu-msi-4096_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/DH transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/EV
+../result/hetero_ours-8-16cu-msi-4096_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/EV transfered bytes : 61367904
+../result/hetero_ours-8-16cu-msi-4096_PCI/EV cycles : 148134256
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/FW
+../result/hetero_ours-8-16cu-msi-4096_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/FW transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/FWT
+../result/hetero_ours-8-16cu-msi-4096_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/FWT transfered bytes : 3477792
+../result/hetero_ours-8-16cu-msi-4096_PCI/FWT cycles : 730865
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/Hist
+../result/hetero_ours-8-16cu-msi-4096_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/Hist transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/MM
+../result/hetero_ours-8-16cu-msi-4096_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/MM transfered bytes : 12312896
+../result/hetero_ours-8-16cu-msi-4096_PCI/MM cycles : 2468047
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/MT
+../result/hetero_ours-8-16cu-msi-4096_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/MT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/MTw
+../result/hetero_ours-8-16cu-msi-4096_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/MTw transfered bytes : 5305056
+../result/hetero_ours-8-16cu-msi-4096_PCI/MTw cycles : 1232270
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/RD
+../result/hetero_ours-8-16cu-msi-4096_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/RD transfered bytes : 1902544
+../result/hetero_ours-8-16cu-msi-4096_PCI/RD cycles : 383430
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/RS
+../result/hetero_ours-8-16cu-msi-4096_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/RS transfered bytes : 0
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/SC
+../result/hetero_ours-8-16cu-msi-4096_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/SC transfered bytes : 1120752
+../result/hetero_ours-8-16cu-msi-4096_PCI/SC cycles : 533268
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/SF
+../result/hetero_ours-8-16cu-msi-4096_PCI/SF transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/SF transfered bytes : 17756096
+../result/hetero_ours-8-16cu-msi-4096_PCI/SF cycles : 3570221
+
+../result/hetero_ours-8-16cu-msi-4096_PCI/SLA
+../result/hetero_ours-8-16cu-msi-4096_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-msi-4096_PCI/SLA transfered bytes : 0
+hetero_ours-8-16cu-nsi-64_PCI
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/BSch
+../result/hetero_ours-8-16cu-nsi-64_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/BSch transfered bytes : 3939344
+../result/hetero_ours-8-16cu-nsi-64_PCI/BSch cycles : 788005
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/DCT
+../result/hetero_ours-8-16cu-nsi-64_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/DCT transfered bytes : 13728528
+../result/hetero_ours-8-16cu-nsi-64_PCI/DCT cycles : 2747368
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/DH
+../result/hetero_ours-8-16cu-nsi-64_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/DH transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/EV
+../result/hetero_ours-8-16cu-nsi-64_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/EV transfered bytes : 1488432
+../result/hetero_ours-8-16cu-nsi-64_PCI/EV cycles : 140186532
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/FW
+../result/hetero_ours-8-16cu-nsi-64_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/FW transfered bytes : 6701264
+../result/hetero_ours-8-16cu-nsi-64_PCI/FW cycles : 1508960
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/FWT
+../result/hetero_ours-8-16cu-nsi-64_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/FWT transfered bytes : 2077280
+../result/hetero_ours-8-16cu-nsi-64_PCI/FWT cycles : 432437
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/Hist
+../result/hetero_ours-8-16cu-nsi-64_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/Hist transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/MM
+../result/hetero_ours-8-16cu-nsi-64_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/MM transfered bytes : 15530016
+../result/hetero_ours-8-16cu-nsi-64_PCI/MM cycles : 3106533
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/MT
+../result/hetero_ours-8-16cu-nsi-64_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/MT transfered bytes : 4460320
+../result/hetero_ours-8-16cu-nsi-64_PCI/MT cycles : 892762
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/MTw
+../result/hetero_ours-8-16cu-nsi-64_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/MTw transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/RD
+../result/hetero_ours-8-16cu-nsi-64_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/RD transfered bytes : 1321056
+../result/hetero_ours-8-16cu-nsi-64_PCI/RD cycles : 269705
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/RS
+../result/hetero_ours-8-16cu-nsi-64_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/RS transfered bytes : 25299456
+../result/hetero_ours-8-16cu-nsi-64_PCI/RS cycles : 8735564
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/SC
+../result/hetero_ours-8-16cu-nsi-64_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/SC transfered bytes : 1473184
+../result/hetero_ours-8-16cu-nsi-64_PCI/SC cycles : 490229
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/SF
+../result/hetero_ours-8-16cu-nsi-64_PCI/SF transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/SF transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-64_PCI/SLA
+../result/hetero_ours-8-16cu-nsi-64_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-64_PCI/SLA transfered bytes : 0
+hetero_ours-8-16cu-nsi-128_PCI
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/BSch
+../result/hetero_ours-8-16cu-nsi-128_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/BSch transfered bytes : 3550304
+../result/hetero_ours-8-16cu-nsi-128_PCI/BSch cycles : 733442
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/DCT
+../result/hetero_ours-8-16cu-nsi-128_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/DCT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/DH
+../result/hetero_ours-8-16cu-nsi-128_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/DH transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/EV
+../result/hetero_ours-8-16cu-nsi-128_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/EV transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/FW
+../result/hetero_ours-8-16cu-nsi-128_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/FW transfered bytes : 5496832
+../result/hetero_ours-8-16cu-nsi-128_PCI/FW cycles : 1277341
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/FWT
+../result/hetero_ours-8-16cu-nsi-128_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/FWT transfered bytes : 1930352
+../result/hetero_ours-8-16cu-nsi-128_PCI/FWT cycles : 409959
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/Hist
+../result/hetero_ours-8-16cu-nsi-128_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/Hist transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/MM
+../result/hetero_ours-8-16cu-nsi-128_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/MM transfered bytes : 13322784
+../result/hetero_ours-8-16cu-nsi-128_PCI/MM cycles : 2665250
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/MT
+../result/hetero_ours-8-16cu-nsi-128_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/MT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/MTw
+../result/hetero_ours-8-16cu-nsi-128_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/MTw transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/RD
+../result/hetero_ours-8-16cu-nsi-128_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/RD transfered bytes : 1189696
+../result/hetero_ours-8-16cu-nsi-128_PCI/RD cycles : 243835
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/RS
+../result/hetero_ours-8-16cu-nsi-128_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/RS transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/SC
+../result/hetero_ours-8-16cu-nsi-128_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/SC transfered bytes : 1274880
+../result/hetero_ours-8-16cu-nsi-128_PCI/SC cycles : 422005
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/SF
+../result/hetero_ours-8-16cu-nsi-128_PCI/SF transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/SF transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-128_PCI/SLA
+../result/hetero_ours-8-16cu-nsi-128_PCI/SLA transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-128_PCI/SLA transfered bytes : 0
+hetero_ours-8-16cu-nsi-256_PCI
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/BSch
+../result/hetero_ours-8-16cu-nsi-256_PCI/BSch transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/BSch transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/DCT
+../result/hetero_ours-8-16cu-nsi-256_PCI/DCT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/DCT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/DH
+../result/hetero_ours-8-16cu-nsi-256_PCI/DH transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/DH transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/EV
+../result/hetero_ours-8-16cu-nsi-256_PCI/EV transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/EV transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/FW
+../result/hetero_ours-8-16cu-nsi-256_PCI/FW transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/FW transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/FWT
+../result/hetero_ours-8-16cu-nsi-256_PCI/FWT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/FWT transfered bytes : 1811136
+../result/hetero_ours-8-16cu-nsi-256_PCI/FWT cycles : 392425
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/Hist
+../result/hetero_ours-8-16cu-nsi-256_PCI/Hist transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/Hist transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/MM
+../result/hetero_ours-8-16cu-nsi-256_PCI/MM transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/MM transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/MT
+../result/hetero_ours-8-16cu-nsi-256_PCI/MT transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/MT transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/MTw
+../result/hetero_ours-8-16cu-nsi-256_PCI/MTw transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/MTw transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/RD
+../result/hetero_ours-8-16cu-nsi-256_PCI/RD transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/RD transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/RS
+../result/hetero_ours-8-16cu-nsi-256_PCI/RS transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/RS transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/SC
+../result/hetero_ours-8-16cu-nsi-256_PCI/SC transfered bytes : 0
+../result/hetero_ours-8-16cu-nsi-256_PCI/SC transfered bytes : 0
+
+../result/hetero_ours-8-16cu-nsi-256_PCI/SF
 si-net-l2-gm_net.ref not found
 si-net-gm-mm_net.ref not found
 
-../result/hetero_ours-8-16cu-msi-512_PCI/SLA
+../result/hetero_ours-8-16cu-nsi-256_PCI/SLA
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+hetero_ours-8-16cu-nsi-512_PCI
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/BSch
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/DCT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/DH
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/EV
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/FW
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/FWT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/Hist
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/MM
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/MT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/MTw
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/RD
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/RS
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/SC
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/SF
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-512_PCI/SLA
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+hetero_ours-8-16cu-nsi-1024_PCI
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/BSch
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/DCT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/DH
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/EV
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/FW
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/FWT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/Hist
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/MM
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/MT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/MTw
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/RD
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/RS
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/SC
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/SF
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-1024_PCI/SLA
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+hetero_ours-8-16cu-nsi-2048_PCI
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/BSch
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/DCT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/DH
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/EV
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/FW
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/FWT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/Hist
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/MM
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/MT
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/MTw
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/RD
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/RS
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/SC
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/SF
+si-net-l2-gm_net.ref not found
+si-net-gm-mm_net.ref not found
+
+../result/hetero_ours-8-16cu-nsi-2048_PCI/SLA
 si-net-l2-gm_net.ref not found
 si-net-gm-mm_net.ref not found

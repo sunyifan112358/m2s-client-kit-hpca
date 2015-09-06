@@ -22,7 +22,7 @@ SENDFILELIST="../config/"$CONFIG"/si-config.ini \
 ./m2s-cluster.sh create $CLUSTERNAME
 
 JOBNAME=BSch
-BENCHCOMMAND="-q -x 262144"
+BENCHCOMMAND="-q -x 524288"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/BlackScholes \
     --sim-args "$SIMCOMMAND" \
@@ -30,7 +30,7 @@ BENCHCOMMAND="-q -x 262144"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=DCT
-BENCHCOMMAND="-q -x 2048 -y 2048"
+BENCHCOMMAND="-q -x 1024 -y 1024"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/DCT \
     --sim-args "$SIMCOMMAND" \
@@ -53,18 +53,18 @@ BENCHCOMMAND="-q -x 8192"
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
 
-JOBNAME=FWT
-BENCHCOMMAND="-q -x 131072"
-./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
-    $BENCHMARKSUITE/FastWalshTransform \
-    --sim-args "$SIMCOMMAND" \
-    --send "$SENDFILELIST" \
-    --bench-args "$BENCHCOMMAND"
-
 JOBNAME=FW
 BENCHCOMMAND="-q -x 256"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/FloydWarshall \
+    --sim-args "$SIMCOMMAND" \
+    --send "$SENDFILELIST" \
+    --bench-args "$BENCHCOMMAND"
+
+JOBNAME=FWT
+BENCHCOMMAND="-q -x 131072"
+./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
+    $BENCHMARKSUITE/FastWalshTransform \
     --sim-args "$SIMCOMMAND" \
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
@@ -85,9 +85,8 @@ BENCHCOMMAND="-q -x 512 -y 512 -z 512"
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
 
-
 JOBNAME=MT
-BENCHCOMMAND="-q -x 1024 -y 1024 -b 64"
+BENCHCOMMAND="-q -x 512 -y 512 -b 64"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/MatrixTranspose \
     --sim-args "$SIMCOMMAND" \
@@ -95,9 +94,17 @@ BENCHCOMMAND="-q -x 1024 -y 1024 -b 64"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=MTw
-BENCHCOMMAND="-q -x 282144 -y 4"
+BENCHCOMMAND="-q -x 131072 -y 4"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/MersenneTwister \
+    --sim-args "$SIMCOMMAND" \
+    --send "$SENDFILELIST" \
+    --bench-args "$BENCHCOMMAND"
+   
+JOBNAME=RD
+BENCHCOMMAND="-q -x 262144"
+./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
+    $BENCHMARKSUITE/Reduction \
     --sim-args "$SIMCOMMAND" \
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
@@ -106,22 +113,6 @@ JOBNAME=RS
 BENCHCOMMAND="-q -x 262144"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/RadixSort \
-    --sim-args "$SIMCOMMAND" \
-    --send "$SENDFILELIST" \
-    --bench-args "$BENCHCOMMAND"
-
-JOBNAME=RD
-BENCHCOMMAND="-q -x 2097152"
-./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
-    $BENCHMARKSUITE/Reduction \
-    --sim-args "$SIMCOMMAND" \
-    --send "$SENDFILELIST" \
-    --bench-args "$BENCHCOMMAND"
-
-JOBNAME=SLA
-BENCHCOMMAND="-q -x 2097152"
-./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
-    $BENCHMARKSUITE/ScanLargeArrays \
     --sim-args "$SIMCOMMAND" \
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
@@ -141,5 +132,14 @@ BENCHCOMMAND="-q -x 5.bmp"
     --sim-args "$SIMCOMMAND" \
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
+
+JOBNAME=SLA
+BENCHCOMMAND="-q -x 1048576"
+./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
+    $BENCHMARKSUITE/ScanLargeArrays \
+    --sim-args "$SIMCOMMAND" \
+    --send "$SENDFILELIST" \
+    --bench-args "$BENCHCOMMAND"
+
 
 ./m2s-cluster.sh submit $CLUSTERNAME $USERNAME@$SERVER --exe $M2S

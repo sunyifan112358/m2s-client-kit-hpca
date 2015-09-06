@@ -33,7 +33,7 @@ class Config:
     self.gmSize = 2 ** 25
     self.gmLatency = 31
 
-    self.numCpuMemoryController = 4
+    self.numCpuMemoryController = 5
 
 class MemoryConfigGenerator:
 
