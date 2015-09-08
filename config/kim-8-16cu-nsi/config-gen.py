@@ -201,7 +201,7 @@ class NetworkConfigGenerator:
     self.configFile.write("\n[Network." + config.l1L2NetworkName + "]\n") 
     self.configFile.write("DefaultInputBufferSize = 4096000\n") 
     self.configFile.write("DefaultOutputBufferSize = 4096000\n") 
-    self.configFile.write("DefaultBandwidth = 32\n") 
+    self.configFile.write("DefaultBandwidth = 72\n") 
     self.configFile.write("DefaultPacketSize = 4\n") 
     self.configFile.write("NetFixDelay = 1\n") 
     self.configFile.write("Frequency = 1000\n")
@@ -262,7 +262,7 @@ class NetworkConfigGenerator:
     self.configFile.write("\n[Network." + config.l2GmNetworkName + "]\n") 
     self.configFile.write("DefaultInputBufferSize = 4096000\n") 
     self.configFile.write("DefaultOutputBufferSize = 4096000\n") 
-    self.configFile.write("DefaultBandwidth = 32\n") 
+    self.configFile.write("DefaultBandwidth = 72\n") 
     self.configFile.write("DefaultPacketSize = 4\n") 
     self.configFile.write("Frequency = 1000\n")
 
@@ -304,7 +304,7 @@ class NetworkConfigGenerator:
           "\n[Network." + config.l2GmNetworkName
           + ".Node.GDDR5bus" + str(l2Id) + "]\n"
           "Type = Bus\n"
-          "Bandwidth = 38\n"
+          "Bandwidth = 46\n"
           "Lanes = 1\n"))
         self.configFile.write((
           "\n[Network." + config.l2GmNetworkName

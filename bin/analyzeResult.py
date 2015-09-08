@@ -7,7 +7,6 @@ def getKimTraffic(folder):
   try:
     lines = tuple(open(folder + '/si-net-l2-gm_net.ref', 'r'))
   except Exception as e:
-    print "si-net-l2-gm_net.ref not found"
     return
     
   rule = re.compile(r"bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
@@ -39,7 +38,6 @@ def getOurTraffic(folder):
   try:
     lines = tuple(open(folder + '/si-net-gm-mm_net.ref', 'r'))
   except Exception as e:
-    print "si-net-gm-mm_net.ref not found"
     return
 
   rule = re.compile(r"bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
@@ -68,6 +66,52 @@ def getOurCycles(folder):
         cycles = int(match.group(1))
         print folder + " cycles : " + str(cycles);
 
+def getKimNvlinkTraffic(folder):
+  try:
+    lines = tuple(open(folder + '/si-net-l2-gm_net.ref', 'r'))
+  except Exception as e:
+    return
+
+  byteRule = re.compile(r"TransferredBytes = ([0-9]+)")
+  titleRule = re.compile(r"\[ Network.si-net-l2-gm.Link.link_.*")
+  inRightSection = False
+  transferedBytes = 0;
+
+  for line in lines:
+    if titleRule.match(line) and "mm-" not in line and "l2n" not in line:
+      inRightSection = True
+      continue
+    
+    if inRightSection:
+      match = byteRule.match(line)
+      if not match == None:
+        inRightSection = False
+        transferedBytes += int(match.group(1))
+  print folder + " kim nvlink transfered bytes : " + str(transferedBytes);
+
+
+def getNvlinkTraffic(folder):
+  try:
+    lines = tuple(open(folder + '/si-net-gm-mm_net.ref', 'r'))
+  except Exception as e:
+    return
+
+  byteRule = re.compile(r"TransferredBytes = ([0-9]+)")
+  titleRule = re.compile(r"\[ Network.si-net-gm-mm.Link.link_.*")
+  inRightSection = False
+  transferedBytes = 0;
+
+  for line in lines:
+    if titleRule.match(line) and "mm-" not in line:
+      inRightSection = True
+      continue
+    
+    if inRightSection:
+      match = byteRule.match(line)
+      if not match == None:
+        inRightSection = False
+        transferedBytes += int(match.group(1))
+  print folder + " ours nvlink transfered bytes : " + str(transferedBytes);
 
 def checkCrashed(folder):
   try:
@@ -93,6 +137,9 @@ def main():
     return
   getKimTraffic(folder)
   getOurTraffic(folder)
+  if "nvlink" in folder:
+    getKimNvlinkTraffic(folder)
+    getNvlinkTraffic(folder)
   getKimCycles(folder)
 #getOurCycles(folder)
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CONFIG="$1"
-CLUSTERNAME=hetero_"$CONFIG"_PCI
+CLUSTERNAME=hetero_"$CONFIG"
 USERNAME=amir
 SERVER=nyan.ece.neu.edu
 BENCHMARKSUITE=AMDAPP-2.5
@@ -11,7 +11,7 @@ SIMCOMMAND="--si-sim detailed --si-config si-config.ini \
             --mem-config mem-si.ini --net-config net-si.ini \
             --mem-report mem.ref --net-report net.ref \
             --si-report si.ref \
-            --mem-snapshot 10000000 1048576"
+            --mem-snapshot 1000000000 4096"
 SENDFILELIST="../config/"$CONFIG"/si-config.ini \
               ../config/"$CONFIG"/mem-si.ini \
               ../config/"$CONFIG"/net-si.ini"

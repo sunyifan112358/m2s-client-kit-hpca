@@ -1,8 +1,12 @@
 #!/bin/bash
 
 CONFIGS="
-hetero_kim-8-16cu-msi_PCI
-hetero_kim-8-16cu-nsi_PCI
+hetero_kim-8-16cu-msi
+hetero_kim-8-16cu-nsi
+hetero_kim-8-16cu-msi-pciph
+hetero_kim-8-16cu-nsi-pciph
+hetero_kim-8-16cu-msi-pcie-zc
+hetero_kim-8-16cu-msi-pcie-zc
 hetero_ours-8-16cu-msi-64_PCI
 hetero_ours-8-16cu-msi-128_PCI
 hetero_ours-8-16cu-msi-256_PCI
@@ -16,6 +20,11 @@ hetero_ours-8-16cu-nsi-256_PCI
 hetero_ours-8-16cu-nsi-512_PCI
 hetero_ours-8-16cu-nsi-1024_PCI
 hetero_ours-8-16cu-nsi-2048_PCI
+hetero_ours-8-16cu-nsi-4096_PCI
+hetero_kim-8-16cu-msi-nvlink
+hetero_kim-8-16cu-nsi-nvlink
+hetero_ours-8-16cu-msi-128-nvlink
+hetero_ours-8-16cu-nsi-128-nvlink
 "
 
 for config in $CONFIGS
