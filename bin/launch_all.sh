@@ -1,8 +1,8 @@
 #/bin/bash
 
 TASKS="
-kim-8-16cu-nsi-pcie-zc
-kim-8-16cu-msi-pcie-zc
+ours-8-16cu-msi-64-pho
+ours-8-16cu-nsi-64-pho
 "
 
 for task in $TASKS

@@ -285,43 +285,42 @@ class NetworkConfigGenerator:
       self.configFile.write("\n[Network." + config.l2GmNetworkName 
           + ".Node.gm-" + str(i) + "]\n")
       self.configFile.write("Type = EndNode\n")
-
+      
       self.configFile.write((
         "\n[Network." + config.l2GmNetworkName
         + ".Node.GDDR5bus" + str(i) + "]\n"
         "Type = Bus\n"
         "Bandwidth = 46\n"
         "Lanes = 1\n"))
+
       self.configFile.write((
         "\n[Network." + config.l2GmNetworkName
         + ".Link.gm" + str(i) + "-GDDR5bus" + str(i) + "]\n"
         "Type = Bidirectional\n"
         "Source = gm-" + str(i) + "\n"
         "Dest = GDDR5bus" + str(i) + "\n" ))
+
       self.configFile.write((
-          "\n[Network." + config.l2GmNetworkName
-          + ".Link.GDDR5bus" + str(i) + "-CpuSwitch]\n"
-          "Type = Bidirectional\n"
-          "Source = GDDR5bus" + str(i) + "\n"
-          "Dest = CpuSwitch\n" ))
-
-
-    self.configFile.write(("\n[Network." + config.l2GmNetworkName 
-        + ".Node.bus]\n"
-        "Type = Bus\n"
-        "Bandwidth = 72\n"
-        "Lanes = 1\n"));
-    self.configFile.write("\n[Network." + config.l2GmNetworkName + 
-        ".Link.CpuSwitch-Bus]\n"
+        "\n[Network." + config.l2GmNetworkName
+        + ".Link.GDDR5bus" + str(i) + "-CpuSwitch]\n"
         "Type = Bidirectional\n"
-        "Source = CpuSwitch\n"
-        "Dest = bus\n")
+        "Source = GDDR5bus" + str(i) + "\n"
+        "Dest = CpuSwitch\n" ))
+
 
     # Switch per device
     for i in range(0, config.numGpu):
       self.configFile.write("\n[Network." + config.l2GmNetworkName 
           + ".Node.switch" + str(i) + "]\n")
       self.configFile.write("Type = Switch\n")
+
+      self.configFile.write((
+          "\n[Network." + config.l2GmNetworkName + 
+          ".Link.nvlink-switch" + str(i) + "-CpuSwitch]\n"
+          "Type = Bidirectional\n"
+          "Source = switch" + str(i) + "\n"
+          "Dest = CpuSwitch\n"
+          "Bandwidth = 20\n"))
 
       for j in range(0, config.numL2PerGpu):
         l2Id = i * config.numL2PerGpu + j
@@ -331,12 +330,15 @@ class NetworkConfigGenerator:
           "Type = Bidirectional\n"
           "Source = l2n" + str(l2Id) + "\n"
           "Dest = switch" + str(i) + "\n"))
-      self.configFile.write((
-           "\n[Network." + config.l2GmNetworkName
-          + ".Link.switch" + str(i) + "-bus]\n"
+        
+      for j in range(i + 1, config.numGpu):
+        self.configFile.write((
+          "\n[Network." + config.l2GmNetworkName + 
+          ".Link.nvlink-switch" + str(i) + "-switch" + str(j) + "]\n"
           "Type = Bidirectional\n"
-          "Source = bus\n"
-          "Dest = switch" + str(i) + "\n"))
+          "Source = switch" + str(i) + "\n"
+          "Dest = switch" + str(j) + "\n"
+          "Bandwidth = 20\n"))
 
 
   def generate(self):

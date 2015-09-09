@@ -284,7 +284,7 @@ class NetworkConfigGenerator:
         + ".Node.bus]\n"
         "Type = Bus\n"
         "Bandwidth = 72\n"
-        "Lanes = 1"));
+        "Lanes = 1\n"));
 
     # Switch per device
     for i in range(0, config.numGpu):
@@ -298,6 +298,7 @@ class NetworkConfigGenerator:
           "\n[Network." + config.l2GmNetworkName
           + ".Link.l2n" + str(l2Id) + "-switch" + str(i) + "]\n"
           "Type = Bidirectional\n"
+          "Bandwidth = 72\n"
           "Source = l2n" + str(l2Id) + "\n"
           "Dest = switch" + str(i) + "\n"))
         self.configFile.write((

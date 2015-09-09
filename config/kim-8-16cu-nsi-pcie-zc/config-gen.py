@@ -147,7 +147,7 @@ class MemoryConfigGenerator:
           " MOD " + str(config.numL2PerGpu) + ""
           " EQ " + str(i % config.numL2PerGpu) + "\n"))
       self.configFile.write("LowModules = ");
-      for j in range(0, numL2):
+      for j in range(0, config.numGm):
         self.configFile.write("gm-" + str(j) + " ")
       self.configFile.write("\n")
 
@@ -275,7 +275,7 @@ class NetworkConfigGenerator:
           + ".Node.l2n" + str(i) + "]\n")
       self.configFile.write("Type = EndNode\n")
 
-    self.configFile.write("[Network." + config.l2GmNetworkName + 
+    self.configFile.write("\n[Network." + config.l2GmNetworkName + 
         ".Node.CpuSwitch]\n")
     self.configFile.write("Type = Switch\n")
 
@@ -310,12 +310,12 @@ class NetworkConfigGenerator:
         + ".Node.bus]\n"
         "Type = Bus\n"
         "Bandwidth = 72\n"
-        "Lanes = 1"));
+        "Lanes = 1\n"));
     self.configFile.write("\n[Network." + config.l2GmNetworkName + 
-        ".Node.CpuSwitch-Bus]\n"
+        ".Link.CpuSwitch-Bus]\n"
         "Type = Bidirectional\n"
         "Source = CpuSwitch\n"
-        "Dest = Bus\n")
+        "Dest = bus\n")
 
     # Switch per device
     for i in range(0, config.numGpu):

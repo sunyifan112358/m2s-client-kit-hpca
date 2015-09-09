@@ -313,11 +313,11 @@ class NetworkConfigGenerator:
           "Source = gm-" + str(l2Id) + "\n"
           "Dest = GDDR5bus" + str(l2Id) + "\n" ))
         self.configFile.write((
-            "\n[Network." + config.l2GmNetworkName
-            + ".Link.GDDR5bus" + str(l2Id) + "-switch" + str(i) + "]\n"
-            "Type = Bidirectional\n"
-            "Source = GDDR5bus" + str(l2Id) + "\n"
-            "Dest = switch" + str(i) + "\n" ))
+          "\n[Network." + config.l2GmNetworkName
+          + ".Link.GDDR5bus" + str(l2Id) + "-switch" + str(i) + "]\n"
+          "Type = Bidirectional\n"
+          "Source = GDDR5bus" + str(l2Id) + "\n"
+          "Dest = switch" + str(i) + "\n" ))
       self.configFile.write((
            "\n[Network." + config.l2GmNetworkName
           + ".Link.switch" + str(i) + "-bus]\n"

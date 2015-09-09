@@ -113,6 +113,31 @@ def getNvlinkTraffic(folder):
         transferedBytes += int(match.group(1))
   print folder + " ours nvlink transfered bytes : " + str(transferedBytes);
 
+def getPhotonicTraffic(folder):
+  try:
+    lines = tuple(open(folder + '/si-net-gm-mm_net.ref', 'r'))
+  except Exception as e:
+    return
+
+  byteRule = re.compile(r"....[0-9]_bp_[0-9]\.TransferredBytes = ([0-9]+)")
+  titleRule = re.compile(r"\[ Network\.si-net-gm-mm\.Node\..w.r.*")
+  inRightSection = False
+  transferedBytes = 0;
+
+  for line in lines:
+    if titleRule.match(line) and "mm-" not in line:
+      inRightSection = True
+      continue
+    
+    if inRightSection:
+      match = byteRule.match(line)
+      if not match == None:
+        inRightSection = False
+        transferedBytes += int(match.group(1))
+  print folder + " ours photonic transfered bytes : " + str(transferedBytes);
+
+
+
 def checkCrashed(folder):
   try:
     lines = tuple(open(folder + '/sim.err', 'r'))
@@ -140,8 +165,11 @@ def main():
   if "nvlink" in folder:
     getKimNvlinkTraffic(folder)
     getNvlinkTraffic(folder)
+
+  if "pho" in folder:
+    getPhotonicTraffic(folder)
+
   getKimCycles(folder)
-#getOurCycles(folder)
 
 
 if __name__ == "__main__":
