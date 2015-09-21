@@ -309,7 +309,7 @@ class NetworkConfigGenerator:
     self.configFile.write(("\n[Network." + config.l2GmNetworkName 
         + ".Node.bus]\n"
         "Type = Bus\n"
-        "Bandwidth = 72\n"
+        "Bandwidth = 12\n"
         "Lanes = 1\n"));
     self.configFile.write("\n[Network." + config.l2GmNetworkName + 
         ".Link.CpuSwitch-Bus]\n"

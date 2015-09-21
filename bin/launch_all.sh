@@ -1,8 +1,8 @@
 #/bin/bash
 
 TASKS="
-ours-8-16cu-msi-64-pho
-ours-8-16cu-nsi-64-pho
+ours-4-16cu-nsi-64-pho
+ours-2-16cu-nsi-64-pho
 "
 
 for task in $TASKS

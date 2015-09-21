@@ -25,7 +25,7 @@ class Config:
 
     self.l2BlockSize = 64
     self.l2Assoc = 16
-    self.l2Size = 2 ** 17
+    self.l2Size = 2 ** 16
     self.l2Latency = 10
 
     self.gmBlockSize = 64
@@ -338,7 +338,6 @@ class NetworkConfigGenerator:
     self.configFile.write("DefaultOutputBufferSize = 4096000\n") 
     self.configFile.write("DefaultBandwidth = 72\n") 
     self.configFile.write("DefaultPacketSize = 4\n") 
-#self.configFile.write("NetFixDelay = 1\n") 
     self.configFile.write("Frequency = 1000\n")
 
     # Gm
@@ -353,18 +352,6 @@ class NetworkConfigGenerator:
           ".Node.mm-" + str(i) + "]\n"
           "Type = EndNode\n"))
 
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName + 
-          ".Node.CpuSwitch-" + str(i) + "]\n"
-          "Type = Switch\n"))
-      
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName + 
-          ".Link.mm-" + str(i) + "-CpuSwitch-" + str(i) + "]\n"
-          "Type = Bidirectional\n"
-          "Source = mm-" + str(i) + "\n"
-          "Dest = CpuSwitch-" + str(i) + "\n"
-          ))
-
-
       # Each MWSR for each GM
       self.configFile.write(("\n[Network." + config.gmMmNetworkName 
           + ".Node.mwsr" + str(i) + "]\n"
@@ -376,7 +363,7 @@ class NetworkConfigGenerator:
           + ".Link.mwsr" + str(i) + "-mm-" + str(i) + "]\n"
           "Type=Unidirectional\n"
           "Source = mwsr" + str(i) + "\n"
-          "Dest = CpuSwitch-" + str(i) + "\n"))
+          "Dest = mm-" + str(i) + "\n"))
 
       # Each SWMR for each GM
       self.configFile.write(("\n[Network." + config.gmMmNetworkName 
@@ -388,8 +375,15 @@ class NetworkConfigGenerator:
       self.configFile.write(("\n[Network." + config.gmMmNetworkName 
           + ".Link.mm-" + str(i) + "-swmr" + str(i) + "]\n"
           "Type=Unidirectional\n"
-          "Source = CpuSwitch-" + str(i) + "\n"
+          "Source = mm-" + str(i) + "\n"
           "Dest = swmr" + str(i) + "\n"))
+
+      # MWMR buses
+      self.configFile.write(("\n[Network." + config.gmMmNetworkName 
+          + ".Node.mwmr" + str(i) + "]\n"
+          "Type = Bus\n"
+          "Bandwidth = 72\n"
+          "Lanes = 1\n"));
 
 
 
@@ -435,6 +429,16 @@ class NetworkConfigGenerator:
         "Type = Unidirectional\n"
         "Source = swmr" + str(i % config.numL2PerGpu) + "\n"
         "Dest = switch" + str(i) + "\n"))
+
+      # Connect to mwsr bus
+      self.configFile.write((
+         "\n[Network." + config.gmMmNetworkName
+        + ".Link.mwmr" + str(i % config.numL2PerGpu) + "-switch" + str(i) + "]\n"
+        "Type = Bidirectional\n"
+        "Source = mwmr" + str(i % config.numL2PerGpu) + "\n"
+        "Dest = switch" + str(i) + "\n"))
+
+
 
   def generate(self):
     self.generateL1L2()

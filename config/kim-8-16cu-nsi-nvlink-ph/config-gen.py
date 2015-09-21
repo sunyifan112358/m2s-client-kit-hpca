@@ -11,27 +11,26 @@ class Config:
     self.memConfigFile = "mem-si.ini";
     self.l1L2NetworkName = "si-net-l1-l2"
     self.l2GmNetworkName = "si-net-l2-gm"
-    self.gmMmNetworkName = "si-net-gm-mm"
 
-    self.l1vBlockSize = 64
-    self.l1vAssoc = 4
-    self.l1vSize = 2 ** 14
-    self.l1vLatency = 1
+    self.l1vBlockSize = 64;
+    self.l1vAssoc = 4;
+    self.l1vSize = 2 ** 14;
+    self.l1vLatency = 1;
 
-    self.l1sBlockSize = 64
-    self.l1sAssoc = 4
-    self.l1sSize = 2 ** 15
-    self.l1sLatency = 1
+    self.l1sBlockSize = 64;
+    self.l1sAssoc = 4;
+    self.l1sSize = 2 ** 15;
+    self.l1sLatency = 1;
 
-    self.l2BlockSize = 64
-    self.l2Assoc = 16
-    self.l2Size = 2 ** 17
-    self.l2Latency = 10
+    self.l2BlockSize = 64;
+    self.l2Assoc = 16;
+    self.l2Size = 2 ** 17;
+    self.l2Latency = 10;
 
-    self.gmBlockSize = 64
-    self.gmAssoc = 32
-    self.gmSize = 2 ** 25
-    self.gmLatency = 31
+    self.gmBlockSize = 64;
+    self.gmAssoc = 32;
+    self.gmSize = 2 ** 25;
+    self.gmLatency = 29
 
 
 class MemoryConfigGenerator:
@@ -71,6 +70,7 @@ class MemoryConfigGenerator:
          "Latency = " + str(config.l2Latency) + "\n"
          "Policy = LRU\n"
          "Ports = 2\n"))
+    """
     gmSets = config.gmSize / config.gmAssoc / config.gmBlockSize
     self.configFile.write(
         ("[CacheGeometry si-geo-gm]\n"
@@ -80,6 +80,7 @@ class MemoryConfigGenerator:
          "Latency = " + str(config.gmLatency) + "\n"
          "Policy = LRU\n" + 
          "Ports = 4\n"))
+    """
 
   def generate(self):
     self.generateGeometry();
@@ -144,40 +145,21 @@ class MemoryConfigGenerator:
           " MOD " + str(config.numL2PerGpu) + ""
           " EQ " + str(i % config.numL2PerGpu) + "\n"))
       self.configFile.write("LowModules = ");
-      for j in range(0, config.numL2PerGpu):
-        l2Id = i / config.numL2PerGpu * config.numL2PerGpu + j
-        self.configFile.write("gm-" + str(l2Id) + " ")
+      for j in range(0, numL2):
+        self.configFile.write("gm-" + str(j) + " ")
       self.configFile.write("\n")
 
     # gm
     for i in range(0, numL2):
       self.configFile.write(
           ("\n[Module gm-" + str(i) + "]\n"
-           "Type = Cache\n"
-           "Geometry = si-geo-gm\n"
-           "HighNetwork = si-net-l2-gm\n"
-           "HighNetworkNode = gm-" + str(i) + "\n"
-           "LowNetwork = si-net-gm-mm\n"
-           "LowNetworkNode = gm-" + str(i)  + "\n"
-           "AddressRange = ADDR DIV " + str(config.gmBlockSize) + ""
-           " MOD " + str(config.numL2PerGpu) + ""
-           " EQ " + str(i % config.numL2PerGpu) + "\n"))
-      self.configFile.write("LowModules = ");
-      self.configFile.write("mm-" + str(i % config.numL2PerGpu) + " ");
-      self.configFile.write("\n");
-
-    for i in range(0, config.numL2PerGpu):
-      self.configFile.write((
-           "\n[Module mm-" + str(i) + "]\n"
            "Type = MainMemory\n"
            "BlockSize = " + str(config.gmBlockSize) + "\n"
-           "Latency = " + str(29) + "\n"
-           "HighNetwork = si-net-gm-mm\n"
-           "HighNetworkNode = mm-" + str(i) + "\n"
-           "Ports = 4\n"
-           "AddressRange = ADDR DIV " + str(config.gmBlockSize) + 
-           " MOD " + str(config.numL2PerGpu) + 
-           " EQ " + str(i) + "\n"))
+           "Latency = " + str(config.gmLatency) + "\n"
+           "HighNetwork = si-net-l2-gm\n"
+           "HighNetworkNode = gm-" + str(i) + "\n"
+           "AddressRange = ADDR DIV " + str(config.gmBlockSize) + ""
+           " MOD " + str(numL2) + " EQ " + str(i) + "\n"))
     
 
 class NetworkConfigGenerator:
@@ -275,7 +257,7 @@ class NetworkConfigGenerator:
         self.configFile.write("Source = bus" + str(xId) + "\n")
         self.configFile.write("Dest = " + yName + "\n" )
 
-  def generateL2Gm(self):
+  def generateL2GmKim(self):
     # Network global configuration
     self.configFile.write("\n[Network." + config.l2GmNetworkName + "]\n") 
     self.configFile.write("DefaultInputBufferSize = 4096000\n") 
@@ -331,115 +313,19 @@ class NetworkConfigGenerator:
             "Source = GDDR5bus" + str(l2Id) + "\n"
             "Dest = switch" + str(i) + "\n" ))
 
-  def generateGmMm(self):
-    # Network global configuration
-    self.configFile.write("\n[Network." + config.gmMmNetworkName + "]\n") 
-    self.configFile.write("DefaultInputBufferSize = 4096000\n") 
-    self.configFile.write("DefaultOutputBufferSize = 4096000\n") 
-    self.configFile.write("DefaultBandwidth = 72\n") 
-    self.configFile.write("DefaultPacketSize = 4\n") 
-#self.configFile.write("NetFixDelay = 1\n") 
-    self.configFile.write("Frequency = 1000\n")
+      for j in range(i + 1, config.numGpu):
+        self.configFile.write((
+            "\n[Network." + config.l2GmNetworkName + 
+            ".Link.nvlink-switch" + str(i) + "-switch" + str(j) + "]\n"
+            "Type = Bidirectional\n"
+            "Source = switch" + str(i) + "\n"
+            "Dest = switch" + str(j) + "\n"
+            "Bandwidth = 72\n"))
 
-    # Gm
-    numGm = config.numGpu * config.numGmPerGpu
-    for i in range(0, numGm):
-      self.configFile.write("\n[Network." + config.gmMmNetworkName 
-          + ".Node.gm-" + str(i) + "]\n")
-      self.configFile.write("Type = EndNode\n")
-
-    for i in range(0, config.numL2PerGpu):
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName + 
-          ".Node.mm-" + str(i) + "]\n"
-          "Type = EndNode\n"))
-
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName + 
-          ".Node.CpuSwitch-" + str(i) + "]\n"
-          "Type = Switch\n"))
-      
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName + 
-          ".Link.mm-" + str(i) + "-CpuSwitch-" + str(i) + "]\n"
-          "Type = Bidirectional\n"
-          "Source = mm-" + str(i) + "\n"
-          "Dest = CpuSwitch-" + str(i) + "\n"
-          ))
-
-
-      # Each MWSR for each GM
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName 
-          + ".Node.mwsr" + str(i) + "]\n"
-          "Type = Bus\n"
-          "Bandwidth = 72\n"
-          "Lanes = 1\n"));
-
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName 
-          + ".Link.mwsr" + str(i) + "-mm-" + str(i) + "]\n"
-          "Type=Unidirectional\n"
-          "Source = mwsr" + str(i) + "\n"
-          "Dest = CpuSwitch-" + str(i) + "\n"))
-
-      # Each SWMR for each GM
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName 
-          + ".Node.swmr" + str(i) + "]\n"
-          "Type = Bus\n"
-          "Bandwidth = 72\n"
-          "Lanes = 1\n"));
-
-      self.configFile.write(("\n[Network." + config.gmMmNetworkName 
-          + ".Link.mm-" + str(i) + "-swmr" + str(i) + "]\n"
-          "Type=Unidirectional\n"
-          "Source = CpuSwitch-" + str(i) + "\n"
-          "Dest = swmr" + str(i) + "\n"))
-
-
-
-    # GMs
-    for i in range(0, config.numL2PerGpu * config.numGpu):
-      self.configFile.write("\n[Network." + config.gmMmNetworkName 
-          + ".Node.switch" + str(i) + "]\n")
-      self.configFile.write("Type = Switch\n")
-
-      self.configFile.write((
-        "\n[Network." + config.gmMmNetworkName
-        + ".Node.GDDR5bus" + str(i) + "]\n"
-        "Type = Bus\n"
-        "Bandwidth = 46\n"
-        "Lanes = 1\n"))
-
-      self.configFile.write((
-        "\n[Network." + config.gmMmNetworkName
-        + ".Link.gm" + str(i) + "-GDDR5bus" + str(i) + "]\n"
-        "Type = Bidirectional\n"
-        "Source = gm-" + str(i) + "\n"
-        "Dest = GDDR5bus" + str(i) + "\n" ))
-
-      self.configFile.write((
-        "\n[Network." + config.gmMmNetworkName
-        + ".Link.GDDR5bus" + str(i) + "-switch" + str(i) + "]\n"
-        "Type = Bidirectional\n"
-        "Source = GDDR5bus" + str(i) + "\n"
-        "Dest = switch" + str(i) + "\n" ))
-
-      # Connect to mwsr bus
-      self.configFile.write((
-         "\n[Network." + config.gmMmNetworkName
-        + ".Link.switch" + str(i) + "-mwsr" + str(i % config.numL2PerGpu) + "]\n"
-        "Type = Unidirectional\n"
-        "Dest = mwsr" + str(i % config.numL2PerGpu) + "\n"
-        "Source = switch" + str(i) + "\n"))
-
-      # Connect to mwsr bus
-      self.configFile.write((
-         "\n[Network." + config.gmMmNetworkName
-        + ".Link.swmr" + str(i % config.numL2PerGpu) + "-switch" + str(i) + "]\n"
-        "Type = Unidirectional\n"
-        "Source = swmr" + str(i % config.numL2PerGpu) + "\n"
-        "Dest = switch" + str(i) + "\n"))
 
   def generate(self):
     self.generateL1L2()
-    self.generateL2Gm()
-    self.generateGmMm()
+    self.generateL2GmKim()
 
 
 if __name__ == "__main__":

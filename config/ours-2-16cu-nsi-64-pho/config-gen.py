@@ -3,7 +3,7 @@
 class Config:
 
   def __init__(self):
-    self.numGpu = 8
+    self.numGpu = 2
     self.numCuPerGpu = 16
     self.numL2PerGpu = 4
     self.numGmPerGpu = 4
