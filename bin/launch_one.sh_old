@@ -12,8 +12,7 @@ SIMCOMMAND="--si-sim detailed --si-config si-config.ini \
             --mem-report mem.ref --net-report net.ref \
             --si-report si.ref \
             --mem-snapshot 1000000000 4096 \
-            --net-snapshot 100000 \
-	    --net-visual net_vis.txt"
+            --net-snapshot 100000"
 SENDFILELIST="../config/"$CONFIG"/si-config.ini \
               ../config/"$CONFIG"/mem-si.ini \
               ../config/"$CONFIG"/net-si.ini"
@@ -24,7 +23,7 @@ SENDFILELIST="../config/"$CONFIG"/si-config.ini \
 ./m2s-cluster.sh create $CLUSTERNAME
 
 JOBNAME=BSch
-BENCHCOMMAND="-q -x 2097152"
+BENCHCOMMAND="-q -x 524288"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/BlackScholes \
     --sim-args "$SIMCOMMAND" \
@@ -32,7 +31,7 @@ BENCHCOMMAND="-q -x 2097152"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=DCT
-BENCHCOMMAND="-q -x 1024 -y 1024 -i 10"
+BENCHCOMMAND="-q -x 1024 -y 1024"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/DCT \
     --sim-args "$SIMCOMMAND" \
@@ -40,15 +39,23 @@ BENCHCOMMAND="-q -x 1024 -y 1024 -i 10"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=DH
-BENCHCOMMAND="-q -x 2097152"
+BENCHCOMMAND="-q -x 1048576"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/DwtHaar1D \
     --sim-args "$SIMCOMMAND" \
     --send "$SENDFILELIST" \
     --bench-args "$BENCHCOMMAND"
 
+JOBNAME=EV
+BENCHCOMMAND="-q -x 8192"
+./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
+    $BENCHMARKSUITE/EigenValue \
+    --sim-args "$SIMCOMMAND" \
+    --send "$SENDFILELIST" \
+    --bench-args "$BENCHCOMMAND"
+
 JOBNAME=FW
-BENCHCOMMAND="-q -x 256 -i 5"
+BENCHCOMMAND="-q -x 256"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/FloydWarshall \
     --sim-args "$SIMCOMMAND" \
@@ -56,7 +63,7 @@ BENCHCOMMAND="-q -x 256 -i 5"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=FWT
-BENCHCOMMAND="-q -x 262144 -i 10"
+BENCHCOMMAND="-q -x 131072"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/FastWalshTransform \
     --sim-args "$SIMCOMMAND" \
@@ -72,7 +79,7 @@ BENCHCOMMAND="-q -x 2048 -y 2048"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=MM
-BENCHCOMMAND="-q -x 1024 -y 1024 -z 1024"
+BENCHCOMMAND="-q -x 512 -y 512 -z 512"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/MatrixMultiplication \
     --sim-args "$SIMCOMMAND" \
@@ -80,7 +87,7 @@ BENCHCOMMAND="-q -x 1024 -y 1024 -z 1024"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=MT
-BENCHCOMMAND="-q -x 1024 -y 1024 -b 64"
+BENCHCOMMAND="-q -x 512 -y 512 -b 64"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/MatrixTranspose \
     --sim-args "$SIMCOMMAND" \
@@ -96,7 +103,7 @@ BENCHCOMMAND="-q -x 131072 -y 4"
     --bench-args "$BENCHCOMMAND"
    
 JOBNAME=RD
-BENCHCOMMAND="-q -x 2097152"
+BENCHCOMMAND="-q -x 262144"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/Reduction \
     --sim-args "$SIMCOMMAND" \
@@ -104,7 +111,7 @@ BENCHCOMMAND="-q -x 2097152"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=RS
-BENCHCOMMAND="-q -x 2097152"
+BENCHCOMMAND="-q -x 262144"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/RadixSort \
     --sim-args "$SIMCOMMAND" \
@@ -112,7 +119,7 @@ BENCHCOMMAND="-q -x 2097152"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=SC
-BENCHCOMMAND="-q -x 1024 -y 1024 -m 32"
+BENCHCOMMAND="-q -x 256 -y 256 -m 32"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/SimpleConvolution \
     --sim-args "$SIMCOMMAND" \
@@ -120,7 +127,7 @@ BENCHCOMMAND="-q -x 1024 -y 1024 -m 32"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=SF
-BENCHCOMMAND="-q -x 6.bmp -i 5"
+BENCHCOMMAND="-q -x 5.bmp"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/SobelFilter \
     --sim-args "$SIMCOMMAND" \
@@ -128,7 +135,7 @@ BENCHCOMMAND="-q -x 6.bmp -i 5"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=SLA
-BENCHCOMMAND="-q -x 2097152"
+BENCHCOMMAND="-q -x 1048576"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/ScanLargeArrays \
     --sim-args "$SIMCOMMAND" \

@@ -628,9 +628,9 @@ then
 	# Check if 'm2s-client-kit' is up to date
 	cd $HOME/$M2S_CLIENT_KIT_PATH || error "cannot cd to client kit path"
 	temp=$(mktemp)
-	svn info > $temp || error "failed running 'svn info'"
+	#svn info > $temp || error "failed running 'svn info'"
 	rev_current=$(sed -n "s,^Revision: ,,gp" $temp)
-	svn info -r HEAD > $temp || error "failed running 'svn info'"
+	#svn info -r HEAD > $temp || error "failed running 'svn info'"
 	rev_latest=$(sed -n "s,^Revision: ,,gp" $temp)
 	rm -f $temp
 	[ "$rev_current" == "$rev_latest" ] || \
@@ -680,9 +680,9 @@ then
 		# Check if m2s-server-kit is up to date
 		cd $HOME/'$M2S_SERVER_KIT_PATH' || exit 1
 		temp=$(mktemp)
-		svn info > $temp || error "failed running \"svn info\""
+		#svn info > $temp || error "failed running \"svn info\""
 		rev_current=$(sed -n "s,^Revision: ,,gp" $temp)
-		svn info -r HEAD > $temp || error "failed running \"svn info\""
+		#svn info -r HEAD > $temp || error "failed running \"svn info\""
 		rev_latest=$(sed -n "s,^Revision: ,,gp" $temp)
 		rm -f $temp
 		[ "$rev_current" == "$rev_latest" ] || \

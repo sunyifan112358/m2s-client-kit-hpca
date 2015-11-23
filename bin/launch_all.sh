@@ -1,8 +1,10 @@
 #/bin/bash
 
 TASKS="
-ours-4-16cu-nsi-64-pho
-ours-2-16cu-nsi-64-pho
+kim-4-16cu-nsi-pcie-zc
+kim-4-16cu-nsi-nvlink-zc
+ours-4-16cu-nsi-4096
+ours-4-16cu-nsi-4096-nvlink
 "
 
 for task in $TASKS
