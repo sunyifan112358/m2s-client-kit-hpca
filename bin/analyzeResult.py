@@ -10,12 +10,21 @@ def getKimTraffic(folder):
     return
     
   rule = re.compile(r"bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
+  packet_rule = re.compile(r"bus_bp_[0-9]+.TransferredMessages = ([0-9]+)")
   transferedBytes = 0;
+  transferedPackets = 0;
   for line in lines:
     match = rule.match(line)
     if not match == None:
       transferedBytes += int(match.group(1))
+
+    match = packet_rule.match(line)
+    if not match == None:
+      transferedPackets += int(match.group(1))
+
+  print folder + " transfered packets : " + str(transferedPackets);
   print folder + " transfered bytes : " + str(transferedBytes);
+
 
 def getKimCycles(folder):
   try:
@@ -41,11 +50,19 @@ def getOurTraffic(folder):
     return
 
   rule = re.compile(r"bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
+  packet_rule = re.compile(r"bus_bp_[0-9]+.TransferredMessages = ([0-9]+)")
   transferedBytes = 0;
+  transferedPackets = 0;
   for line in lines:
     match = rule.match(line)
     if not match == None:
       transferedBytes += int(match.group(1))
+
+    match = packet_rule.match(line)
+    if not match == None:
+      transferedPackets += int(match.group(1))
+
+  print folder + " transfered packets: " + str(transferedPackets);
   print folder + " transfered bytes : " + str(transferedBytes);
 
 def getOurCycles(folder):
@@ -73,9 +90,11 @@ def getKimNvlinkTraffic(folder):
     return
 
   byteRule = re.compile(r"TransferredBytes = ([0-9]+)")
+  packetRule = re.compile(r"TransferredPackets = ([0-9]+)")
   titleRule = re.compile(r"\[ Network.si-net-l2-gm.Link.link_.*")
   inRightSection = False
   transferedBytes = 0;
+  transferedMessages = 0;
 
   for line in lines:
     if titleRule.match(line) and "mm-" not in line and "l2n" not in line:
@@ -87,6 +106,13 @@ def getKimNvlinkTraffic(folder):
       if not match == None:
         inRightSection = False
         transferedBytes += int(match.group(1))
+      match = None
+
+      match = packetRule.match(line)
+      if not match == None:
+        transferedMessages += int(match.group(1));
+
+  print folder + " kim nvlink transfered packets : " + str(transferedMessages);
   print folder + " kim nvlink transfered bytes : " + str(transferedBytes);
 
 
@@ -97,9 +123,11 @@ def getNvlinkTraffic(folder):
     return
 
   byteRule = re.compile(r"TransferredBytes = ([0-9]+)")
+  packetRule = re.compile(r"TransferredPackets = ([0-9]+)")
   titleRule = re.compile(r"\[ Network.si-net-gm-mm.Link.link_.*")
   inRightSection = False
   transferedBytes = 0;
+  transferedMessages = 0;
 
   for line in lines:
     if titleRule.match(line) and "mm-" not in line:
@@ -111,6 +139,13 @@ def getNvlinkTraffic(folder):
       if not match == None:
         inRightSection = False
         transferedBytes += int(match.group(1))
+      match = None
+
+      match = packetRule.match(line)
+      if not match == None:
+        transferedMessages += int(match.group(1))
+        
+  print folder + " ours nvlink transfered packets : " + str(transferedMessages);
   print folder + " ours nvlink transfered bytes : " + str(transferedBytes);
 
 def getPhotonicTraffic(folder):
