@@ -11,7 +11,7 @@ SIMCOMMAND="--si-sim detailed --si-config si-config.ini \
             --mem-config mem-si.ini --net-config net-si.ini \
             --mem-report mem.ref --net-report net.ref \
             --si-report si.ref \
-            --mem-snapshot 1000000000 4096 \
+            --mem-snapshot 1000000 4096 \
             --net-snapshot 100000 \
 	    --net-visual net_vis.txt"
 SENDFILELIST="../config/"$CONFIG"/si-config.ini \
@@ -112,7 +112,7 @@ BENCHCOMMAND="-q -x 2097152"
     --bench-args "$BENCHCOMMAND"
 
 JOBNAME=SC
-BENCHCOMMAND="-q -x 1024 -y 1024 -m 32"
+BENCHCOMMAND="-q -x 512 -y 512 -m 16"
 ./m2s-cluster.sh add $CLUSTERNAME "$JOBNAME" \
     $BENCHMARKSUITE/SimpleConvolution \
     --sim-args "$SIMCOMMAND" \

@@ -144,10 +144,10 @@ class MemoryConfigGenerator:
           "AddressRange = ADDR DIV " + str(config.gmBlockSize) + ""
           " MOD " + str(config.numL2PerGpu) + ""
           " EQ " + str(i % config.numL2PerGpu) + "\n"))
-      self.configFile.write("LowModules = ");
-      for j in range(0, config.numL2PerGpu):
-        l2Id = i / config.numL2PerGpu * config.numL2PerGpu + j
-        self.configFile.write("gm-" + str(l2Id) + " ")
+      self.configFile.write("LowModules = gm-" + str(i))
+      #for j in range(0, config.numL2PerGpu):
+        #l2Id = i / config.numL2PerGpu * config.numL2PerGpu + j
+        #self.configFile.write("gm-" + str(l2Id) + " ")
       self.configFile.write("\n")
 
     # gm
@@ -300,19 +300,19 @@ class NetworkConfigGenerator:
 
     # Switch per device
     for i in range(0, config.numGpu):
-      self.configFile.write("\n[Network." + config.l2GmNetworkName 
-          + ".Node.switch" + str(i) + "]\n")
-      self.configFile.write("BandWidth = 500\n")
-      self.configFile.write("Type = Switch\n")
-
       for j in range(0, config.numL2PerGpu):
         l2Id = i * config.numL2PerGpu + j
         self.configFile.write((
+          "\n[Network." + config.l2GmNetworkName + ""
+          ".Node.switch" + str(l2Id) + "]\n" 
+          "Type = Switch\n"
+          ))
+        self.configFile.write((
           "\n[Network." + config.l2GmNetworkName
-          + ".Link.l2n" + str(l2Id) + "-switch" + str(i) + "]\n"
+          + ".Link.l2n" + str(l2Id) + "-switch" + str(l2Id) + "]\n"
           "Type = Bidirectional\n"
           "Source = l2n" + str(l2Id) + "\n"
-          "Dest = switch" + str(i) + "\n"))
+          "Dest = switch" + str(l2Id) + "\n"))
         self.configFile.write((
           "\n[Network." + config.l2GmNetworkName
           + ".Node.GDDR5bus" + str(l2Id) + "]\n"
@@ -327,10 +327,10 @@ class NetworkConfigGenerator:
           "Dest = GDDR5bus" + str(l2Id) + "\n" ))
         self.configFile.write((
             "\n[Network." + config.l2GmNetworkName
-            + ".Link.GDDR5bus" + str(l2Id) + "-switch" + str(i) + "]\n"
+            + ".Link.GDDR5bus" + str(l2Id) + "-switch" + str(l2Id) + "]\n"
             "Type = Bidirectional\n"
             "Source = GDDR5bus" + str(l2Id) + "\n"
-            "Dest = switch" + str(i) + "\n" ))
+            "Dest = switch" + str(l2Id) + "\n" ))
 
   def generateGmMm(self):
     # Network global configuration
