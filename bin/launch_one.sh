@@ -2,21 +2,21 @@
 
 CONFIG="$1"
 CLUSTERNAME=hetero_"$CONFIG"
-USERNAME=amir
+USERNAME=yifan
 SERVER=nyan.ece.neu.edu
 BENCHMARKSUITE=AMDAPP-2.5
 M2S=~/m2s-client-kit/config/"$CONFIG"/m2s
 
 SIMCOMMAND="--si-sim detailed --si-config si-config.ini \
-            --mem-config mem-si.ini --net-config net-si.ini \
+            --mem-config mem-config.ini --net-config net-config.ini \
             --mem-report mem.ref --net-report net.ref \
             --si-report si.ref \
             --mem-snapshot 1000000 4096 \
             --net-snapshot 100000 \
-	    --net-visual net_vis.txt"
+	          --net-visual net_vis.eps"
 SENDFILELIST="../config/"$CONFIG"/si-config.ini \
-              ../config/"$CONFIG"/mem-si.ini \
-              ../config/"$CONFIG"/net-si.ini"
+              ../config/"$CONFIG"/mem-config.ini \
+              ../config/"$CONFIG"/net-config.ini"
 
 
 ./m2s-cluster.sh kill $CLUSTERNAME

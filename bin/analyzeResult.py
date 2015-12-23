@@ -11,9 +11,15 @@ def getKimTraffic(folder):
     
   rule = re.compile(r"bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
   packet_rule = re.compile(r"bus_bp_[0-9]+.TransferredMessages = ([0-9]+)")
+  cycleRule = re.compile(r"Cycles = ([0-9]+)")
   transferedBytes = 0;
   transferedPackets = 0;
+  cycles = 0;
   for line in lines:
+    match = cycleRule.match(line)
+    if not match == None:
+      cycles = int(match.group(1))
+
     match = rule.match(line)
     if not match == None:
       transferedBytes += int(match.group(1))
@@ -24,6 +30,7 @@ def getKimTraffic(folder):
 
   print folder + " transfered packets : " + str(transferedPackets);
   print folder + " transfered bytes : " + str(transferedBytes);
+  print folder + " network cycles : " + str(cycles);
 
 
 def getKimCycles(folder):
@@ -49,11 +56,18 @@ def getOurTraffic(folder):
   except Exception as e:
     return
 
-  rule = re.compile(r"bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
-  packet_rule = re.compile(r"bus_bp_[0-9]+.TransferredMessages = ([0-9]+)")
+  rule = re.compile(r"pcie-bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
+  packet_rule = re.compile(r"pcie-bus_bp_[0-9]+.TransferredMessages = ([0-9]+)")
+  cycleRule = re.compile(r"Cycles = ([0-9]+)")
   transferedBytes = 0;
   transferedPackets = 0;
+  cycles = 0;
   for line in lines:
+
+    match = cycleRule.match(line)
+    if not match == None:
+      cycles = int(match.group(1))
+
     match = rule.match(line)
     if not match == None:
       transferedBytes += int(match.group(1))
@@ -64,6 +78,7 @@ def getOurTraffic(folder):
 
   print folder + " transfered packets: " + str(transferedPackets);
   print folder + " transfered bytes : " + str(transferedBytes);
+  print folder + " network cycles : " + str(cycles);
 
 def getOurCycles(folder):
   try:
@@ -92,11 +107,18 @@ def getKimNvlinkTraffic(folder):
   byteRule = re.compile(r"TransferredBytes = ([0-9]+)")
   packetRule = re.compile(r"TransferredPackets = ([0-9]+)")
   titleRule = re.compile(r"\[ Network.si-net-l2-gm.Link.link_.*")
+  cycleRule = re.compile(r"Cycles = ([0-9]+)")
   inRightSection = False
   transferedBytes = 0;
   transferedMessages = 0;
+  cycles = 0;
 
   for line in lines:
+
+    match = cycleRule.match(line)
+    if not match == None: 
+      cycles = int(match.group(1))
+
     if titleRule.match(line) and "mm-" not in line and "l2n" not in line:
       inRightSection = True
       continue
@@ -114,6 +136,7 @@ def getKimNvlinkTraffic(folder):
 
   print folder + " kim nvlink transfered packets : " + str(transferedMessages);
   print folder + " kim nvlink transfered bytes : " + str(transferedBytes);
+  print folder + " kim nvlink network cyles : " + str(cycles);
 
 
 def getNvlinkTraffic(folder):
@@ -124,13 +147,20 @@ def getNvlinkTraffic(folder):
 
   byteRule = re.compile(r"TransferredBytes = ([0-9]+)")
   packetRule = re.compile(r"TransferredPackets = ([0-9]+)")
-  titleRule = re.compile(r"\[ Network.si-net-gm-mm.Link.link_.*")
+  titleRule = re.compile(r"\[ Network\.si-net-gm-mm\.Link\.link_<.pu-switch-[0-9]+\.out_buf_[0-9]+>_<.pu-switch*")
+  cycleRule = re.compile(r"Cycles = ([0-9]+)")
   inRightSection = False
   transferedBytes = 0;
   transferedMessages = 0;
+  cycles = 0;
 
   for line in lines:
-    if titleRule.match(line) and "mm-" not in line:
+    match = cycleRule.match(line)
+    if not match == None: 
+      cycles = int(match.group(1))
+
+
+    if titleRule.match(line):
       inRightSection = True
       continue
     
@@ -147,6 +177,7 @@ def getNvlinkTraffic(folder):
         
   print folder + " ours nvlink transfered packets : " + str(transferedMessages);
   print folder + " ours nvlink transfered bytes : " + str(transferedBytes);
+  print folder + " ours nvlink network cycles : " + str(cycles);
 
 def getPhotonicTraffic(folder):
   try:
@@ -195,10 +226,13 @@ def main():
   if checkCrashed(folder):
     print "Not finished or crashed"
     return
-  getKimTraffic(folder)
-  getOurTraffic(folder)
-  if "nvlink" in folder:
-    getKimNvlinkTraffic(folder)
+
+  if "pcie" in folder:
+    # getKimTraffic(folder)
+    getOurTraffic(folder)
+
+  if "p2p" in folder:
+    #getKimNvlinkTraffic(folder)
     getNvlinkTraffic(folder)
 
   if "pho" in folder:

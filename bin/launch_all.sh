@@ -1,18 +1,23 @@
 #/bin/bash
 
 TASKS="
-kim-4-16cu-nsi-pcie-zc
-kim-4-16cu-nsi-nvlink-zc
-ours-4-16cu-nsi-4096
-ours-4-16cu-nsi-4096-nvlink
+umh_p2p_4gpu_nsi_64
+umh_p2p_4gpu_nsi_128
+umh_p2p_4gpu_nsi_256
+umh_p2p_4gpu_nsi_512
+umh_p2p_4gpu_nsi_1024
+uhh_p2p_4gpu_nsi_2048
+umh_p2p_4gpu_nsi_4096
+zc_p2p_4gpu_nsi_64
+nc_p2p_4gpu_nsi_64
 "
 
 for task in $TASKS
 do
   cd ../config/$task
-  rm mem-si.ini
-  rm net-si.ini
-  ./config-gen.py
+  rm mem-config.ini
+  rm net-config.ini
+  ./config_gen.sh
   if [[ $task == *"msi"* ]]
   then
     echo "Copy moesi version m2s"
