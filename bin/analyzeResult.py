@@ -9,8 +9,8 @@ def getKimTraffic(folder):
   except Exception as e:
     return
     
-  rule = re.compile(r"bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
-  packet_rule = re.compile(r"bus_bp_[0-9]+.TransferredMessages = ([0-9]+)")
+  rule = re.compile(r"pcie-bus_bp_[0-9]+.TransferredBytes = ([0-9]+)")
+  packet_rule = re.compile(r"pcie-bus_bp_[0-9]+.TransferredMessages = ([0-9]+)")
   cycleRule = re.compile(r"Cycles = ([0-9]+)")
   transferedBytes = 0;
   transferedPackets = 0;
@@ -106,7 +106,7 @@ def getKimNvlinkTraffic(folder):
 
   byteRule = re.compile(r"TransferredBytes = ([0-9]+)")
   packetRule = re.compile(r"TransferredPackets = ([0-9]+)")
-  titleRule = re.compile(r"\[ Network.si-net-l2-gm.Link.link_.*")
+  titleRule = re.compile(r"\[ Network\.si-net-gm-mm\.Link\.link_<.pu-switch-[0-9]+\.out_buf_[0-9]+>_<.pu-switch*")
   cycleRule = re.compile(r"Cycles = ([0-9]+)")
   inRightSection = False
   transferedBytes = 0;
@@ -119,7 +119,7 @@ def getKimNvlinkTraffic(folder):
     if not match == None: 
       cycles = int(match.group(1))
 
-    if titleRule.match(line) and "mm-" not in line and "l2n" not in line:
+    if titleRule.match(line):
       inRightSection = True
       continue
     
@@ -228,11 +228,11 @@ def main():
     return
 
   if "pcie" in folder:
-    # getKimTraffic(folder)
+    getKimTraffic(folder)
     getOurTraffic(folder)
 
   if "p2p" in folder:
-    #getKimNvlinkTraffic(folder)
+    getKimNvlinkTraffic(folder)
     getNvlinkTraffic(folder)
 
   if "pho" in folder:
