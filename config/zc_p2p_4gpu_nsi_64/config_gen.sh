@@ -1,2 +1,2 @@
 #!/bin/bash
-config_gen.py --network nc --technology p2p --gm-block-size 64
+config_gen.py --network zc --technology p2p --gm-block-size 64
