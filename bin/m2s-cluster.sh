@@ -497,6 +497,7 @@ then
 	job_exists=`$inifile_py $inifile exists $job_section`
 	if [ "$job_exists" == 1 ]
 	then
+		cat $inifile
 		error "job with same name already exists"
 	fi
 
